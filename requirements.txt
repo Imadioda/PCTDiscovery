@@ -1,0 +1,13 @@
+# Dependances directes de la version 0.
+# Versions non figees : relever celles de l'environnement d'entrainement
+# avant de publier une version reproductible avec ses checkpoints.
+numpy
+pandas
+scikit-learn
+torch
+joblib
+
+# Optionnel : barres de progression dans les boucles.
+# tqdm
+
+# pathlib, os, random, datetime, time et subprocess sont inclus dans Python.
