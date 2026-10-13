@@ -1,0 +1,38 @@
+                                       precision    recall  f1-score   support
+
+                adrenocortical cancer      1.000     1.000     1.000        17
+         bladder urothelial carcinoma      0.979     0.959     0.969        98
+             brain lower grade glioma      1.000     1.000     1.000        96
+            breast invasive carcinoma      1.000     1.000     1.000       224
+       cervical & endocervical cancer      0.968     0.953     0.961        64
+                   cholangiocarcinoma      0.800     0.571     0.667         7
+                 colon adenocarcinoma      0.779     0.964     0.862        84
+        diffuse large B-cell lymphoma      0.923     1.000     0.960        12
+                 esophageal carcinoma      0.903     0.737     0.812        38
+              glioblastoma multiforme      1.000     1.000     1.000        32
+  head & neck squamous cell carcinoma      1.000     1.000     1.000       117
+                   kidney chromophobe      0.786     0.917     0.846        12
+          kidney clear cell carcinoma      0.973     0.947     0.960       113
+      kidney papillary cell carcinoma      0.969     0.954     0.961        65
+       liver hepatocellular carcinoma      0.969     0.984     0.976        63
+                  lung adenocarcinoma      0.945     0.963     0.954       108
+         lung squamous cell carcinoma      0.965     0.940     0.952       116
+                         mesothelioma      0.857     1.000     0.923        12
+    ovarian serous cystadenocarcinoma      1.000     1.000     1.000        55
+            pancreatic adenocarcinoma      0.938     1.000     0.968        30
+     pheochromocytoma & paraganglioma      1.000     1.000     1.000        30
+              prostate adenocarcinoma      1.000     1.000     1.000        85
+                rectum adenocarcinoma      0.700     0.233     0.350        30
+                              sarcoma      1.000     0.986     0.993        71
+              skin cutaneous melanoma      1.000     1.000     1.000        12
+               stomach adenocarcinoma      0.885     0.951     0.917        81
+           testicular germ cell tumor      1.000     1.000     1.000        30
+                              thymoma      1.000     1.000     1.000        17
+                    thyroid carcinoma      1.000     1.000     1.000        93
+               uterine carcinosarcoma      0.750     0.643     0.692        14
+uterine corpus endometrioid carcinoma      0.924     0.980     0.951        99
+                       uveal melanoma      1.000     1.000     1.000        15
+
+                             accuracy                          0.959      1940
+                            macro avg      0.938     0.928     0.927      1940
+                         weighted avg      0.958     0.959     0.956      1940

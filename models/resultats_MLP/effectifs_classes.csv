@@ -1,0 +1,33 @@
+_primary_disease,train,validation
+adrenocortical cancer,44,17
+bladder urothelial carcinoma,234,98
+brain lower grade glioma,312,96
+breast invasive carcinoma,663,224
+cervical & endocervical cancer,182,64
+cholangiocarcinoma,26,7
+colon adenocarcinoma,272,84
+diffuse large B-cell lymphoma,23,12
+esophageal carcinoma,109,38
+glioblastoma multiforme,87,32
+head & neck squamous cell carcinoma,305,117
+kidney chromophobe,33,12
+kidney clear cell carcinoma,324,113
+kidney papillary cell carcinoma,170,65
+liver hepatocellular carcinoma,218,63
+lung adenocarcinoma,304,108
+lung squamous cell carcinoma,303,116
+mesothelioma,56,12
+ovarian serous cystadenocarcinoma,184,55
+pancreatic adenocarcinoma,110,30
+pheochromocytoma & paraganglioma,108,30
+prostate adenocarcinoma,321,85
+rectum adenocarcinoma,102,30
+sarcoma,132,71
+skin cutaneous melanoma,75,12
+stomach adenocarcinoma,240,81
+testicular germ cell tumor,95,30
+thymoma,69,17
+thyroid carcinoma,309,93
+uterine carcinosarcoma,31,14
+uterine corpus endometrioid carcinoma,326,99
+uveal melanoma,53,15

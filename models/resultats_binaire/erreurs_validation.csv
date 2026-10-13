@@ -1,0 +1,18 @@
+sample,_primary_disease,sample_type,classe_reelle,classe_predite,score_tumoral,erreur,type_erreur
+TCGA-EL-A3CW-01,thyroid carcinoma,Primary Tumor,1,0,0.11944758200320892,True,Tumeur manquée
+TCGA-E8-A416-01,thyroid carcinoma,Primary Tumor,1,0,0.010843848343492798,True,Tumeur manquée
+TCGA-BJ-A28W-01,thyroid carcinoma,Primary Tumor,1,0,0.17424582844771558,True,Tumeur manquée
+TCGA-IW-A3M4-01,sarcoma,Primary Tumor,1,0,0.30811792956685213,True,Tumeur manquée
+TCGA-CH-5763-01,prostate adenocarcinoma,Primary Tumor,1,0,0.491994337627774,True,Tumeur manquée
+TCGA-HI-7169-01,prostate adenocarcinoma,Primary Tumor,1,0,0.008669086272970505,True,Tumeur manquée
+TCGA-55-8512-01,lung adenocarcinoma,Primary Tumor,1,0,0.1745611919299634,True,Tumeur manquée
+TCGA-97-7553-01,lung adenocarcinoma,Primary Tumor,1,0,0.4028964072349992,True,Tumeur manquée
+TCGA-ED-A627-01,liver hepatocellular carcinoma,Primary Tumor,1,0,0.07848721395126249,True,Tumeur manquée
+TCGA-K7-A5RF-01,liver hepatocellular carcinoma,Primary Tumor,1,0,0.0001500051605276555,True,Tumeur manquée
+TCGA-BC-A10X-01,liver hepatocellular carcinoma,Primary Tumor,1,0,0.041398883450483176,True,Tumeur manquée
+TCGA-LN-A9FP-01,esophageal carcinoma,Primary Tumor,1,0,0.43931117221502886,True,Tumeur manquée
+TCGA-E7-A6MF-01,bladder urothelial carcinoma,Primary Tumor,1,0,0.3969349907024269,True,Tumeur manquée
+TCGA-BJ-A28W-11,thyroid carcinoma,Solid Tissue Normal,0,1,0.99999352152498,True,Fausse alerte
+TCGA-G9-6363-11,prostate adenocarcinoma,Solid Tissue Normal,0,1,0.9986625942453684,True,Fausse alerte
+TCGA-HC-7752-11,prostate adenocarcinoma,Solid Tissue Normal,0,1,0.7955130078511407,True,Fausse alerte
+TCGA-CH-5769-11,prostate adenocarcinoma,Solid Tissue Normal,0,1,0.9999926575480718,True,Fausse alerte

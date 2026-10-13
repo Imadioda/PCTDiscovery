@@ -1,0 +1,33 @@
+,adrenocortical cancer,bladder urothelial carcinoma,brain lower grade glioma,breast invasive carcinoma,cervical & endocervical cancer,cholangiocarcinoma,colon adenocarcinoma,diffuse large B-cell lymphoma,esophageal carcinoma,glioblastoma multiforme,head & neck squamous cell carcinoma,kidney chromophobe,kidney clear cell carcinoma,kidney papillary cell carcinoma,liver hepatocellular carcinoma,lung adenocarcinoma,lung squamous cell carcinoma,mesothelioma,ovarian serous cystadenocarcinoma,pancreatic adenocarcinoma,pheochromocytoma & paraganglioma,prostate adenocarcinoma,rectum adenocarcinoma,sarcoma,skin cutaneous melanoma,stomach adenocarcinoma,testicular germ cell tumor,thymoma,thyroid carcinoma,uterine carcinosarcoma,uterine corpus endometrioid carcinoma,uveal melanoma
+adrenocortical cancer,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bladder urothelial carcinoma,0,94,0,0,2,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+brain lower grade glioma,0,0,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+breast invasive carcinoma,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cervical & endocervical cancer,0,0,0,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0
+cholangiocarcinoma,0,0,0,0,0,4,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+colon adenocarcinoma,0,0,0,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+diffuse large B-cell lymphoma,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+esophageal carcinoma,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0
+glioblastoma multiforme,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+head & neck squamous cell carcinoma,0,0,0,0,0,0,0,0,0,0,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+kidney chromophobe,0,0,0,0,0,0,0,0,0,0,0,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+kidney clear cell carcinoma,0,0,0,0,0,0,0,0,0,0,0,3,107,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+kidney papillary cell carcinoma,0,1,0,0,0,0,0,0,0,0,0,0,2,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+liver hepatocellular carcinoma,0,0,0,0,0,1,0,0,0,0,0,0,0,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lung adenocarcinoma,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,104,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+lung squamous cell carcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,109,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mesothelioma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ovarian serous cystadenocarcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0
+pancreatic adenocarcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0
+pheochromocytoma & paraganglioma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0
+prostate adenocarcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,0,0,0,0,0,0,0,0,0,0
+rectum adenocarcinoma,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0
+sarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,0,0,0,0,0,1,0,0
+skin cutaneous melanoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0
+stomach adenocarcinoma,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,77,0,0,0,0,0,0
+testicular germ cell tumor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0
+thymoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0
+thyroid carcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,0,0,0
+uterine carcinosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,5,0
+uterine corpus endometrioid carcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,97,0
+uveal melanoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15

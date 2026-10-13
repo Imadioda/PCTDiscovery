@@ -1,0 +1,52 @@
+_primary_disease,sample_type,effectif,erreurs,erreur_pct
+prostate adenocarcinoma,Solid Tissue Normal,9,3,33.333333333333336
+thyroid carcinoma,Solid Tissue Normal,16,1,6.25
+liver hepatocellular carcinoma,Primary Tumor,63,3,4.761904761904762
+thyroid carcinoma,Primary Tumor,93,3,3.225806451612903
+esophageal carcinoma,Primary Tumor,38,1,2.6315789473684212
+prostate adenocarcinoma,Primary Tumor,85,2,2.3529411764705883
+lung adenocarcinoma,Primary Tumor,108,2,1.8518518518518519
+sarcoma,Primary Tumor,71,1,1.408450704225352
+bladder urothelial carcinoma,Primary Tumor,98,1,1.0204081632653061
+adrenocortical cancer,Primary Tumor,17,0,0.0
+bladder urothelial carcinoma,Solid Tissue Normal,4,0,0.0
+brain lower grade glioma,Primary Tumor,96,0,0.0
+breast invasive carcinoma,Primary Tumor,224,0,0.0
+breast invasive carcinoma,Solid Tissue Normal,19,0,0.0
+cervical & endocervical cancer,Primary Tumor,64,0,0.0
+cholangiocarcinoma,Primary Tumor,7,0,0.0
+cholangiocarcinoma,Solid Tissue Normal,2,0,0.0
+colon adenocarcinoma,Primary Tumor,84,0,0.0
+colon adenocarcinoma,Solid Tissue Normal,12,0,0.0
+diffuse large B-cell lymphoma,Primary Tumor,12,0,0.0
+esophageal carcinoma,Solid Tissue Normal,1,0,0.0
+glioblastoma multiforme,Primary Tumor,32,0,0.0
+glioblastoma multiforme,Solid Tissue Normal,1,0,0.0
+head & neck squamous cell carcinoma,Primary Tumor,117,0,0.0
+head & neck squamous cell carcinoma,Solid Tissue Normal,11,0,0.0
+kidney chromophobe,Primary Tumor,12,0,0.0
+kidney chromophobe,Solid Tissue Normal,4,0,0.0
+kidney clear cell carcinoma,Primary Tumor,113,0,0.0
+kidney clear cell carcinoma,Solid Tissue Normal,9,0,0.0
+kidney papillary cell carcinoma,Primary Tumor,65,0,0.0
+kidney papillary cell carcinoma,Solid Tissue Normal,8,0,0.0
+liver hepatocellular carcinoma,Solid Tissue Normal,10,0,0.0
+lung adenocarcinoma,Solid Tissue Normal,10,0,0.0
+lung squamous cell carcinoma,Primary Tumor,116,0,0.0
+lung squamous cell carcinoma,Solid Tissue Normal,13,0,0.0
+mesothelioma,Primary Tumor,12,0,0.0
+ovarian serous cystadenocarcinoma,Primary Tumor,55,0,0.0
+pancreatic adenocarcinoma,Primary Tumor,30,0,0.0
+pheochromocytoma & paraganglioma,Primary Tumor,30,0,0.0
+rectum adenocarcinoma,Primary Tumor,30,0,0.0
+rectum adenocarcinoma,Solid Tissue Normal,4,0,0.0
+sarcoma,Solid Tissue Normal,1,0,0.0
+skin cutaneous melanoma,Primary Tumor,12,0,0.0
+stomach adenocarcinoma,Primary Tumor,81,0,0.0
+stomach adenocarcinoma,Solid Tissue Normal,8,0,0.0
+testicular germ cell tumor,Primary Tumor,30,0,0.0
+thymoma,Primary Tumor,17,0,0.0
+uterine carcinosarcoma,Primary Tumor,14,0,0.0
+uterine corpus endometrioid carcinoma,Primary Tumor,99,0,0.0
+uterine corpus endometrioid carcinoma,Solid Tissue Normal,5,0,0.0
+uveal melanoma,Primary Tumor,15,0,0.0

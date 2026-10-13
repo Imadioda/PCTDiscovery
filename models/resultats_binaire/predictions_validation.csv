@@ -1,0 +1,2088 @@
+sample,_primary_disease,sample_type,classe_reelle,classe_predite,score_tumoral,erreur,type_erreur
+TCGA-ND-A4WA-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999980507965864,False,Correct
+TCGA-NF-A5CP-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9998740719530502,False,Correct
+TCGA-N6-A4VC-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999921395096182,False,Correct
+TCGA-N6-A4VD-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9998120339813722,False,Correct
+TCGA-ND-A4WF-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999524673978383,False,Correct
+TCGA-NG-A4VW-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999885324402419,False,Correct
+TCGA-NA-A4QV-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999980244509593,False,Correct
+TCGA-N5-A4RN-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999243703053229,False,Correct
+TCGA-N7-A59B-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999586449998794,False,Correct
+TCGA-N8-A4PN-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9968872020259295,False,Correct
+TCGA-N5-A4R8-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9926734123199272,False,Correct
+TCGA-N5-A59F-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9996479834477279,False,Correct
+TCGA-N5-A4RJ-01,uterine carcinosarcoma,Primary Tumor,1,1,0.9999550865576681,False,Correct
+TCGA-QN-A5NN-01,uterine carcinosarcoma,Primary Tumor,1,1,0.999971860473859,False,Correct
+TCGA-DJ-A13L-01,thyroid carcinoma,Primary Tumor,1,1,0.9999652257542626,False,Correct
+TCGA-FE-A239-01,thyroid carcinoma,Primary Tumor,1,1,0.999924585170879,False,Correct
+TCGA-EL-A3MY-01,thyroid carcinoma,Primary Tumor,1,1,0.9999945614188359,False,Correct
+TCGA-EM-A22O-01,thyroid carcinoma,Primary Tumor,1,1,0.9999414322030671,False,Correct
+TCGA-ET-A3DW-01,thyroid carcinoma,Primary Tumor,1,1,0.99999721684021,False,Correct
+TCGA-EL-A3T3-01,thyroid carcinoma,Primary Tumor,1,1,0.9999985473096655,False,Correct
+TCGA-EL-A4KI-01,thyroid carcinoma,Primary Tumor,1,1,0.9999963579587396,False,Correct
+TCGA-EM-A3AO-01,thyroid carcinoma,Primary Tumor,1,1,0.9999950264254062,False,Correct
+TCGA-EL-A3ZM-01,thyroid carcinoma,Primary Tumor,1,1,0.9999983142674624,False,Correct
+TCGA-BJ-A0Z5-01,thyroid carcinoma,Primary Tumor,1,1,0.9999746773837369,False,Correct
+TCGA-BJ-A18Z-01,thyroid carcinoma,Primary Tumor,1,1,0.9999977431849116,False,Correct
+TCGA-EM-A3FM-01,thyroid carcinoma,Primary Tumor,1,1,0.9999762809603454,False,Correct
+TCGA-BJ-A0Z0-01,thyroid carcinoma,Primary Tumor,1,1,0.999928646812585,False,Correct
+TCGA-BJ-A190-01,thyroid carcinoma,Primary Tumor,1,1,0.9965745845610653,False,Correct
+TCGA-DJ-A2PO-01,thyroid carcinoma,Primary Tumor,1,1,0.99999788896873,False,Correct
+TCGA-DJ-A2Q4-01,thyroid carcinoma,Primary Tumor,1,1,0.9999910596157437,False,Correct
+TCGA-FY-A4B3-01,thyroid carcinoma,Primary Tumor,1,1,0.9999971393644091,False,Correct
+TCGA-J8-A42S-01,thyroid carcinoma,Primary Tumor,1,1,0.9999114262656119,False,Correct
+TCGA-EL-A4KD-01,thyroid carcinoma,Primary Tumor,1,1,0.9999999306523345,False,Correct
+TCGA-J8-A3O2-01,thyroid carcinoma,Primary Tumor,1,1,0.9990367625144684,False,Correct
+TCGA-ET-A40Q-01,thyroid carcinoma,Primary Tumor,1,1,0.9999948322909735,False,Correct
+TCGA-EM-A3SY-01,thyroid carcinoma,Primary Tumor,1,1,0.9999928484887038,False,Correct
+TCGA-EL-A3ZT-01,thyroid carcinoma,Primary Tumor,1,1,0.9999942472634815,False,Correct
+TCGA-CE-A485-01,thyroid carcinoma,Primary Tumor,1,1,0.9999555277194447,False,Correct
+TCGA-DE-A4M9-01,thyroid carcinoma,Primary Tumor,1,1,0.9990387474480048,False,Correct
+TCGA-ET-A2MX-01,thyroid carcinoma,Primary Tumor,1,1,0.9999968730478163,False,Correct
+TCGA-EL-A3CW-01,thyroid carcinoma,Primary Tumor,1,0,0.11944758200320892,True,Tumeur manquée
+TCGA-DE-A4MB-01,thyroid carcinoma,Primary Tumor,1,1,0.9999878788184476,False,Correct
+TCGA-EM-A2CO-01,thyroid carcinoma,Primary Tumor,1,1,0.999971783658022,False,Correct
+TCGA-DJ-A3V5-01,thyroid carcinoma,Primary Tumor,1,1,0.9999838415267,False,Correct
+TCGA-ET-A2MY-01,thyroid carcinoma,Primary Tumor,1,1,0.9999947650833991,False,Correct
+TCGA-EL-A3CL-01,thyroid carcinoma,Primary Tumor,1,1,0.9999546818107685,False,Correct
+TCGA-EL-A3T9-01,thyroid carcinoma,Primary Tumor,1,1,0.9999986486007582,False,Correct
+TCGA-EM-A22N-01,thyroid carcinoma,Primary Tumor,1,1,0.9999966227026558,False,Correct
+TCGA-FY-A3I5-01,thyroid carcinoma,Primary Tumor,1,1,0.9910249530548468,False,Correct
+TCGA-FY-A3YR-01,thyroid carcinoma,Primary Tumor,1,1,0.999990899841665,False,Correct
+TCGA-EM-A3ST-01,thyroid carcinoma,Primary Tumor,1,1,0.9999997968983068,False,Correct
+TCGA-FY-A3R8-01,thyroid carcinoma,Primary Tumor,1,1,0.9999894192678391,False,Correct
+TCGA-DJ-A1QF-01,thyroid carcinoma,Primary Tumor,1,1,0.9998146550694407,False,Correct
+TCGA-KS-A4I7-01,thyroid carcinoma,Primary Tumor,1,1,0.9999994879620719,False,Correct
+TCGA-DJ-A3V4-01,thyroid carcinoma,Primary Tumor,1,1,0.9997591443005661,False,Correct
+TCGA-ET-A3BT-01,thyroid carcinoma,Primary Tumor,1,1,0.9999773709614136,False,Correct
+TCGA-BJ-A45F-01,thyroid carcinoma,Primary Tumor,1,1,0.9999900260857353,False,Correct
+TCGA-J8-A4HW-01,thyroid carcinoma,Primary Tumor,1,1,0.9999730437204847,False,Correct
+TCGA-L6-A4EU-01,thyroid carcinoma,Primary Tumor,1,1,0.9999958323630782,False,Correct
+TCGA-BJ-A291-01,thyroid carcinoma,Primary Tumor,1,1,0.9998311426090302,False,Correct
+TCGA-E8-A242-01,thyroid carcinoma,Primary Tumor,1,1,0.9999589906814622,False,Correct
+TCGA-E8-A434-01,thyroid carcinoma,Primary Tumor,1,1,0.9981473438513698,False,Correct
+TCGA-BJ-A192-01,thyroid carcinoma,Primary Tumor,1,1,0.9999982181959646,False,Correct
+TCGA-EL-A4K0-01,thyroid carcinoma,Primary Tumor,1,1,0.9999619085675507,False,Correct
+TCGA-J8-A3YG-01,thyroid carcinoma,Primary Tumor,1,1,0.9999994183222087,False,Correct
+TCGA-EL-A3N3-01,thyroid carcinoma,Primary Tumor,1,1,0.9999814910157403,False,Correct
+TCGA-FY-A3WA-01,thyroid carcinoma,Primary Tumor,1,1,0.9804376718545725,False,Correct
+TCGA-DJ-A3UR-01,thyroid carcinoma,Primary Tumor,1,1,0.9999557571980826,False,Correct
+TCGA-E8-A416-01,thyroid carcinoma,Primary Tumor,1,0,0.010843848343492798,True,Tumeur manquée
+TCGA-ET-A2N0-01,thyroid carcinoma,Primary Tumor,1,1,0.9998151266990264,False,Correct
+TCGA-DJ-A3V9-01,thyroid carcinoma,Primary Tumor,1,1,0.9999603013979717,False,Correct
+TCGA-L6-A4ET-01,thyroid carcinoma,Primary Tumor,1,1,0.9999366637376786,False,Correct
+TCGA-BJ-A45G-01,thyroid carcinoma,Primary Tumor,1,1,0.9998569520961021,False,Correct
+TCGA-ET-A39K-01,thyroid carcinoma,Primary Tumor,1,1,0.9999070697556777,False,Correct
+TCGA-FY-A3NN-01,thyroid carcinoma,Primary Tumor,1,1,0.9999384964462108,False,Correct
+TCGA-EM-A2CU-01,thyroid carcinoma,Primary Tumor,1,1,0.9999935274988246,False,Correct
+TCGA-EL-A3ZR-01,thyroid carcinoma,Primary Tumor,1,1,0.9999975253954755,False,Correct
+TCGA-ET-A2N5-01,thyroid carcinoma,Primary Tumor,1,1,0.9999559907477156,False,Correct
+TCGA-FY-A40K-01,thyroid carcinoma,Primary Tumor,1,1,0.9999053534013043,False,Correct
+TCGA-ET-A4KQ-01,thyroid carcinoma,Primary Tumor,1,1,0.993429558002702,False,Correct
+TCGA-KS-A4IC-01,thyroid carcinoma,Primary Tumor,1,1,0.9999975541004268,False,Correct
+TCGA-DJ-A3V2-01,thyroid carcinoma,Primary Tumor,1,1,0.9999357491139702,False,Correct
+TCGA-EL-A3D5-01,thyroid carcinoma,Primary Tumor,1,1,0.9992524024168202,False,Correct
+TCGA-DE-A4MC-01,thyroid carcinoma,Primary Tumor,1,1,0.9999961575611795,False,Correct
+TCGA-EL-A3ZK-01,thyroid carcinoma,Primary Tumor,1,1,0.9999991774444685,False,Correct
+TCGA-H2-A3RH-01,thyroid carcinoma,Primary Tumor,1,1,0.9999147254552746,False,Correct
+TCGA-EL-A3GY-01,thyroid carcinoma,Primary Tumor,1,1,0.99998849908523,False,Correct
+TCGA-EM-A2CQ-01,thyroid carcinoma,Primary Tumor,1,1,0.9999347594851492,False,Correct
+TCGA-EL-A3T1-01,thyroid carcinoma,Primary Tumor,1,1,0.9999938849324732,False,Correct
+TCGA-DJ-A3US-01,thyroid carcinoma,Primary Tumor,1,1,0.9999403445460686,False,Correct
+TCGA-EL-A3CZ-01,thyroid carcinoma,Primary Tumor,1,1,0.9997506074071415,False,Correct
+TCGA-EL-A3H8-01,thyroid carcinoma,Primary Tumor,1,1,0.9999446256281508,False,Correct
+TCGA-EL-A4KG-01,thyroid carcinoma,Primary Tumor,1,1,0.9999825756492399,False,Correct
+TCGA-EL-A3ZL-01,thyroid carcinoma,Primary Tumor,1,1,0.9999939547296707,False,Correct
+TCGA-FY-A3I4-01,thyroid carcinoma,Primary Tumor,1,1,0.9993334485514449,False,Correct
+TCGA-BJ-A28W-01,thyroid carcinoma,Primary Tumor,1,0,0.17424582844771558,True,Tumeur manquée
+TCGA-DJ-A3UY-01,thyroid carcinoma,Primary Tumor,1,1,0.9998264340899795,False,Correct
+TCGA-DJ-A3VD-01,thyroid carcinoma,Primary Tumor,1,1,0.9998092503978863,False,Correct
+TCGA-ET-A40P-01,thyroid carcinoma,Primary Tumor,1,1,0.9999589573644031,False,Correct
+TCGA-J8-A3YE-01,thyroid carcinoma,Primary Tumor,1,1,0.9999758697520333,False,Correct
+TCGA-H2-A3RI-01,thyroid carcinoma,Primary Tumor,1,1,0.999964941615853,False,Correct
+TCGA-EM-A3SX-01,thyroid carcinoma,Primary Tumor,1,1,0.9999875703402301,False,Correct
+TCGA-KS-A41J-01,thyroid carcinoma,Primary Tumor,1,1,0.9999766536019755,False,Correct
+TCGA-ET-A40T-01,thyroid carcinoma,Primary Tumor,1,1,0.9999954201792477,False,Correct
+TCGA-FE-A235-01,thyroid carcinoma,Primary Tumor,1,1,0.9999825140136335,False,Correct
+TCGA-ET-A40R-01,thyroid carcinoma,Primary Tumor,1,1,0.999931800474612,False,Correct
+TCGA-FE-A233-01,thyroid carcinoma,Primary Tumor,1,1,0.9999744692337834,False,Correct
+TCGA-ZB-A96P-01,thymoma,Primary Tumor,1,1,0.9781278080780456,False,Correct
+TCGA-ZB-A964-01,thymoma,Primary Tumor,1,1,0.9994726615841971,False,Correct
+TCGA-5U-AB0E-01,thymoma,Primary Tumor,1,1,0.9998068972179615,False,Correct
+TCGA-ZB-A96G-01,thymoma,Primary Tumor,1,1,0.9999058185488793,False,Correct
+TCGA-ZB-A96B-01,thymoma,Primary Tumor,1,1,0.9989138232540147,False,Correct
+TCGA-XM-AAZ1-01,thymoma,Primary Tumor,1,1,0.9999948173158028,False,Correct
+TCGA-X7-A8DF-01,thymoma,Primary Tumor,1,1,0.9999760977016668,False,Correct
+TCGA-XU-A92X-01,thymoma,Primary Tumor,1,1,0.9996580914408817,False,Correct
+TCGA-4V-A9QT-01,thymoma,Primary Tumor,1,1,0.9991081480565689,False,Correct
+TCGA-4V-A9QU-01,thymoma,Primary Tumor,1,1,0.9992037105428849,False,Correct
+TCGA-ZT-A8OM-01,thymoma,Primary Tumor,1,1,0.9936863920966739,False,Correct
+TCGA-5U-AB0D-01,thymoma,Primary Tumor,1,1,0.9999485313213251,False,Correct
+TCGA-XM-A8R9-01,thymoma,Primary Tumor,1,1,0.9989778600217865,False,Correct
+TCGA-ZB-A96L-01,thymoma,Primary Tumor,1,1,0.9999209905654521,False,Correct
+TCGA-X7-A8M3-01,thymoma,Primary Tumor,1,1,0.999983525089184,False,Correct
+TCGA-XU-AAY0-01,thymoma,Primary Tumor,1,1,0.9998088853081198,False,Correct
+TCGA-YT-A95D-01,thymoma,Primary Tumor,1,1,0.9831279172970022,False,Correct
+TCGA-2G-AAG3-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999306206453625,False,Correct
+TCGA-XE-AANV-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999411281195602,False,Correct
+TCGA-VF-A8AA-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999618730558401,False,Correct
+TCGA-XE-AAO6-01,testicular germ cell tumor,Primary Tumor,1,1,0.9986566896728067,False,Correct
+TCGA-ZM-AA0N-01,testicular germ cell tumor,Primary Tumor,1,1,0.9935775147632286,False,Correct
+TCGA-2G-AAFI-01,testicular germ cell tumor,Primary Tumor,1,1,0.9988847701677572,False,Correct
+TCGA-2G-AAGN-01,testicular germ cell tumor,Primary Tumor,1,1,0.9990516542513435,False,Correct
+TCGA-2G-AAFH-01,testicular germ cell tumor,Primary Tumor,1,1,0.9997490366307679,False,Correct
+TCGA-ZM-AA0F-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999591879928432,False,Correct
+TCGA-YU-A912-01,testicular germ cell tumor,Primary Tumor,1,1,0.9998728196162259,False,Correct
+TCGA-2G-AAGP-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999383609904087,False,Correct
+TCGA-ZM-AA0B-01,testicular germ cell tumor,Primary Tumor,1,1,0.9967208112372825,False,Correct
+TCGA-2G-AAEW-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999969070324527,False,Correct
+TCGA-2G-AAHP-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999117177079709,False,Correct
+TCGA-2G-AAGT-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999096860730308,False,Correct
+TCGA-2G-AAH0-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999712350956896,False,Correct
+TCGA-2G-AAGZ-01,testicular germ cell tumor,Primary Tumor,1,1,0.9434659880779227,False,Correct
+TCGA-S6-A8JY-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999542482130042,False,Correct
+TCGA-XE-AAOB-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999822786843575,False,Correct
+TCGA-4K-AA1H-01,testicular germ cell tumor,Primary Tumor,1,1,0.9957885042213154,False,Correct
+TCGA-4K-AA1I-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999456224722962,False,Correct
+TCGA-2G-AAFJ-01,testicular germ cell tumor,Primary Tumor,1,1,0.9993488572489503,False,Correct
+TCGA-2G-AAG0-01,testicular germ cell tumor,Primary Tumor,1,1,0.9996524010071809,False,Correct
+TCGA-XE-AANR-01,testicular germ cell tumor,Primary Tumor,1,1,0.996407353964247,False,Correct
+TCGA-YU-A90Y-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999142777193787,False,Correct
+TCGA-SB-A6J6-01,testicular germ cell tumor,Primary Tumor,1,1,0.9998144469093272,False,Correct
+TCGA-YU-A90Q-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999829250397207,False,Correct
+TCGA-2G-AAGK-01,testicular germ cell tumor,Primary Tumor,1,1,0.9989054080787163,False,Correct
+TCGA-2G-AALQ-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999633720735857,False,Correct
+TCGA-2G-AALY-01,testicular germ cell tumor,Primary Tumor,1,1,0.9999290728888387,False,Correct
+TCGA-CD-5804-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999611906046217,False,Correct
+TCGA-CG-4306-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9994054878835196,False,Correct
+TCGA-VQ-A923-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999147094819174,False,Correct
+TCGA-BR-4366-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999518282405236,False,Correct
+TCGA-CG-4449-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999982826542611,False,Correct
+TCGA-F1-6874-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9997217220369713,False,Correct
+TCGA-MX-A5UG-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9997126432617481,False,Correct
+TCGA-FP-7998-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999943754715052,False,Correct
+TCGA-VQ-A8PP-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999436736777887,False,Correct
+TCGA-B7-A5TJ-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999977565493647,False,Correct
+TCGA-BR-7851-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999991370275663,False,Correct
+TCGA-BR-7901-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999989521003873,False,Correct
+TCGA-HU-A4GC-01,stomach adenocarcinoma,Primary Tumor,1,1,0.99997588199618,False,Correct
+TCGA-D7-A4YU-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999992781398225,False,Correct
+TCGA-CG-5725-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999990951495331,False,Correct
+TCGA-D7-8574-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999889368571362,False,Correct
+TCGA-HU-A4H0-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999968197291182,False,Correct
+TCGA-3M-AB46-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999962702053332,False,Correct
+TCGA-BR-6801-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999932960664336,False,Correct
+TCGA-EQ-A4SO-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999998408655277,False,Correct
+TCGA-VQ-A8DZ-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999943937183534,False,Correct
+TCGA-VQ-A922-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999804544246588,False,Correct
+TCGA-BR-8686-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999870844915293,False,Correct
+TCGA-CD-5801-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999996033662923,False,Correct
+TCGA-CG-4305-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999575519471466,False,Correct
+TCGA-HU-A4GF-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999959967247376,False,Correct
+TCGA-VQ-A8PD-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999991825963098,False,Correct
+TCGA-CG-4443-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999650074887367,False,Correct
+TCGA-FP-8631-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999850219535091,False,Correct
+TCGA-IN-8663-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999994704658359,False,Correct
+TCGA-KB-A93G-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9986600358737732,False,Correct
+TCGA-VQ-A925-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999719998546345,False,Correct
+TCGA-BR-4294-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999717498692297,False,Correct
+TCGA-BR-6802-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999946739818846,False,Correct
+TCGA-VQ-A8PC-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999698248564257,False,Correct
+TCGA-BR-7196-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999912131202887,False,Correct
+TCGA-BR-7717-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999990996220136,False,Correct
+TCGA-B7-5818-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9987212238524047,False,Correct
+TCGA-VQ-A8PH-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999258252561373,False,Correct
+TCGA-BR-8291-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999340077070245,False,Correct
+TCGA-HU-A4GN-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999809426352905,False,Correct
+TCGA-VQ-A91Q-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999856667734277,False,Correct
+TCGA-B7-A5TN-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999793327521828,False,Correct
+TCGA-BR-6563-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9988461674447865,False,Correct
+TCGA-FP-A8CX-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9992732431088577,False,Correct
+TCGA-BR-7723-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9984079539014842,False,Correct
+TCGA-BR-8483-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999979911837914,False,Correct
+TCGA-BR-8676-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999835600963736,False,Correct
+TCGA-BR-4357-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999909227694724,False,Correct
+TCGA-BR-8297-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999152440930766,False,Correct
+TCGA-BR-8289-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999944662133599,False,Correct
+TCGA-CD-A48A-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9998474006428637,False,Correct
+TCGA-BR-8589-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9998371774774752,False,Correct
+TCGA-VQ-A8PM-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9997881373282617,False,Correct
+TCGA-BR-8367-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999991802936601,False,Correct
+TCGA-B7-A5TI-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999998066295607,False,Correct
+TCGA-BR-8381-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999863626172978,False,Correct
+TCGA-BR-8286-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999999091708731,False,Correct
+TCGA-VQ-AA69-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9986871420090255,False,Correct
+TCGA-CG-5718-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999997258183825,False,Correct
+TCGA-HU-8244-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999638531070284,False,Correct
+TCGA-BR-4255-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999909937308851,False,Correct
+TCGA-BR-8369-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999749150511551,False,Correct
+TCGA-CD-8526-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999992208203569,False,Correct
+TCGA-BR-A4PD-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999889437998162,False,Correct
+TCGA-BR-8081-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9998942498273649,False,Correct
+TCGA-BR-A4J8-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999860596624458,False,Correct
+TCGA-BR-A4QI-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999980425481465,False,Correct
+TCGA-VQ-A91Z-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9998562087963412,False,Correct
+TCGA-BR-4201-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9994641895398457,False,Correct
+TCGA-BR-8592-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9969281526612999,False,Correct
+TCGA-BR-8679-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999984215999851,False,Correct
+TCGA-D7-A74A-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999979600454859,False,Correct
+TCGA-BR-4363-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999737630261238,False,Correct
+TCGA-RD-A8N2-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9860814467712088,False,Correct
+TCGA-BR-8588-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9997803536228032,False,Correct
+TCGA-RD-A8N0-01,stomach adenocarcinoma,Primary Tumor,1,1,0.801149382841373,False,Correct
+TCGA-BR-A4IZ-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9925660346852847,False,Correct
+TCGA-CD-8528-01,stomach adenocarcinoma,Primary Tumor,1,1,0.999986745284326,False,Correct
+TCGA-BR-8364-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9999885310185168,False,Correct
+TCGA-HF-7131-01,stomach adenocarcinoma,Primary Tumor,1,1,0.9998247238006185,False,Correct
+TCGA-DX-AB36-01,sarcoma,Primary Tumor,1,1,0.9998601014134286,False,Correct
+TCGA-DX-A8BP-01,sarcoma,Primary Tumor,1,1,0.9997313613906345,False,Correct
+TCGA-DX-A23Y-01,sarcoma,Primary Tumor,1,1,0.9976725254550144,False,Correct
+TCGA-DX-A6B8-01,sarcoma,Primary Tumor,1,1,0.9999821642922324,False,Correct
+TCGA-IF-A4AJ-01,sarcoma,Primary Tumor,1,1,0.9999998173551796,False,Correct
+TCGA-3B-A9HO-01,sarcoma,Primary Tumor,1,1,0.9986727880191237,False,Correct
+TCGA-DX-A6YR-01,sarcoma,Primary Tumor,1,1,0.9966207164691334,False,Correct
+TCGA-DX-A6BB-01,sarcoma,Primary Tumor,1,1,0.9932434834911474,False,Correct
+TCGA-DX-A6YV-01,sarcoma,Primary Tumor,1,1,0.9952760555277912,False,Correct
+TCGA-PC-A5DM-01,sarcoma,Primary Tumor,1,1,0.9999731363129841,False,Correct
+TCGA-QC-A6FX-01,sarcoma,Primary Tumor,1,1,0.9927412908500052,False,Correct
+TCGA-3B-A9HZ-01,sarcoma,Primary Tumor,1,1,0.9999833677679656,False,Correct
+TCGA-3R-A8YX-01,sarcoma,Primary Tumor,1,1,0.9999975562901923,False,Correct
+TCGA-DX-A1KY-01,sarcoma,Primary Tumor,1,1,0.9996296408405113,False,Correct
+TCGA-VT-A80G-01,sarcoma,Primary Tumor,1,1,0.9999782820016813,False,Correct
+TCGA-DX-A2J0-01,sarcoma,Primary Tumor,1,1,0.9999237424534209,False,Correct
+TCGA-DX-A1L1-01,sarcoma,Primary Tumor,1,1,0.999768692463393,False,Correct
+TCGA-DX-A8BM-01,sarcoma,Primary Tumor,1,1,0.9459321039495212,False,Correct
+TCGA-DX-A8BV-01,sarcoma,Primary Tumor,1,1,0.9937500901828056,False,Correct
+TCGA-DX-A3UD-01,sarcoma,Primary Tumor,1,1,0.9999958486985234,False,Correct
+TCGA-X6-A8C2-01,sarcoma,Primary Tumor,1,1,0.9999747186251122,False,Correct
+TCGA-3B-A9HT-01,sarcoma,Primary Tumor,1,1,0.9985350729154048,False,Correct
+TCGA-DX-AB32-01,sarcoma,Primary Tumor,1,1,0.9990703392897453,False,Correct
+TCGA-MB-A8JK-01,sarcoma,Primary Tumor,1,1,0.9999990868898425,False,Correct
+TCGA-DX-A3U8-01,sarcoma,Primary Tumor,1,1,0.9997620611737887,False,Correct
+TCGA-IE-A3OV-01,sarcoma,Primary Tumor,1,1,0.999921227267954,False,Correct
+TCGA-QQ-A5V2-01,sarcoma,Primary Tumor,1,1,0.9997034741097266,False,Correct
+TCGA-DX-AB2G-01,sarcoma,Primary Tumor,1,1,0.9997444008890725,False,Correct
+TCGA-3B-A9I0-01,sarcoma,Primary Tumor,1,1,0.9999985627651511,False,Correct
+TCGA-DX-A6YQ-01,sarcoma,Primary Tumor,1,1,0.9979163057868948,False,Correct
+TCGA-DX-A6BF-01,sarcoma,Primary Tumor,1,1,0.9977620200586943,False,Correct
+TCGA-IF-A4AK-01,sarcoma,Primary Tumor,1,1,0.999559692656645,False,Correct
+TCGA-DX-A7EI-01,sarcoma,Primary Tumor,1,1,0.999993996707326,False,Correct
+TCGA-IW-A3M5-01,sarcoma,Primary Tumor,1,1,0.9999519834734004,False,Correct
+TCGA-DX-AB2X-01,sarcoma,Primary Tumor,1,1,0.9999738772137737,False,Correct
+TCGA-IF-A3RQ-01,sarcoma,Primary Tumor,1,1,0.9999012372840561,False,Correct
+TCGA-JV-A5VF-01,sarcoma,Primary Tumor,1,1,0.9996674648597479,False,Correct
+TCGA-DX-A6YX-01,sarcoma,Primary Tumor,1,1,0.9999204136311266,False,Correct
+TCGA-DX-A8BS-01,sarcoma,Primary Tumor,1,1,0.9999830742350293,False,Correct
+TCGA-DX-A3UE-01,sarcoma,Primary Tumor,1,1,0.9999983172371294,False,Correct
+TCGA-DX-AB2Q-01,sarcoma,Primary Tumor,1,1,0.999995764286337,False,Correct
+TCGA-IE-A6BZ-01,sarcoma,Primary Tumor,1,1,0.9997090504757589,False,Correct
+TCGA-DX-A48O-01,sarcoma,Primary Tumor,1,1,0.9965265409453326,False,Correct
+TCGA-DX-A8BT-01,sarcoma,Primary Tumor,1,1,0.9998703838114074,False,Correct
+TCGA-DX-AB2W-01,sarcoma,Primary Tumor,1,1,0.9999763953971773,False,Correct
+TCGA-FX-A2QS-01,sarcoma,Primary Tumor,1,1,0.998174091524454,False,Correct
+TCGA-JV-A5VE-01,sarcoma,Primary Tumor,1,1,0.9998297761155194,False,Correct
+TCGA-MB-A5Y8-01,sarcoma,Primary Tumor,1,1,0.9999329237962934,False,Correct
+TCGA-PC-A5DO-01,sarcoma,Primary Tumor,1,1,0.9999711338546334,False,Correct
+TCGA-WP-A9GB-01,sarcoma,Primary Tumor,1,1,0.9715567717330928,False,Correct
+TCGA-WK-A8XS-01,sarcoma,Primary Tumor,1,1,0.9999965333213123,False,Correct
+TCGA-X6-A7WB-01,sarcoma,Primary Tumor,1,1,0.9999241863938946,False,Correct
+TCGA-3B-A9I1-01,sarcoma,Primary Tumor,1,1,0.9987508043788793,False,Correct
+TCGA-FX-A48G-01,sarcoma,Primary Tumor,1,1,0.9952262606591595,False,Correct
+TCGA-WK-A8XZ-01,sarcoma,Primary Tumor,1,1,0.9999779247441875,False,Correct
+TCGA-KD-A5QS-01,sarcoma,Primary Tumor,1,1,0.9999924974099511,False,Correct
+TCGA-DX-AB2T-01,sarcoma,Primary Tumor,1,1,0.999739559740761,False,Correct
+TCGA-3B-A9HU-01,sarcoma,Primary Tumor,1,1,0.9982421787789055,False,Correct
+TCGA-DX-AB30-01,sarcoma,Primary Tumor,1,1,0.9981110468906053,False,Correct
+TCGA-VT-A80J-01,sarcoma,Primary Tumor,1,1,0.9999979623869805,False,Correct
+TCGA-WK-A8Y0-01,sarcoma,Primary Tumor,1,1,0.9996324139670435,False,Correct
+TCGA-IW-A3M4-01,sarcoma,Primary Tumor,1,0,0.30811792956685213,True,Tumeur manquée
+TCGA-HB-A3L4-01,sarcoma,Primary Tumor,1,1,0.9847197559111102,False,Correct
+TCGA-SG-A6Z7-01,sarcoma,Primary Tumor,1,1,0.9999311486062297,False,Correct
+TCGA-JV-A75J-01,sarcoma,Primary Tumor,1,1,0.9999414296834243,False,Correct
+TCGA-DX-A23T-01,sarcoma,Primary Tumor,1,1,0.9999955937233702,False,Correct
+TCGA-DX-A3UC-01,sarcoma,Primary Tumor,1,1,0.9999978466902151,False,Correct
+TCGA-DX-A6YT-01,sarcoma,Primary Tumor,1,1,0.9842191430930254,False,Correct
+TCGA-QQ-A8VH-01,sarcoma,Primary Tumor,1,1,0.9998737094503088,False,Correct
+TCGA-DX-AB3B-01,sarcoma,Primary Tumor,1,1,0.9999807821125108,False,Correct
+TCGA-SI-AA8C-01,sarcoma,Primary Tumor,1,1,0.9999863025511674,False,Correct
+TCGA-BF-AAOX-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999649598826937,False,Correct
+TCGA-ER-A42H-01,skin cutaneous melanoma,Primary Tumor,1,1,0.999984413331544,False,Correct
+TCGA-EB-A85I-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999925714296083,False,Correct
+TCGA-BF-A5ER-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999875735093595,False,Correct
+TCGA-BF-AAP2-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999917307612376,False,Correct
+TCGA-FS-A1ZN-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9997553645158705,False,Correct
+TCGA-EB-A3HV-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999503845349631,False,Correct
+TCGA-ER-A19K-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999598037127259,False,Correct
+TCGA-EB-A3XE-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999541912721918,False,Correct
+TCGA-EB-A85J-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999334416696787,False,Correct
+TCGA-EB-A44P-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9999246525304726,False,Correct
+TCGA-XV-AAZV-01,skin cutaneous melanoma,Primary Tumor,1,1,0.9998141215205597,False,Correct
+TCGA-G5-6233-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999782765942723,False,Correct
+TCGA-AH-6644-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999119230996317,False,Correct
+TCGA-G5-6235-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9998012953481049,False,Correct
+TCGA-AG-A036-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999913247248698,False,Correct
+TCGA-AG-3601-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999970320865295,False,Correct
+TCGA-AG-A00Y-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999790571982431,False,Correct
+TCGA-AG-A026-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999749054941478,False,Correct
+TCGA-AH-6549-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9994266611649946,False,Correct
+TCGA-AG-3581-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9996577615600192,False,Correct
+TCGA-AG-3898-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999854730783977,False,Correct
+TCGA-EI-7002-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999477906360011,False,Correct
+TCGA-DC-6682-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9995651622077407,False,Correct
+TCGA-AF-A56K-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999696052719623,False,Correct
+TCGA-AF-3400-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9982659072123046,False,Correct
+TCGA-AG-3575-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999511885084653,False,Correct
+TCGA-AG-A002-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999998667472167,False,Correct
+TCGA-AG-3574-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9998650535257925,False,Correct
+TCGA-AG-3896-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9998831062382385,False,Correct
+TCGA-AH-6547-01,rectum adenocarcinoma,Primary Tumor,1,1,0.964405162557941,False,Correct
+TCGA-DY-A1H8-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9992829339383921,False,Correct
+TCGA-AF-5654-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999399768045544,False,Correct
+TCGA-AF-6136-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999633948778729,False,Correct
+TCGA-AG-3909-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999592333346423,False,Correct
+TCGA-EI-6512-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999695146857194,False,Correct
+TCGA-F5-6465-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9998331715985636,False,Correct
+TCGA-DY-A0XA-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999580343226276,False,Correct
+TCGA-EI-6885-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999803779077291,False,Correct
+TCGA-CI-6624-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9966797899209541,False,Correct
+TCGA-DC-4745-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9983588791600154,False,Correct
+TCGA-AF-2691-01,rectum adenocarcinoma,Primary Tumor,1,1,0.9999260468750352,False,Correct
+TCGA-HC-7233-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999909927971216,False,Correct
+TCGA-TK-A8OK-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9857110912691336,False,Correct
+TCGA-CH-5738-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999555497831201,False,Correct
+TCGA-HC-7820-01,prostate adenocarcinoma,Primary Tumor,1,1,0.999997494599708,False,Correct
+TCGA-J4-AATV-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9926149726532174,False,Correct
+TCGA-CH-5753-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999523716529984,False,Correct
+TCGA-EJ-7328-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999767603663077,False,Correct
+TCGA-ZG-A9L2-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999543411319309,False,Correct
+TCGA-2A-A8W3-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999999618759344,False,Correct
+TCGA-EJ-8474-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999987729688803,False,Correct
+TCGA-HC-7078-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999886895445629,False,Correct
+TCGA-KK-A6E4-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999761766437805,False,Correct
+TCGA-KK-A6E6-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999831200796223,False,Correct
+TCGA-ZG-A9MC-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999733349013576,False,Correct
+TCGA-J4-A67K-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999981649311935,False,Correct
+TCGA-YL-A9WX-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9995347324335937,False,Correct
+TCGA-EJ-7791-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9699301479287044,False,Correct
+TCGA-G9-6329-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9743052141633717,False,Correct
+TCGA-KC-A7F3-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999968096237724,False,Correct
+TCGA-YL-A8SK-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9735988699718547,False,Correct
+TCGA-CH-5763-01,prostate adenocarcinoma,Primary Tumor,1,0,0.491994337627774,True,Tumeur manquée
+TCGA-EJ-A46B-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9278574002500383,False,Correct
+TCGA-HC-7818-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999589952411938,False,Correct
+TCGA-J4-AATZ-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999801402533997,False,Correct
+TCGA-J9-A8CM-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999887235884642,False,Correct
+TCGA-EJ-5504-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999727881484046,False,Correct
+TCGA-EJ-7115-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9992535113613584,False,Correct
+TCGA-EJ-A65M-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999832849256926,False,Correct
+TCGA-HC-7745-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9933427505857734,False,Correct
+TCGA-X4-A8KQ-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999966582024163,False,Correct
+TCGA-EJ-A7NG-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9849389234141881,False,Correct
+TCGA-EJ-A7NM-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999997455616939,False,Correct
+TCGA-G9-6363-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9881356124712285,False,Correct
+TCGA-HC-A6AL-01,prostate adenocarcinoma,Primary Tumor,1,1,0.999995991410276,False,Correct
+TCGA-KK-A59V-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999959997128327,False,Correct
+TCGA-KK-A7B4-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999997599224427,False,Correct
+TCGA-V1-A9O5-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999982217908828,False,Correct
+TCGA-YL-A8SR-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999974761811598,False,Correct
+TCGA-HC-7075-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999995843700182,False,Correct
+TCGA-J4-A83I-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999864525063126,False,Correct
+TCGA-KK-A7AU-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999972987626723,False,Correct
+TCGA-XK-AAIV-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999989833565053,False,Correct
+TCGA-YL-A9WK-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999630358929721,False,Correct
+TCGA-EJ-5531-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9991991282503052,False,Correct
+TCGA-HI-7168-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9987053348195095,False,Correct
+TCGA-J9-A52B-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999987853356659,False,Correct
+TCGA-TP-A8TV-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999999699539384,False,Correct
+TCGA-XK-AAJA-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999999097769555,False,Correct
+TCGA-XK-AAK1-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999982691608911,False,Correct
+TCGA-CH-5761-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9998945317009372,False,Correct
+TCGA-CH-5789-01,prostate adenocarcinoma,Primary Tumor,1,1,0.7880381565978564,False,Correct
+TCGA-HC-7752-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999922295190351,False,Correct
+TCGA-KK-A8I9-01,prostate adenocarcinoma,Primary Tumor,1,1,0.999996030971296,False,Correct
+TCGA-QU-A6IN-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9997387675621252,False,Correct
+TCGA-CH-5762-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9981068264596418,False,Correct
+TCGA-HC-7209-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999950597898599,False,Correct
+TCGA-HC-8264-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999823663318934,False,Correct
+TCGA-KK-A7AY-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999989129882917,False,Correct
+TCGA-SU-A7E7-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999914937508364,False,Correct
+TCGA-J4-AAU2-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999981187737618,False,Correct
+TCGA-EJ-A7NK-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9759187433163571,False,Correct
+TCGA-G9-7519-01,prostate adenocarcinoma,Primary Tumor,1,1,0.995511662144668,False,Correct
+TCGA-HC-7738-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999521587887453,False,Correct
+TCGA-2A-A8VO-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999946787152167,False,Correct
+TCGA-G9-6336-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9817610376727739,False,Correct
+TCGA-HC-A4ZV-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999998988192724,False,Correct
+TCGA-KK-A8IK-01,prostate adenocarcinoma,Primary Tumor,1,1,0.999957533629656,False,Correct
+TCGA-VP-A87J-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999958566293312,False,Correct
+TCGA-HC-8266-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9898761881900585,False,Correct
+TCGA-HI-7169-01,prostate adenocarcinoma,Primary Tumor,1,0,0.008669086272970505,True,Tumeur manquée
+TCGA-KK-A8I5-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999995923686972,False,Correct
+TCGA-KK-A8I7-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999967199686312,False,Correct
+TCGA-KK-A8IG-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9948256109806367,False,Correct
+TCGA-M7-A71Y-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9996592065294414,False,Correct
+TCGA-KC-A7F5-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999967495801553,False,Correct
+TCGA-HC-7819-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999796407615843,False,Correct
+TCGA-HC-7817-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9998961793268378,False,Correct
+TCGA-V1-A8WV-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999999430366245,False,Correct
+TCGA-XJ-A83G-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999803209470907,False,Correct
+TCGA-HC-7230-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999694822741535,False,Correct
+TCGA-KK-A8IH-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9999991878988004,False,Correct
+TCGA-J4-8198-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9998501066724855,False,Correct
+TCGA-CH-5769-01,prostate adenocarcinoma,Primary Tumor,1,1,0.999993786676313,False,Correct
+TCGA-G9-7509-01,prostate adenocarcinoma,Primary Tumor,1,1,0.999979625657707,False,Correct
+TCGA-KK-A6E7-01,prostate adenocarcinoma,Primary Tumor,1,1,0.9965032498267216,False,Correct
+TCGA-S7-A7WT-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9973009988194725,False,Correct
+TCGA-P8-A6RX-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999966519985092,False,Correct
+TCGA-W2-A7H7-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999928234988558,False,Correct
+TCGA-RW-A689-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9992732671818517,False,Correct
+TCGA-QR-A6H1-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999757444663817,False,Correct
+TCGA-QR-A70G-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9973831149373298,False,Correct
+TCGA-WB-A80K-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9998910113606452,False,Correct
+TCGA-QT-A69Q-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999596612778696,False,Correct
+TCGA-S7-A7WN-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999676234035173,False,Correct
+TCGA-QR-A70M-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.999990712366037,False,Correct
+TCGA-WB-A819-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999802666268226,False,Correct
+TCGA-WB-A81D-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.999780677130095,False,Correct
+TCGA-S7-A7X0-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.999991360942862,False,Correct
+TCGA-WB-A81P-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9987846805829482,False,Correct
+TCGA-WB-A815-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999954903523574,False,Correct
+TCGA-WB-A80Q-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999735214709325,False,Correct
+TCGA-QR-A6GT-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999953302662963,False,Correct
+TCGA-PR-A5PF-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999207978732436,False,Correct
+TCGA-SR-A6MQ-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9993271086206654,False,Correct
+TCGA-QT-A5XP-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9996399303761523,False,Correct
+TCGA-QR-A6H4-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999931106336147,False,Correct
+TCGA-SR-A6MU-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.999190489588906,False,Correct
+TCGA-WB-A81E-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999971323016753,False,Correct
+TCGA-WB-A81M-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9962613989703369,False,Correct
+TCGA-QR-A6GY-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.999951175147862,False,Correct
+TCGA-QR-A6ZZ-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9996680679052103,False,Correct
+TCGA-WB-A81N-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9998838983324432,False,Correct
+TCGA-S7-A7WP-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9999977487026708,False,Correct
+TCGA-XG-A823-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9998655587407894,False,Correct
+TCGA-P7-A5NY-01,pheochromocytoma & paraganglioma,Primary Tumor,1,1,0.9980918568025098,False,Correct
+TCGA-HZ-8005-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999096963857812,False,Correct
+TCGA-HZ-A49I-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9998025626053462,False,Correct
+TCGA-HZ-8519-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9998894830062709,False,Correct
+TCGA-US-A77E-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9997771117987976,False,Correct
+TCGA-3E-AAAZ-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9998274824406427,False,Correct
+TCGA-IB-AAUR-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9992060182871633,False,Correct
+TCGA-3A-A9IU-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999952823274009,False,Correct
+TCGA-IB-7893-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.999386229293001,False,Correct
+TCGA-Q3-A5QY-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9766643073018713,False,Correct
+TCGA-IB-A7LX-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999945199615791,False,Correct
+TCGA-2L-AAQE-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999735571379998,False,Correct
+TCGA-XD-AAUL-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999357027647394,False,Correct
+TCGA-2L-AAQM-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9993491681024986,False,Correct
+TCGA-2J-AABO-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.999992198445726,False,Correct
+TCGA-RB-A7B8-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999828285598606,False,Correct
+TCGA-US-A774-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9994082093373751,False,Correct
+TCGA-HV-AA8X-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9998997588417069,False,Correct
+TCGA-LB-A7SX-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999834166566961,False,Correct
+TCGA-FB-A78T-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9997579633689045,False,Correct
+TCGA-HZ-8317-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9947565669946558,False,Correct
+TCGA-3A-A9IH-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9995936816300077,False,Correct
+TCGA-IB-A5SS-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9987005219000179,False,Correct
+TCGA-HZ-7922-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9997708210193413,False,Correct
+TCGA-3A-A9IV-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999959665149213,False,Correct
+TCGA-HZ-8636-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9993794113743845,False,Correct
+TCGA-HZ-A49G-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9978463232646192,False,Correct
+TCGA-US-A779-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9999456560554769,False,Correct
+TCGA-IB-7897-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9993598795552129,False,Correct
+TCGA-HZ-7919-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9995524027856302,False,Correct
+TCGA-IB-7891-01,pancreatic adenocarcinoma,Primary Tumor,1,1,0.9998959301380609,False,Correct
+TCGA-36-1575-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.997729171775144,False,Correct
+TCGA-13-1411-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999147696711822,False,Correct
+TCGA-24-1849-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9973831112913656,False,Correct
+TCGA-25-2399-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9996860976201491,False,Correct
+TCGA-09-1674-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999959854215013,False,Correct
+TCGA-09-2044-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999390636924689,False,Correct
+TCGA-24-1552-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999887970870722,False,Correct
+TCGA-25-1329-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999825445358771,False,Correct
+TCGA-30-1861-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9985559883979098,False,Correct
+TCGA-25-1631-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999912405822938,False,Correct
+TCGA-25-1871-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999796505363795,False,Correct
+TCGA-24-1418-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999627548906127,False,Correct
+TCGA-24-1430-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9996674338490255,False,Correct
+TCGA-09-0367-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999099372896416,False,Correct
+TCGA-61-2000-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9998312826977466,False,Correct
+TCGA-25-1317-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999192150521478,False,Correct
+TCGA-25-1625-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9989183272509653,False,Correct
+TCGA-24-1844-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9908521764807241,False,Correct
+TCGA-25-1633-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9997896259350585,False,Correct
+TCGA-25-2401-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.999977088301547,False,Correct
+TCGA-09-2048-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9997890961098289,False,Correct
+TCGA-13-1505-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9997054789148102,False,Correct
+TCGA-24-1419-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9992827215610876,False,Correct
+TCGA-29-2427-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999930336793471,False,Correct
+TCGA-23-1123-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9997771142755921,False,Correct
+TCGA-29-1762-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9998839383960835,False,Correct
+TCGA-61-1728-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999952732172617,False,Correct
+TCGA-29-2428-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9998635020203318,False,Correct
+TCGA-59-2355-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999588703293771,False,Correct
+TCGA-24-1474-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9998654909788367,False,Correct
+TCGA-29-1699-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999750232265483,False,Correct
+TCGA-57-1585-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9986657030523604,False,Correct
+TCGA-20-1682-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999964227829748,False,Correct
+TCGA-29-1784-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9996254289521985,False,Correct
+TCGA-29-1770-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9992132039435192,False,Correct
+TCGA-61-2003-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999924143961813,False,Correct
+TCGA-61-2113-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999992563515471,False,Correct
+TCGA-24-1413-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9997864027928842,False,Correct
+TCGA-61-2088-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.999992897917095,False,Correct
+TCGA-13-1405-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9997343416283079,False,Correct
+TCGA-13-1512-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999879696132948,False,Correct
+TCGA-24-1557-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9996877953540552,False,Correct
+TCGA-36-1570-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9961360261168484,False,Correct
+TCGA-13-0893-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.999519636899557,False,Correct
+TCGA-36-1574-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9993487549499565,False,Correct
+TCGA-29-1705-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999649560606059,False,Correct
+TCGA-20-1687-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9978925613579508,False,Correct
+TCGA-04-1514-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999679326436064,False,Correct
+TCGA-20-1685-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9997737779239004,False,Correct
+TCGA-24-1425-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9981595829390667,False,Correct
+TCGA-29-1711-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9999062868095313,False,Correct
+TCGA-61-1918-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9998037250740285,False,Correct
+TCGA-04-1348-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9998510887310531,False,Correct
+TCGA-29-1763-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.9983633346176974,False,Correct
+TCGA-36-1577-01,ovarian serous cystadenocarcinoma,Primary Tumor,1,1,0.999989978430757,False,Correct
+TCGA-FF-A7CQ-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.995747218846349,False,Correct
+TCGA-RQ-A68N-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9997615210712015,False,Correct
+TCGA-VB-A8QN-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9823441819510282,False,Correct
+TCGA-G8-6326-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.541101610516968,False,Correct
+TCGA-FF-8046-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9983046040532095,False,Correct
+TCGA-FF-8061-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.999967882641626,False,Correct
+TCGA-FA-A86F-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9948596161262292,False,Correct
+TCGA-FF-8062-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9946304528424844,False,Correct
+TCGA-FF-8042-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9999855890366406,False,Correct
+TCGA-G8-6907-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9999392926994364,False,Correct
+TCGA-GS-A9TV-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9693825316558509,False,Correct
+TCGA-FF-8047-01,diffuse large B-cell lymphoma,Primary Tumor,1,1,0.9955118923200105,False,Correct
+TCGA-85-A4JC-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998106309292513,False,Correct
+TCGA-56-A5DR-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999053432660578,False,Correct
+TCGA-94-7943-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999751747906533,False,Correct
+TCGA-22-5478-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997950386651309,False,Correct
+TCGA-56-7221-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998854422922459,False,Correct
+TCGA-NC-A5HD-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999671921329776,False,Correct
+TCGA-56-8628-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999284138956722,False,Correct
+TCGA-21-5783-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999118235698925,False,Correct
+TCGA-63-A5MW-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.999752610991025,False,Correct
+TCGA-21-1072-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9995966751771955,False,Correct
+TCGA-22-5471-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998442704942602,False,Correct
+TCGA-34-5239-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.999986106523769,False,Correct
+TCGA-58-8386-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9989407026334906,False,Correct
+TCGA-18-3409-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9958213839928225,False,Correct
+TCGA-18-4721-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997754307887268,False,Correct
+TCGA-60-2725-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9996742112134738,False,Correct
+TCGA-77-8133-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999595360653657,False,Correct
+TCGA-43-8116-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999915880720638,False,Correct
+TCGA-85-7699-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999734374610189,False,Correct
+TCGA-94-7033-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9995818724750032,False,Correct
+TCGA-77-8139-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999297451191389,False,Correct
+TCGA-22-0940-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9996422212933871,False,Correct
+TCGA-43-7656-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999974223031073,False,Correct
+TCGA-66-2744-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9996084310305278,False,Correct
+TCGA-66-2777-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997832001410301,False,Correct
+TCGA-66-2782-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999864030145493,False,Correct
+TCGA-22-A5C4-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999178534609511,False,Correct
+TCGA-34-7107-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.99999120314326,False,Correct
+TCGA-77-A5G8-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999992984215661,False,Correct
+TCGA-J1-A4AH-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.999709138460392,False,Correct
+TCGA-21-1081-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.999970073557782,False,Correct
+TCGA-37-4135-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999920643442306,False,Correct
+TCGA-63-A5MH-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997744091596443,False,Correct
+TCGA-63-A5ML-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999988830742895,False,Correct
+TCGA-66-2793-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999839413265698,False,Correct
+TCGA-77-8008-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999812491616034,False,Correct
+TCGA-98-A53D-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999718799160876,False,Correct
+TCGA-LA-A446-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999801603240536,False,Correct
+TCGA-21-1071-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999654222894111,False,Correct
+TCGA-22-5472-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9960934267726153,False,Correct
+TCGA-33-A5GW-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999905894577088,False,Correct
+TCGA-77-7138-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999899045638764,False,Correct
+TCGA-21-1080-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999918245982674,False,Correct
+TCGA-66-2759-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999093220732511,False,Correct
+TCGA-85-6561-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999961703052135,False,Correct
+TCGA-85-8479-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999984156193888,False,Correct
+TCGA-18-3417-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997608666172175,False,Correct
+TCGA-37-3789-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998671841160371,False,Correct
+TCGA-77-7337-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999331508886968,False,Correct
+TCGA-85-A4CL-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999971054387572,False,Correct
+TCGA-18-4086-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999683857028128,False,Correct
+TCGA-22-5479-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9982733268164188,False,Correct
+TCGA-66-2765-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998627006645004,False,Correct
+TCGA-22-1005-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999428625999138,False,Correct
+TCGA-56-8629-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999883037567259,False,Correct
+TCGA-66-2755-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999486224705132,False,Correct
+TCGA-85-A53L-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999895406042908,False,Correct
+TCGA-O2-A52W-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999886772067609,False,Correct
+TCGA-63-A5MB-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9977099337868323,False,Correct
+TCGA-85-A511-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999981493208738,False,Correct
+TCGA-21-1082-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999532475169098,False,Correct
+TCGA-22-0944-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999034719044616,False,Correct
+TCGA-56-7222-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999019556992546,False,Correct
+TCGA-66-2771-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9993647428052475,False,Correct
+TCGA-77-8128-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.999963788662039,False,Correct
+TCGA-77-8156-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999755568655366,False,Correct
+TCGA-37-A5EN-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999789960307399,False,Correct
+TCGA-39-5040-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9994766371973999,False,Correct
+TCGA-NC-A5HG-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999775458176253,False,Correct
+TCGA-85-A5B5-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999917979432357,False,Correct
+TCGA-18-5592-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998705668581975,False,Correct
+TCGA-21-1075-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9993977822102782,False,Correct
+TCGA-60-2726-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9981847643810716,False,Correct
+TCGA-37-A5EL-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997998351240662,False,Correct
+TCGA-85-8354-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997845385966668,False,Correct
+TCGA-90-A4EE-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999519857574356,False,Correct
+TCGA-58-A46N-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999953222908687,False,Correct
+TCGA-92-8063-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999692033470746,False,Correct
+TCGA-37-3783-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.99987322531566,False,Correct
+TCGA-18-5595-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9993207312728525,False,Correct
+TCGA-85-7843-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999223242067017,False,Correct
+TCGA-85-8582-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999966018990888,False,Correct
+TCGA-63-A5MU-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998945391501357,False,Correct
+TCGA-85-7698-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999808535660135,False,Correct
+TCGA-39-5016-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.999885505952935,False,Correct
+TCGA-60-2697-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9969557340653994,False,Correct
+TCGA-56-8082-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999978675518232,False,Correct
+TCGA-34-5929-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999515082671185,False,Correct
+TCGA-96-A4JL-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999996111876943,False,Correct
+TCGA-77-8153-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999651769507208,False,Correct
+TCGA-39-5031-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9989386405255812,False,Correct
+TCGA-98-8021-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999624901924107,False,Correct
+TCGA-O2-A52V-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999733481836379,False,Correct
+TCGA-60-2723-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9989914243200935,False,Correct
+TCGA-92-8065-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999063553517701,False,Correct
+TCGA-34-5240-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9997528478480712,False,Correct
+TCGA-39-5034-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9996323681514218,False,Correct
+TCGA-56-8304-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999498869418498,False,Correct
+TCGA-68-A59I-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999989867832949,False,Correct
+TCGA-56-A5DS-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999569942801666,False,Correct
+TCGA-O2-A5IB-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999870108314076,False,Correct
+TCGA-34-5927-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9994774419052966,False,Correct
+TCGA-63-A5MR-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999122106260968,False,Correct
+TCGA-77-7140-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9995854442946487,False,Correct
+TCGA-58-8393-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998675518780819,False,Correct
+TCGA-66-2786-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998886018923361,False,Correct
+TCGA-43-A475-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999773828159899,False,Correct
+TCGA-56-7731-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9990063722017625,False,Correct
+TCGA-56-8625-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999960100940594,False,Correct
+TCGA-77-8140-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999949629623706,False,Correct
+TCGA-85-6175-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999300270752091,False,Correct
+TCGA-46-3765-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998430394271978,False,Correct
+TCGA-77-7142-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9994408405796805,False,Correct
+TCGA-22-5485-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9998112806454863,False,Correct
+TCGA-33-AASL-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999486268788076,False,Correct
+TCGA-63-A5M9-01,lung squamous cell carcinoma,Primary Tumor,1,1,0.9999836482743468,False,Correct
+TCGA-50-5939-01,lung adenocarcinoma,Primary Tumor,1,1,0.9997263099241924,False,Correct
+TCGA-62-A470-01,lung adenocarcinoma,Primary Tumor,1,1,0.9993304246677408,False,Correct
+TCGA-97-A4M5-01,lung adenocarcinoma,Primary Tumor,1,1,0.9998002489001112,False,Correct
+TCGA-55-6978-01,lung adenocarcinoma,Primary Tumor,1,1,0.9998777493356958,False,Correct
+TCGA-55-7994-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999979808927494,False,Correct
+TCGA-55-6987-01,lung adenocarcinoma,Primary Tumor,1,1,0.9997620885339362,False,Correct
+TCGA-05-4395-01,lung adenocarcinoma,Primary Tumor,1,1,0.999982699511333,False,Correct
+TCGA-50-5932-01,lung adenocarcinoma,Primary Tumor,1,1,0.9997393689419385,False,Correct
+TCGA-78-7162-01,lung adenocarcinoma,Primary Tumor,1,1,0.72551976517357,False,Correct
+TCGA-50-5072-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999954242986041,False,Correct
+TCGA-55-7284-01,lung adenocarcinoma,Primary Tumor,1,1,0.9993502282542711,False,Correct
+TCGA-44-7660-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999558029399385,False,Correct
+TCGA-49-4486-01,lung adenocarcinoma,Primary Tumor,1,1,0.9928424963460198,False,Correct
+TCGA-55-6972-01,lung adenocarcinoma,Primary Tumor,1,1,0.9743979046396829,False,Correct
+TCGA-78-7154-01,lung adenocarcinoma,Primary Tumor,1,1,0.9799736184406536,False,Correct
+TCGA-64-5775-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999697612049836,False,Correct
+TCGA-78-7149-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999904098068004,False,Correct
+TCGA-93-A4JN-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999902366788042,False,Correct
+TCGA-MP-A4TD-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999954751646961,False,Correct
+TCGA-05-4244-01,lung adenocarcinoma,Primary Tumor,1,1,0.9996317097161985,False,Correct
+TCGA-97-7552-01,lung adenocarcinoma,Primary Tumor,1,1,0.9837112740264375,False,Correct
+TCGA-05-4418-01,lung adenocarcinoma,Primary Tumor,1,1,0.9995193718519914,False,Correct
+TCGA-67-4679-01,lung adenocarcinoma,Primary Tumor,1,1,0.9995245802185604,False,Correct
+TCGA-05-4382-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999920807536418,False,Correct
+TCGA-05-5425-01,lung adenocarcinoma,Primary Tumor,1,1,0.999910695970841,False,Correct
+TCGA-55-1594-01,lung adenocarcinoma,Primary Tumor,1,1,0.9991427206335101,False,Correct
+TCGA-78-7155-01,lung adenocarcinoma,Primary Tumor,1,1,0.9990953167437154,False,Correct
+TCGA-NJ-A55R-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999895110461805,False,Correct
+TCGA-91-6831-01,lung adenocarcinoma,Primary Tumor,1,1,0.9998658765522832,False,Correct
+TCGA-97-A4M2-01,lung adenocarcinoma,Primary Tumor,1,1,0.9187307326132647,False,Correct
+TCGA-62-A46P-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999920334117087,False,Correct
+TCGA-NJ-A4YG-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999709091071399,False,Correct
+TCGA-55-7903-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999705796146177,False,Correct
+TCGA-64-1680-01,lung adenocarcinoma,Primary Tumor,1,1,0.9985445670577006,False,Correct
+TCGA-91-7771-01,lung adenocarcinoma,Primary Tumor,1,1,0.9991891413174957,False,Correct
+TCGA-55-6968-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999898452877419,False,Correct
+TCGA-99-8032-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999877977231482,False,Correct
+TCGA-64-5778-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999838738066055,False,Correct
+TCGA-73-4675-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999751521027508,False,Correct
+TCGA-78-7150-01,lung adenocarcinoma,Primary Tumor,1,1,0.9991784040017486,False,Correct
+TCGA-44-8120-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999961176575927,False,Correct
+TCGA-55-8301-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999986276571564,False,Correct
+TCGA-05-4415-01,lung adenocarcinoma,Primary Tumor,1,1,0.9998050354506363,False,Correct
+TCGA-55-8089-01,lung adenocarcinoma,Primary Tumor,1,1,0.9990520075052381,False,Correct
+TCGA-62-8398-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999929928194315,False,Correct
+TCGA-55-7576-01,lung adenocarcinoma,Primary Tumor,1,1,0.999998213055695,False,Correct
+TCGA-55-8302-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999935512737763,False,Correct
+TCGA-86-8359-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999825665353518,False,Correct
+TCGA-93-A4JQ-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999633010449392,False,Correct
+TCGA-86-8279-01,lung adenocarcinoma,Primary Tumor,1,1,0.9995530991255247,False,Correct
+TCGA-55-8512-01,lung adenocarcinoma,Primary Tumor,1,0,0.1745611919299634,True,Tumeur manquée
+TCGA-35-4123-01,lung adenocarcinoma,Primary Tumor,1,1,0.999783203075267,False,Correct
+TCGA-73-7499-01,lung adenocarcinoma,Primary Tumor,1,1,0.9981041481805554,False,Correct
+TCGA-55-A57B-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999465578797619,False,Correct
+TCGA-49-4514-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999924163082122,False,Correct
+TCGA-50-6594-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999984293336922,False,Correct
+TCGA-86-A456-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999987898113112,False,Correct
+TCGA-J2-A4AE-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999193995712461,False,Correct
+TCGA-55-8205-01,lung adenocarcinoma,Primary Tumor,1,1,0.9998973224529796,False,Correct
+TCGA-93-7347-01,lung adenocarcinoma,Primary Tumor,1,1,0.9996908048191703,False,Correct
+TCGA-38-4630-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999817734622765,False,Correct
+TCGA-78-7539-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999405730083247,False,Correct
+TCGA-MP-A4T7-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999161934952224,False,Correct
+TCGA-67-6217-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999719049470177,False,Correct
+TCGA-49-4487-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999446040749782,False,Correct
+TCGA-50-6590-01,lung adenocarcinoma,Primary Tumor,1,1,0.999983513071422,False,Correct
+TCGA-55-7573-01,lung adenocarcinoma,Primary Tumor,1,1,0.9870229604782006,False,Correct
+TCGA-97-7941-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999848509144013,False,Correct
+TCGA-44-3919-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999971325763277,False,Correct
+TCGA-50-6592-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999960612198557,False,Correct
+TCGA-05-4425-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999063850380171,False,Correct
+TCGA-55-7281-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999707702743028,False,Correct
+TCGA-J2-8194-01,lung adenocarcinoma,Primary Tumor,1,1,0.998810347446274,False,Correct
+TCGA-NJ-A4YQ-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999514011625443,False,Correct
+TCGA-95-A4VP-01,lung adenocarcinoma,Primary Tumor,1,1,0.9990897753252832,False,Correct
+TCGA-62-A46O-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999977160633177,False,Correct
+TCGA-73-4662-01,lung adenocarcinoma,Primary Tumor,1,1,0.9997726501851946,False,Correct
+TCGA-49-AAQV-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999947556549815,False,Correct
+TCGA-50-8457-01,lung adenocarcinoma,Primary Tumor,1,1,0.9996569453940445,False,Correct
+TCGA-95-7043-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999945740372677,False,Correct
+TCGA-44-6145-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999422394632321,False,Correct
+TCGA-86-8074-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999986448548782,False,Correct
+TCGA-91-6847-01,lung adenocarcinoma,Primary Tumor,1,1,0.9998697877511676,False,Correct
+TCGA-55-7913-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999938047420441,False,Correct
+TCGA-86-7714-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999937202424016,False,Correct
+TCGA-44-6776-01,lung adenocarcinoma,Primary Tumor,1,1,0.9996978369912839,False,Correct
+TCGA-55-8097-01,lung adenocarcinoma,Primary Tumor,1,1,0.9793519072426321,False,Correct
+TCGA-97-A4M0-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999961235821502,False,Correct
+TCGA-05-4390-01,lung adenocarcinoma,Primary Tumor,1,1,0.999873315104385,False,Correct
+TCGA-97-7553-01,lung adenocarcinoma,Primary Tumor,1,0,0.4028964072349992,True,Tumeur manquée
+TCGA-05-4402-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999586842197994,False,Correct
+TCGA-50-5045-01,lung adenocarcinoma,Primary Tumor,1,1,0.9969258643616764,False,Correct
+TCGA-49-AARN-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999999607774885,False,Correct
+TCGA-MP-A4TK-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999992351782604,False,Correct
+TCGA-55-8510-01,lung adenocarcinoma,Primary Tumor,1,1,0.9991533396478744,False,Correct
+TCGA-64-5781-01,lung adenocarcinoma,Primary Tumor,1,1,0.9998800259960062,False,Correct
+TCGA-97-8175-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999651485455584,False,Correct
+TCGA-62-A46R-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999797199654168,False,Correct
+TCGA-44-7672-01,lung adenocarcinoma,Primary Tumor,1,1,0.9997427224896192,False,Correct
+TCGA-4B-A93V-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999074382416023,False,Correct
+TCGA-91-6836-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999273360173935,False,Correct
+TCGA-97-A4M1-01,lung adenocarcinoma,Primary Tumor,1,1,0.8806723793917505,False,Correct
+TCGA-50-6593-01,lung adenocarcinoma,Primary Tumor,1,1,0.998612464141718,False,Correct
+TCGA-55-7816-01,lung adenocarcinoma,Primary Tumor,1,1,0.5266119235635464,False,Correct
+TCGA-71-6725-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999990698907888,False,Correct
+TCGA-75-6212-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999987196140885,False,Correct
+TCGA-75-7031-01,lung adenocarcinoma,Primary Tumor,1,1,0.981026110641444,False,Correct
+TCGA-FV-A4ZP-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999945076613349,False,Correct
+TCGA-ED-A627-01,liver hepatocellular carcinoma,Primary Tumor,1,0,0.07848721395126249,True,Tumeur manquée
+TCGA-NI-A8LF-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9997429113595859,False,Correct
+TCGA-EP-A3RK-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.999996895753717,False,Correct
+TCGA-DD-A4NF-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999980052937516,False,Correct
+TCGA-DD-AAC8-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999977398113081,False,Correct
+TCGA-BD-A2L6-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9965334524363734,False,Correct
+TCGA-CC-5262-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998978344466721,False,Correct
+TCGA-DD-A39Y-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999951118657804,False,Correct
+TCGA-DD-A3A7-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.999991444618088,False,Correct
+TCGA-G3-AAV5-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999998317360043,False,Correct
+TCGA-DD-AACX-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999990798949693,False,Correct
+TCGA-K7-A5RF-01,liver hepatocellular carcinoma,Primary Tumor,1,0,0.0001500051605276555,True,Tumeur manquée
+TCGA-KR-A7K2-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999903850908705,False,Correct
+TCGA-CC-A3MA-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9097525584383913,False,Correct
+TCGA-K7-AAU7-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998910987736648,False,Correct
+TCGA-MI-A75E-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9961913465270748,False,Correct
+TCGA-DD-A4NQ-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999833060695351,False,Correct
+TCGA-CC-A7IF-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9995737661775933,False,Correct
+TCGA-CC-A7IK-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999992409238669,False,Correct
+TCGA-G3-A5SJ-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999675774516918,False,Correct
+TCGA-ZP-A9CV-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999904932122541,False,Correct
+TCGA-2Y-A9GS-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998221090289408,False,Correct
+TCGA-DD-AADL-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999922870875657,False,Correct
+TCGA-DD-AADM-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999937102757676,False,Correct
+TCGA-ED-A4XI-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9776677438842735,False,Correct
+TCGA-G3-A25Z-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999052903716003,False,Correct
+TCGA-G3-A5SM-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9994841654887454,False,Correct
+TCGA-5R-AA1C-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999991389276062,False,Correct
+TCGA-CC-A7IE-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999910523643631,False,Correct
+TCGA-UB-A7MF-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9996217827884516,False,Correct
+TCGA-DD-AAD5-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999600823304214,False,Correct
+TCGA-ES-A2HT-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9991181060513843,False,Correct
+TCGA-DD-AACV-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999308029799705,False,Correct
+TCGA-DD-AADC-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999885289306032,False,Correct
+TCGA-ZP-A9D2-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999892556864064,False,Correct
+TCGA-BC-A10W-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998689280449529,False,Correct
+TCGA-2Y-A9H0-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998124625995984,False,Correct
+TCGA-G3-AAUZ-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9961924810070598,False,Correct
+TCGA-LG-A9QC-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999988341936565,False,Correct
+TCGA-DD-A4NL-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9813572915662824,False,Correct
+TCGA-CC-5261-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9996820726777561,False,Correct
+TCGA-DD-AAVR-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.999908979450773,False,Correct
+TCGA-G3-A5SI-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999353378341649,False,Correct
+TCGA-DD-A119-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9964484897324729,False,Correct
+TCGA-DD-AAVZ-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9997274671302688,False,Correct
+TCGA-UB-A7MB-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999985128842637,False,Correct
+TCGA-2V-A95S-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999740140411453,False,Correct
+TCGA-ZS-A9CE-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9997262646681713,False,Correct
+TCGA-BD-A3EP-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998890728714838,False,Correct
+TCGA-GJ-A6C0-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999887385843508,False,Correct
+TCGA-DD-AACB-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9995988726749284,False,Correct
+TCGA-DD-AAD0-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.999999743469815,False,Correct
+TCGA-DD-A73B-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999968675065554,False,Correct
+TCGA-DD-A1EJ-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9996617097810678,False,Correct
+TCGA-DD-AADK-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998722076489065,False,Correct
+TCGA-DD-A3A5-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9876689550275368,False,Correct
+TCGA-DD-AADY-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999791976029062,False,Correct
+TCGA-ED-A7XP-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9998002271835723,False,Correct
+TCGA-BC-A10X-01,liver hepatocellular carcinoma,Primary Tumor,1,0,0.041398883450483176,True,Tumeur manquée
+TCGA-CC-A9FU-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999961093802676,False,Correct
+TCGA-EP-A2KB-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999063339557129,False,Correct
+TCGA-DD-A39Z-01,liver hepatocellular carcinoma,Primary Tumor,1,1,0.9999995374164191,False,Correct
+TCGA-TS-A7P8-01,mesothelioma,Primary Tumor,1,1,0.9996063065806324,False,Correct
+TCGA-SC-A6LR-01,mesothelioma,Primary Tumor,1,1,0.9954569096408825,False,Correct
+TCGA-TS-A8AF-01,mesothelioma,Primary Tumor,1,1,0.9998109155221709,False,Correct
+TCGA-LK-A4O7-01,mesothelioma,Primary Tumor,1,1,0.9997400885124805,False,Correct
+TCGA-MQ-A6BQ-01,mesothelioma,Primary Tumor,1,1,0.9999909600008944,False,Correct
+TCGA-SC-A6LP-01,mesothelioma,Primary Tumor,1,1,0.9999102181217097,False,Correct
+TCGA-MQ-A4KX-01,mesothelioma,Primary Tumor,1,1,0.9999614590684374,False,Correct
+TCGA-ZN-A9VP-01,mesothelioma,Primary Tumor,1,1,0.9999284169418445,False,Correct
+TCGA-UD-AABY-01,mesothelioma,Primary Tumor,1,1,0.9999151029315069,False,Correct
+TCGA-UD-AAC7-01,mesothelioma,Primary Tumor,1,1,0.9999295474859627,False,Correct
+TCGA-ZN-A9VO-01,mesothelioma,Primary Tumor,1,1,0.9998829840887788,False,Correct
+TCGA-LK-A4O6-01,mesothelioma,Primary Tumor,1,1,0.9998209768886256,False,Correct
+TCGA-P4-A5EB-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999686521696647,False,Correct
+TCGA-UZ-A9PO-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999918974674201,False,Correct
+TCGA-BQ-5880-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9987564294561204,False,Correct
+TCGA-F9-A97G-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999953787910832,False,Correct
+TCGA-BQ-7045-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999437097569391,False,Correct
+TCGA-UZ-A9PU-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9998653092336013,False,Correct
+TCGA-B3-4104-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999922732457914,False,Correct
+TCGA-AL-3468-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9998761759362783,False,Correct
+TCGA-AL-3471-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9998551339314597,False,Correct
+TCGA-A4-8098-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999716948798624,False,Correct
+TCGA-B1-5398-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999548028703188,False,Correct
+TCGA-HE-A5NI-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999991751187357,False,Correct
+TCGA-2Z-A9JT-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999227301677825,False,Correct
+TCGA-B9-A69E-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999954369060174,False,Correct
+TCGA-BQ-7059-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9996572130894408,False,Correct
+TCGA-B9-A44B-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999991094239011,False,Correct
+TCGA-IA-A83W-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9998160824658834,False,Correct
+TCGA-DZ-6132-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999521278339485,False,Correct
+TCGA-IZ-A6M8-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999518088393563,False,Correct
+TCGA-2Z-A9J3-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999992426100813,False,Correct
+TCGA-2Z-A9JD-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9905012504855734,False,Correct
+TCGA-SX-A71W-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999815182333794,False,Correct
+TCGA-2Z-A9JP-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9996420844624652,False,Correct
+TCGA-BQ-5885-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9836423990381794,False,Correct
+TCGA-G7-A8LE-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9995851875640657,False,Correct
+TCGA-HE-A5NH-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999961624318049,False,Correct
+TCGA-UZ-A9PM-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.999988495849683,False,Correct
+TCGA-Y8-A896-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999873335454227,False,Correct
+TCGA-BQ-5893-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999777539784317,False,Correct
+TCGA-BQ-5877-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9904436346133866,False,Correct
+TCGA-A4-A57E-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999756342451707,False,Correct
+TCGA-UZ-A9PL-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999997838245459,False,Correct
+TCGA-UZ-A9PQ-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999878938587526,False,Correct
+TCGA-G7-6796-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999511472734457,False,Correct
+TCGA-HE-A5NF-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999885967351851,False,Correct
+TCGA-G7-6795-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999990913950236,False,Correct
+TCGA-B1-A657-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9997920514207969,False,Correct
+TCGA-B3-3925-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9997790751352348,False,Correct
+TCGA-DW-7842-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9998925874030323,False,Correct
+TCGA-B9-5156-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.999968894122361,False,Correct
+TCGA-DW-5561-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9993162929059367,False,Correct
+TCGA-P4-A5ED-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999684454623868,False,Correct
+TCGA-MH-A55W-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999934883844903,False,Correct
+TCGA-SX-A7SU-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9995308841546393,False,Correct
+TCGA-G7-6797-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9954106508945284,False,Correct
+TCGA-A4-7286-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.99998543973103,False,Correct
+TCGA-J7-6720-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999892441135849,False,Correct
+TCGA-HE-7128-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9997835874565484,False,Correct
+TCGA-HE-7129-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999901917599524,False,Correct
+TCGA-BQ-5878-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9992854911816188,False,Correct
+TCGA-2Z-A9J2-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999883928310292,False,Correct
+TCGA-4A-A93W-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9996871502048679,False,Correct
+TCGA-GL-A9DC-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999837105172333,False,Correct
+TCGA-SX-A7SP-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999779255302329,False,Correct
+TCGA-4A-A93Y-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.99987978152579,False,Correct
+TCGA-UZ-A9PS-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.999993689121554,False,Correct
+TCGA-PJ-A5Z8-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999224673884382,False,Correct
+TCGA-B3-3926-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9983040911600775,False,Correct
+TCGA-BQ-5884-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9538925861889244,False,Correct
+TCGA-MH-A855-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999354479782783,False,Correct
+TCGA-5P-A9JZ-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999986727723783,False,Correct
+TCGA-5P-A9KC-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999976782357087,False,Correct
+TCGA-B3-8121-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999919893718421,False,Correct
+TCGA-B1-A654-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999797596045504,False,Correct
+TCGA-F9-A7Q0-01,kidney papillary cell carcinoma,Primary Tumor,1,1,0.9999268934862193,False,Correct
+TCGA-B0-4823-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9995281523162032,False,Correct
+TCGA-CZ-4853-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999827978034549,False,Correct
+TCGA-A3-3343-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999756903050844,False,Correct
+TCGA-BP-5191-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9984532663514517,False,Correct
+TCGA-B0-4822-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999940641117919,False,Correct
+TCGA-B0-5698-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9927511781324301,False,Correct
+TCGA-BP-4790-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999875821752383,False,Correct
+TCGA-B0-4698-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9994964930290671,False,Correct
+TCGA-B0-5100-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.997908164489197,False,Correct
+TCGA-B0-5694-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9995196083854341,False,Correct
+TCGA-B8-5550-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999994281976352,False,Correct
+TCGA-BP-4159-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999074927257443,False,Correct
+TCGA-CJ-5675-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999949200125504,False,Correct
+TCGA-B0-5109-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999870024888351,False,Correct
+TCGA-BP-4158-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999991468993582,False,Correct
+TCGA-CZ-5464-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9971473857638212,False,Correct
+TCGA-AK-3427-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9557272604717204,False,Correct
+TCGA-B0-4815-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999595143475204,False,Correct
+TCGA-BP-4177-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9986435863228973,False,Correct
+TCGA-CJ-4918-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9993124307269802,False,Correct
+TCGA-AS-3777-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998765047990698,False,Correct
+TCGA-B0-4841-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999049586505051,False,Correct
+TCGA-BP-4769-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9965351555226277,False,Correct
+TCGA-BP-5201-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999234055258357,False,Correct
+TCGA-CZ-4861-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997554643127093,False,Correct
+TCGA-AK-3428-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999156310170479,False,Correct
+TCGA-B0-5094-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999847818998691,False,Correct
+TCGA-B8-5162-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999248916007273,False,Correct
+TCGA-BP-4771-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999813336639864,False,Correct
+TCGA-BP-5190-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998906821430852,False,Correct
+TCGA-CW-6087-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997518993889719,False,Correct
+TCGA-B0-4844-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999260629520677,False,Correct
+TCGA-CJ-5682-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9990500624435034,False,Correct
+TCGA-B4-5834-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997483946527961,False,Correct
+TCGA-BP-4167-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999886859821952,False,Correct
+TCGA-BP-5192-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9992911410718244,False,Correct
+TCGA-AK-3440-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9995096175975898,False,Correct
+TCGA-B0-4814-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997983327207011,False,Correct
+TCGA-BP-4993-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999283983728194,False,Correct
+TCGA-BP-5199-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999003394655219,False,Correct
+TCGA-CJ-6028-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9980922312817642,False,Correct
+TCGA-B0-4843-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999248555255559,False,Correct
+TCGA-BP-4761-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999995382021091,False,Correct
+TCGA-BP-5183-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997687138340057,False,Correct
+TCGA-B0-5121-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999832701913449,False,Correct
+TCGA-B0-4691-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999787440404289,False,Correct
+TCGA-EU-5906-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999947489847252,False,Correct
+TCGA-BP-5184-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9993400902846021,False,Correct
+TCGA-BP-5180-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9995751844511568,False,Correct
+TCGA-B0-5116-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999921178153673,False,Correct
+TCGA-B2-4101-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998447834373957,False,Correct
+TCGA-B4-5838-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999970033359477,False,Correct
+TCGA-A3-3324-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999901551974528,False,Correct
+TCGA-B0-4703-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999988241869345,False,Correct
+TCGA-B0-4849-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997156034980736,False,Correct
+TCGA-CJ-5671-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999204611327254,False,Correct
+TCGA-CW-5590-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997515294980992,False,Correct
+TCGA-A3-3363-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999850795131857,False,Correct
+TCGA-B8-A54G-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999529193628237,False,Correct
+TCGA-BP-4959-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999435825525056,False,Correct
+TCGA-B8-A54I-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999897350342735,False,Correct
+TCGA-B0-4810-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999997791940553,False,Correct
+TCGA-BP-4173-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9996565674652688,False,Correct
+TCGA-BP-4973-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999816890452081,False,Correct
+TCGA-CJ-5676-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9974607783497655,False,Correct
+TCGA-B4-5843-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999979390283579,False,Correct
+TCGA-BP-4970-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9994586343457474,False,Correct
+TCGA-CW-5581-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9941396572606432,False,Correct
+TCGA-B0-5115-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999884564000981,False,Correct
+TCGA-BP-4807-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999642713864799,False,Correct
+TCGA-CJ-4899-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.99985135451026,False,Correct
+TCGA-MM-A563-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999997402107405,False,Correct
+TCGA-B0-5117-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999196522153386,False,Correct
+TCGA-CJ-4908-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999357575162581,False,Correct
+TCGA-A3-A8OW-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999887146488329,False,Correct
+TCGA-DV-5574-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999319832571923,False,Correct
+TCGA-CW-6097-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999750978621487,False,Correct
+TCGA-A3-3359-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999280531794738,False,Correct
+TCGA-BP-4169-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999393934402699,False,Correct
+TCGA-GK-A6C7-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999691183541186,False,Correct
+TCGA-B0-4710-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9991175758875329,False,Correct
+TCGA-BP-4327-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999885541701552,False,Correct
+TCGA-B0-5102-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999989861099524,False,Correct
+TCGA-B8-4154-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9983603463359717,False,Correct
+TCGA-BP-4768-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999920917811342,False,Correct
+TCGA-MW-A4EC-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999974491729385,False,Correct
+TCGA-B0-5712-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999906295467089,False,Correct
+TCGA-BP-4983-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9995490804067554,False,Correct
+TCGA-B0-5692-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998420003815328,False,Correct
+TCGA-B8-4143-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999989728735178,False,Correct
+TCGA-CJ-4892-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997961646816156,False,Correct
+TCGA-CJ-4920-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999979664698898,False,Correct
+TCGA-B8-5163-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9992268920142762,False,Correct
+TCGA-BP-4756-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999856999201221,False,Correct
+TCGA-B4-5836-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998978951947707,False,Correct
+TCGA-B4-5844-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9997150770607777,False,Correct
+TCGA-BP-4163-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998426813993412,False,Correct
+TCGA-B0-5400-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999448858023176,False,Correct
+TCGA-BP-4355-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9977895911741532,False,Correct
+TCGA-A3-3358-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999686376980529,False,Correct
+TCGA-BP-4964-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999793113880299,False,Correct
+TCGA-CJ-6033-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999751858536451,False,Correct
+TCGA-G6-A5PC-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999814450178784,False,Correct
+TCGA-B0-5098-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999065645831974,False,Correct
+TCGA-B0-5690-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999461653416994,False,Correct
+TCGA-A3-3320-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999670792308665,False,Correct
+TCGA-B8-4151-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999682308288106,False,Correct
+TCGA-CJ-4639-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998071505277581,False,Correct
+TCGA-AK-3433-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.999828248313453,False,Correct
+TCGA-B0-5693-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999619838114001,False,Correct
+TCGA-EU-5904-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9994954791313361,False,Correct
+TCGA-CJ-5681-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9999686111266863,False,Correct
+TCGA-KM-8477-01,kidney chromophobe,Primary Tumor,1,1,0.9996893210626662,False,Correct
+TCGA-KN-8425-01,kidney chromophobe,Primary Tumor,1,1,0.9990350389711609,False,Correct
+TCGA-KL-8344-01,kidney chromophobe,Primary Tumor,1,1,0.9998563633030932,False,Correct
+TCGA-KN-8426-01,kidney chromophobe,Primary Tumor,1,1,0.9999809445292794,False,Correct
+TCGA-KO-8408-01,kidney chromophobe,Primary Tumor,1,1,0.9998605225220712,False,Correct
+TCGA-KL-8341-01,kidney chromophobe,Primary Tumor,1,1,0.9999969928919099,False,Correct
+TCGA-KO-8405-01,kidney chromophobe,Primary Tumor,1,1,0.998518704465591,False,Correct
+TCGA-KM-8441-01,kidney chromophobe,Primary Tumor,1,1,0.9951626815565823,False,Correct
+TCGA-KL-8327-01,kidney chromophobe,Primary Tumor,1,1,0.9998584588670513,False,Correct
+TCGA-KN-8433-01,kidney chromophobe,Primary Tumor,1,1,0.9999857209455726,False,Correct
+TCGA-KN-8424-01,kidney chromophobe,Primary Tumor,1,1,0.999615982842404,False,Correct
+TCGA-KL-8334-01,kidney chromophobe,Primary Tumor,1,1,0.9999885415446682,False,Correct
+TCGA-CQ-A4C7-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999937065612019,False,Correct
+TCGA-CV-A6JM-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999920050759807,False,Correct
+TCGA-UF-A7JF-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9989778486901607,False,Correct
+TCGA-CR-6492-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998865835133511,False,Correct
+TCGA-CV-7437-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999980734315652,False,Correct
+TCGA-CV-7421-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998846463585113,False,Correct
+TCGA-IQ-A61H-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997318235681701,False,Correct
+TCGA-CN-4741-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9980297619260493,False,Correct
+TCGA-CV-6943-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999916368470707,False,Correct
+TCGA-D6-6825-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999553664179311,False,Correct
+TCGA-BA-5151-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999666336136409,False,Correct
+TCGA-F7-A50I-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999848942453489,False,Correct
+TCGA-CN-4739-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999338072979138,False,Correct
+TCGA-CR-7394-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999525403770647,False,Correct
+TCGA-D6-6516-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999073822251197,False,Correct
+TCGA-WA-A7H4-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999732463966945,False,Correct
+TCGA-CR-7402-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999603080444183,False,Correct
+TCGA-CV-5432-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999811126874825,False,Correct
+TCGA-QK-A8ZB-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999970943705819,False,Correct
+TCGA-CN-A49C-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999687974548326,False,Correct
+TCGA-CQ-5326-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999470867434004,False,Correct
+TCGA-CV-6956-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998901458451706,False,Correct
+TCGA-4P-AA8J-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999956160153683,False,Correct
+TCGA-CR-7373-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999774257731395,False,Correct
+TCGA-CV-7423-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9996581916309638,False,Correct
+TCGA-CV-A461-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999531756932555,False,Correct
+TCGA-CV-A6K1-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998069461989342,False,Correct
+TCGA-CV-7263-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9995943479314642,False,Correct
+TCGA-CV-5443-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9996888612968656,False,Correct
+TCGA-HD-8224-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9995328829824388,False,Correct
+TCGA-CV-5439-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9989717289065699,False,Correct
+TCGA-CV-7245-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999321938977215,False,Correct
+TCGA-HD-7917-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9995074633434389,False,Correct
+TCGA-CN-6019-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9980428750823608,False,Correct
+TCGA-CV-5430-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999971057774314,False,Correct
+TCGA-CV-7410-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998879385809429,False,Correct
+TCGA-D6-6824-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9985248495827804,False,Correct
+TCGA-D6-A4ZB-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999987271752228,False,Correct
+TCGA-CR-6491-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999421107767926,False,Correct
+TCGA-CN-A6V1-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999072448359356,False,Correct
+TCGA-CV-5970-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997435630110469,False,Correct
+TCGA-CV-6954-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997537962094204,False,Correct
+TCGA-CV-A45U-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999321142476152,False,Correct
+TCGA-UF-A7JS-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999161713997852,False,Correct
+TCGA-CN-6020-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999478569619619,False,Correct
+TCGA-CV-A6K0-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9974713454378921,False,Correct
+TCGA-CN-A642-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9995702719647606,False,Correct
+TCGA-BA-5152-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997345850949388,False,Correct
+TCGA-CN-5356-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999924453286999,False,Correct
+TCGA-CV-7430-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9995407462953181,False,Correct
+TCGA-QK-A8Z9-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999982517489926,False,Correct
+TCGA-CN-5364-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9929147731554478,False,Correct
+TCGA-CV-7254-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999344422007935,False,Correct
+TCGA-IQ-A6SH-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999968289202668,False,Correct
+TCGA-CV-7091-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.99999311112168,False,Correct
+TCGA-H7-8501-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999739004937553,False,Correct
+TCGA-BA-6868-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999875361188829,False,Correct
+TCGA-CN-6010-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9992350028374848,False,Correct
+TCGA-CR-5248-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999942899557681,False,Correct
+TCGA-CV-7097-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998333355636391,False,Correct
+TCGA-MZ-A5BI-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999571111374106,False,Correct
+TCGA-BB-A6UM-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997706054487103,False,Correct
+TCGA-HD-7832-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999300365951731,False,Correct
+TCGA-CR-5243-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999864109289895,False,Correct
+TCGA-TN-A7HJ-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9996234421734173,False,Correct
+TCGA-BA-A8YP-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997886269505337,False,Correct
+TCGA-CR-6487-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999871625237329,False,Correct
+TCGA-BA-4075-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999859476514495,False,Correct
+TCGA-CR-7382-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999218065218939,False,Correct
+TCGA-P3-A6T3-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999993884297081,False,Correct
+TCGA-CN-5363-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999870264851232,False,Correct
+TCGA-CV-6959-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998952714428763,False,Correct
+TCGA-BA-6872-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999977308491635,False,Correct
+TCGA-CV-A45R-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999997430038128,False,Correct
+TCGA-D6-A6EO-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9992076913497879,False,Correct
+TCGA-CV-A468-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9982450264167305,False,Correct
+TCGA-P3-A5QA-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998150579231772,False,Correct
+TCGA-BA-4076-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9996231322163123,False,Correct
+TCGA-MT-A51X-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.998742394453836,False,Correct
+TCGA-BA-6873-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999965806669737,False,Correct
+TCGA-CN-5369-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9994949053485158,False,Correct
+TCGA-CV-7095-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999541254835687,False,Correct
+TCGA-CV-7438-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999775229881334,False,Correct
+TCGA-CV-7099-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998008583617994,False,Correct
+TCGA-CV-A45P-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999754793402272,False,Correct
+TCGA-CV-A6JD-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999725058820021,False,Correct
+TCGA-D6-6515-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.99988415094926,False,Correct
+TCGA-CR-7395-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999722806711222,False,Correct
+TCGA-CV-6940-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.999967998984108,False,Correct
+TCGA-CQ-7069-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999994084079726,False,Correct
+TCGA-CV-7102-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999155161135755,False,Correct
+TCGA-T2-A6WX-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999928083879125,False,Correct
+TCGA-C9-A47Z-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999855393744577,False,Correct
+TCGA-CR-7370-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999786052295631,False,Correct
+TCGA-BA-A6DE-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998781958948543,False,Correct
+TCGA-BB-8596-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998527163036357,False,Correct
+TCGA-CV-A45Q-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9882586232017397,False,Correct
+TCGA-UF-A7JA-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999247918722577,False,Correct
+TCGA-QK-A6IH-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999785476451124,False,Correct
+TCGA-CV-7411-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9978630980789808,False,Correct
+TCGA-CN-6021-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998249977360858,False,Correct
+TCGA-CV-7248-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998524612246599,False,Correct
+TCGA-CV-7252-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999907304277478,False,Correct
+TCGA-QK-A6VC-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9989542275712509,False,Correct
+TCGA-CN-A498-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999845244662903,False,Correct
+TCGA-CQ-5327-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997951615748932,False,Correct
+TCGA-CN-A499-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999922216928656,False,Correct
+TCGA-CN-5373-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999553115069719,False,Correct
+TCGA-CQ-6219-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9979942280469838,False,Correct
+TCGA-CN-4742-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9998254399733659,False,Correct
+TCGA-CN-A63W-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999438672632521,False,Correct
+TCGA-CV-7568-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999773703004956,False,Correct
+TCGA-BA-4077-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999654505325271,False,Correct
+TCGA-BA-5557-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9997455689855171,False,Correct
+TCGA-HD-A4C1-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9964059172212845,False,Correct
+TCGA-CR-7391-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.998676675464942,False,Correct
+TCGA-CV-7416-01,head & neck squamous cell carcinoma,Primary Tumor,1,1,0.9999770736396102,False,Correct
+TCGA-V4-A9EA-01,uveal melanoma,Primary Tumor,1,1,0.9999968422626044,False,Correct
+TCGA-VD-AA8M-01,uveal melanoma,Primary Tumor,1,1,0.9999982293513853,False,Correct
+TCGA-V4-A9EL-01,uveal melanoma,Primary Tumor,1,1,0.9999107317170969,False,Correct
+TCGA-V4-A9F0-01,uveal melanoma,Primary Tumor,1,1,0.9999155257047412,False,Correct
+TCGA-WC-A87Y-01,uveal melanoma,Primary Tumor,1,1,0.9998280170510745,False,Correct
+TCGA-VD-A8KK-01,uveal melanoma,Primary Tumor,1,1,0.9999785263567565,False,Correct
+TCGA-V4-A9E9-01,uveal melanoma,Primary Tumor,1,1,0.9999919555778215,False,Correct
+TCGA-V4-A9ED-01,uveal melanoma,Primary Tumor,1,1,0.9996734150899698,False,Correct
+TCGA-V4-A9F5-01,uveal melanoma,Primary Tumor,1,1,0.9999985480306198,False,Correct
+TCGA-V4-A9F7-01,uveal melanoma,Primary Tumor,1,1,0.9998304674533799,False,Correct
+TCGA-VD-A8KL-01,uveal melanoma,Primary Tumor,1,1,0.9998956873717739,False,Correct
+TCGA-VD-A8KN-01,uveal melanoma,Primary Tumor,1,1,0.9993637263785214,False,Correct
+TCGA-WC-A87W-01,uveal melanoma,Primary Tumor,1,1,0.996527303410594,False,Correct
+TCGA-V4-A9EX-01,uveal melanoma,Primary Tumor,1,1,0.9999947533717776,False,Correct
+TCGA-YZ-A983-01,uveal melanoma,Primary Tumor,1,1,0.9999980777938912,False,Correct
+TCGA-L5-A8NN-01,esophageal carcinoma,Primary Tumor,1,1,0.9999813634453188,False,Correct
+TCGA-2H-A9GR-01,esophageal carcinoma,Primary Tumor,1,1,0.9999983155665366,False,Correct
+TCGA-L5-A8NI-01,esophageal carcinoma,Primary Tumor,1,1,0.9999819792748242,False,Correct
+TCGA-L5-A8NE-01,esophageal carcinoma,Primary Tumor,1,1,0.999998907626056,False,Correct
+TCGA-L5-A8NG-01,esophageal carcinoma,Primary Tumor,1,1,0.999996991141362,False,Correct
+TCGA-S8-A6BV-01,esophageal carcinoma,Primary Tumor,1,1,0.9997427104133724,False,Correct
+TCGA-V5-AASX-01,esophageal carcinoma,Primary Tumor,1,1,0.9999946501517504,False,Correct
+TCGA-IG-A3Y9-01,esophageal carcinoma,Primary Tumor,1,1,0.9999958785362949,False,Correct
+TCGA-LN-A7HX-01,esophageal carcinoma,Primary Tumor,1,1,0.9999984409516222,False,Correct
+TCGA-L5-A4OH-01,esophageal carcinoma,Primary Tumor,1,1,0.9999857144782688,False,Correct
+TCGA-2H-A9GF-01,esophageal carcinoma,Primary Tumor,1,1,0.9999571079693632,False,Correct
+TCGA-LN-A49K-01,esophageal carcinoma,Primary Tumor,1,1,0.9997265491486891,False,Correct
+TCGA-ZR-A9CJ-01,esophageal carcinoma,Primary Tumor,1,1,0.9999938461289724,False,Correct
+TCGA-VR-A8ET-01,esophageal carcinoma,Primary Tumor,1,1,0.9996335656640717,False,Correct
+TCGA-IG-A3YC-01,esophageal carcinoma,Primary Tumor,1,1,0.9999003840635016,False,Correct
+TCGA-JY-A93E-01,esophageal carcinoma,Primary Tumor,1,1,0.9999528984011398,False,Correct
+TCGA-L5-A4OX-01,esophageal carcinoma,Primary Tumor,1,1,0.9999560483105744,False,Correct
+TCGA-L5-A88V-01,esophageal carcinoma,Primary Tumor,1,1,0.999999215756336,False,Correct
+TCGA-LN-A4A1-01,esophageal carcinoma,Primary Tumor,1,1,0.9999862901317503,False,Correct
+TCGA-VR-A8Q7-01,esophageal carcinoma,Primary Tumor,1,1,0.9999287085859375,False,Correct
+TCGA-IC-A6RE-01,esophageal carcinoma,Primary Tumor,1,1,0.9990332790245628,False,Correct
+TCGA-LN-A7HW-01,esophageal carcinoma,Primary Tumor,1,1,0.9999893044307578,False,Correct
+TCGA-R6-A6DN-01,esophageal carcinoma,Primary Tumor,1,1,0.9999107394145473,False,Correct
+TCGA-IG-A4QT-01,esophageal carcinoma,Primary Tumor,1,1,0.8760866868364222,False,Correct
+TCGA-L5-A8NL-01,esophageal carcinoma,Primary Tumor,1,1,0.9999973676070854,False,Correct
+TCGA-V5-A7RC-01,esophageal carcinoma,Primary Tumor,1,1,0.9991695528561871,False,Correct
+TCGA-IG-A6QS-01,esophageal carcinoma,Primary Tumor,1,1,0.9999270291296432,False,Correct
+TCGA-R6-A6Y0-01,esophageal carcinoma,Primary Tumor,1,1,0.9999633496911626,False,Correct
+TCGA-XP-A8T6-01,esophageal carcinoma,Primary Tumor,1,1,0.9997098053492707,False,Correct
+TCGA-JY-A93D-01,esophageal carcinoma,Primary Tumor,1,1,0.9999952583718605,False,Correct
+TCGA-LN-A7HY-01,esophageal carcinoma,Primary Tumor,1,1,0.9999938774998173,False,Correct
+TCGA-JY-A6FE-01,esophageal carcinoma,Primary Tumor,1,1,0.9999988078611791,False,Correct
+TCGA-R6-A6L4-01,esophageal carcinoma,Primary Tumor,1,1,0.9989644994584255,False,Correct
+TCGA-L5-A43M-01,esophageal carcinoma,Primary Tumor,1,1,0.9989897252722932,False,Correct
+TCGA-L5-A893-01,esophageal carcinoma,Primary Tumor,1,1,0.9991712236758913,False,Correct
+TCGA-LN-A9FP-01,esophageal carcinoma,Primary Tumor,1,0,0.43931117221502886,True,Tumeur manquée
+TCGA-L5-A4OW-01,esophageal carcinoma,Primary Tumor,1,1,0.9999586668189022,False,Correct
+TCGA-VR-AA4G-01,esophageal carcinoma,Primary Tumor,1,1,0.9993724313711736,False,Correct
+TCGA-AJ-A3NH-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999960966132921,False,Correct
+TCGA-QS-A744-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999718881568073,False,Correct
+TCGA-BG-A0MI-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999951769978811,False,Correct
+TCGA-AP-A0LF-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999957201100929,False,Correct
+TCGA-AX-A05T-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999901233714282,False,Correct
+TCGA-FI-A2CX-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999808763485646,False,Correct
+TCGA-B5-A1MU-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999338843655504,False,Correct
+TCGA-AX-A1C8-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999307426929517,False,Correct
+TCGA-AX-A2HK-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9967320112562732,False,Correct
+TCGA-BG-A0VW-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999964595531691,False,Correct
+TCGA-SL-A6JA-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999876149994131,False,Correct
+TCGA-AP-A1E1-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999693995525092,False,Correct
+TCGA-B5-A11U-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9998618465145452,False,Correct
+TCGA-FI-A2D6-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999979287982126,False,Correct
+TCGA-D1-A16E-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999604757250652,False,Correct
+TCGA-EO-A3AU-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999858963304616,False,Correct
+TCGA-A5-A7WK-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9996152594428236,False,Correct
+TCGA-AX-A3G7-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9990837229206889,False,Correct
+TCGA-B5-A11G-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999925428952372,False,Correct
+TCGA-B5-A3S1-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999528842146924,False,Correct
+TCGA-BK-A26L-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999861335871519,False,Correct
+TCGA-D1-A3DH-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999855833467339,False,Correct
+TCGA-AP-A0L8-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999968095881813,False,Correct
+TCGA-B5-A3FD-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999366831639087,False,Correct
+TCGA-D1-A177-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999970146467764,False,Correct
+TCGA-D1-A1O8-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9991951776077377,False,Correct
+TCGA-AX-A3FX-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999833376820462,False,Correct
+TCGA-B5-A0K1-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999541839917974,False,Correct
+TCGA-B5-A11N-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999968526317483,False,Correct
+TCGA-BK-A0CC-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9998942582340188,False,Correct
+TCGA-KP-A3VZ-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999414328351804,False,Correct
+TCGA-AJ-A3BK-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999813317770314,False,Correct
+TCGA-BS-A0V8-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9984393908376309,False,Correct
+TCGA-D1-A15V-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999975021052248,False,Correct
+TCGA-DI-A1NO-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999889074746035,False,Correct
+TCGA-EO-A22Y-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999590607216796,False,Correct
+TCGA-PG-A6IB-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9989672799430716,False,Correct
+TCGA-A5-A0G1-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9997254763508308,False,Correct
+TCGA-AX-A0IW-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999683229455267,False,Correct
+TCGA-D1-A176-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999970958202832,False,Correct
+TCGA-DI-A2QU-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9994785323646728,False,Correct
+TCGA-AX-A2H4-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999960122768276,False,Correct
+TCGA-AX-A3GI-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999659203806819,False,Correct
+TCGA-D1-A1NX-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9990755085580875,False,Correct
+TCGA-EY-A1GU-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999934747199911,False,Correct
+TCGA-EY-A214-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999880705340062,False,Correct
+TCGA-AJ-A3BF-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999847634310159,False,Correct
+TCGA-AP-A056-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999992476123848,False,Correct
+TCGA-AX-A3FT-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9995458685025458,False,Correct
+TCGA-BG-A0MT-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999947722361031,False,Correct
+TCGA-BS-A0TI-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999935057491893,False,Correct
+TCGA-A5-A0GI-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999424020285899,False,Correct
+TCGA-AJ-A3NC-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999405904311636,False,Correct
+TCGA-B5-A0JV-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999707398649397,False,Correct
+TCGA-B5-A0JX-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9998796250313088,False,Correct
+TCGA-B5-A11O-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9996749960474489,False,Correct
+TCGA-PG-A7D5-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999381729978307,False,Correct
+TCGA-BK-A0CA-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999897559249077,False,Correct
+TCGA-EY-A2ON-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999295057516201,False,Correct
+TCGA-JU-AAVI-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999785233170345,False,Correct
+TCGA-AJ-A2QN-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9998556167673404,False,Correct
+TCGA-AJ-A3NF-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9972570162532396,False,Correct
+TCGA-AX-A05W-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999980204915198,False,Correct
+TCGA-AX-A06H-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9997868706806641,False,Correct
+TCGA-D1-A0ZN-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999805097732024,False,Correct
+TCGA-D1-A101-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9998660171216153,False,Correct
+TCGA-D1-A1O7-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999148038288597,False,Correct
+TCGA-BS-A0TJ-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999545082590796,False,Correct
+TCGA-AJ-A8CV-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9998820352844645,False,Correct
+TCGA-B5-A0K6-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999784444223296,False,Correct
+TCGA-D1-A17D-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999907317063751,False,Correct
+TCGA-D1-A17R-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999988691316995,False,Correct
+TCGA-AJ-A3BD-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9996821541249898,False,Correct
+TCGA-AX-A05Y-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999046649662136,False,Correct
+TCGA-EC-A24G-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999248300274376,False,Correct
+TCGA-QF-A5YT-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9997678700008132,False,Correct
+TCGA-AP-A3K1-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9991204538517252,False,Correct
+TCGA-BS-A0V4-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9997729783867585,False,Correct
+TCGA-BS-A0WQ-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9997996820926017,False,Correct
+TCGA-AP-A05P-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.995971783651837,False,Correct
+TCGA-AP-A1E4-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999964903632387,False,Correct
+TCGA-B5-A0K2-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999854843658508,False,Correct
+TCGA-AP-A1DK-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9992101599151498,False,Correct
+TCGA-BG-A0VV-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999051194454908,False,Correct
+TCGA-D1-A1NS-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999993761735883,False,Correct
+TCGA-AX-A0IS-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.993517391330764,False,Correct
+TCGA-EY-A1GI-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9996042363997502,False,Correct
+TCGA-5S-A9Q8-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999769894636669,False,Correct
+TCGA-B5-A11R-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999548171847504,False,Correct
+TCGA-EY-A1GD-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9991643774762561,False,Correct
+TCGA-B5-A0JY-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999865980036442,False,Correct
+TCGA-DF-A2KY-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9944213731316236,False,Correct
+TCGA-D1-A16O-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999398449644751,False,Correct
+TCGA-B5-A11M-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.8008671670276676,False,Correct
+TCGA-A5-A2K7-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999907486863396,False,Correct
+TCGA-BS-A0T9-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.999886925666175,False,Correct
+TCGA-DI-A1C3-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9995751088618369,False,Correct
+TCGA-AX-A05Z-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9999886964432521,False,Correct
+TCGA-AP-A0LM-01,uterine corpus endometrioid carcinoma,Primary Tumor,1,1,0.9639104529548026,False,Correct
+TCGA-AA-3989-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999725436075474,False,Correct
+TCGA-AD-6899-01,colon adenocarcinoma,Primary Tumor,1,1,0.9998752090982915,False,Correct
+TCGA-G4-6627-01,colon adenocarcinoma,Primary Tumor,1,1,0.9986442472603169,False,Correct
+TCGA-AZ-6606-01,colon adenocarcinoma,Primary Tumor,1,1,0.999774057829696,False,Correct
+TCGA-A6-2675-01,colon adenocarcinoma,Primary Tumor,1,1,0.99904682629134,False,Correct
+TCGA-AZ-6605-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999684780805655,False,Correct
+TCGA-G4-6294-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999533446568748,False,Correct
+TCGA-A6-5656-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999800131653005,False,Correct
+TCGA-AA-3850-01,colon adenocarcinoma,Primary Tumor,1,1,0.9986903428609643,False,Correct
+TCGA-AA-3851-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999930404871574,False,Correct
+TCGA-AA-3867-01,colon adenocarcinoma,Primary Tumor,1,1,0.9998133939245232,False,Correct
+TCGA-CM-6163-01,colon adenocarcinoma,Primary Tumor,1,1,0.999565495786898,False,Correct
+TCGA-G4-6320-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999546574916888,False,Correct
+TCGA-A6-2674-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999729835181336,False,Correct
+TCGA-AA-3976-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999837131349687,False,Correct
+TCGA-AA-A00D-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999966903163079,False,Correct
+TCGA-AA-3542-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999945572177498,False,Correct
+TCGA-AA-3549-01,colon adenocarcinoma,Primary Tumor,1,1,0.999841881898584,False,Correct
+TCGA-AA-3973-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999916083859951,False,Correct
+TCGA-AZ-6607-01,colon adenocarcinoma,Primary Tumor,1,1,0.999912500822236,False,Correct
+TCGA-CM-4744-01,colon adenocarcinoma,Primary Tumor,1,1,0.9998214372016422,False,Correct
+TCGA-AA-3544-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999989458008631,False,Correct
+TCGA-AA-A01Z-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999964778828722,False,Correct
+TCGA-AA-3858-01,colon adenocarcinoma,Primary Tumor,1,1,0.999988274987311,False,Correct
+TCGA-D5-6930-01,colon adenocarcinoma,Primary Tumor,1,1,0.9998872808760841,False,Correct
+TCGA-A6-5657-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999782085888569,False,Correct
+TCGA-AA-3970-01,colon adenocarcinoma,Primary Tumor,1,1,0.9997196518712057,False,Correct
+TCGA-AA-3977-01,colon adenocarcinoma,Primary Tumor,1,1,0.998255596022953,False,Correct
+TCGA-G4-6322-01,colon adenocarcinoma,Primary Tumor,1,1,0.99999022701866,False,Correct
+TCGA-AA-3511-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999954822149922,False,Correct
+TCGA-D5-6537-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999915165799308,False,Correct
+TCGA-AA-3532-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999287898933625,False,Correct
+TCGA-CM-5864-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999795560262293,False,Correct
+TCGA-F4-6569-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999892877708627,False,Correct
+TCGA-F4-6704-01,colon adenocarcinoma,Primary Tumor,1,1,0.999683322406449,False,Correct
+TCGA-AD-6963-01,colon adenocarcinoma,Primary Tumor,1,1,0.9990476166182869,False,Correct
+TCGA-A6-A56B-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999637606888108,False,Correct
+TCGA-CA-6717-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999836733867414,False,Correct
+TCGA-AA-3494-01,colon adenocarcinoma,Primary Tumor,1,1,0.999858512014961,False,Correct
+TCGA-AA-3842-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999811061758757,False,Correct
+TCGA-AA-A02K-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999911614124111,False,Correct
+TCGA-AY-6196-01,colon adenocarcinoma,Primary Tumor,1,1,0.9989335580286928,False,Correct
+TCGA-NH-A50U-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999988970278137,False,Correct
+TCGA-CM-6674-01,colon adenocarcinoma,Primary Tumor,1,1,0.9998804069863712,False,Correct
+TCGA-D5-6927-01,colon adenocarcinoma,Primary Tumor,1,1,0.9998347878241594,False,Correct
+TCGA-AA-3492-01,colon adenocarcinoma,Primary Tumor,1,1,0.9975829673261235,False,Correct
+TCGA-CK-6747-01,colon adenocarcinoma,Primary Tumor,1,1,0.9973895321886632,False,Correct
+TCGA-AA-3845-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999426081108116,False,Correct
+TCGA-AA-A02R-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999939823915912,False,Correct
+TCGA-AA-3496-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999356051438797,False,Correct
+TCGA-A6-2686-01,colon adenocarcinoma,Primary Tumor,1,1,0.9993893866455693,False,Correct
+TCGA-AD-6548-01,colon adenocarcinoma,Primary Tumor,1,1,0.9997201950011849,False,Correct
+TCGA-AA-3662-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999915043879668,False,Correct
+TCGA-AA-A01X-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999924895379172,False,Correct
+TCGA-AA-3950-01,colon adenocarcinoma,Primary Tumor,1,1,0.99997869237307,False,Correct
+TCGA-AZ-6603-01,colon adenocarcinoma,Primary Tumor,1,1,0.9996484347905277,False,Correct
+TCGA-G4-6314-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999720836424666,False,Correct
+TCGA-AA-3531-01,colon adenocarcinoma,Primary Tumor,1,1,0.9992799281027251,False,Correct
+TCGA-AA-A02H-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999825170291258,False,Correct
+TCGA-AA-A02W-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999952523616471,False,Correct
+TCGA-A6-2680-01,colon adenocarcinoma,Primary Tumor,1,1,0.9989027119983046,False,Correct
+TCGA-DM-A28E-01,colon adenocarcinoma,Primary Tumor,1,1,0.9997539052094647,False,Correct
+TCGA-AA-3870-01,colon adenocarcinoma,Primary Tumor,1,1,0.999926369948233,False,Correct
+TCGA-DM-A280-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999005650755325,False,Correct
+TCGA-NH-A50T-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999358552535629,False,Correct
+TCGA-G4-6304-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999492262794455,False,Correct
+TCGA-AA-A03J-01,colon adenocarcinoma,Primary Tumor,1,1,0.999960744262755,False,Correct
+TCGA-AA-A00R-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999992752008318,False,Correct
+TCGA-QG-A5YV-01,colon adenocarcinoma,Primary Tumor,1,1,0.999962224572046,False,Correct
+TCGA-AA-A01T-01,colon adenocarcinoma,Primary Tumor,1,1,0.9997258697122064,False,Correct
+TCGA-3L-AA1B-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999870143501668,False,Correct
+TCGA-AA-3553-01,colon adenocarcinoma,Primary Tumor,1,1,0.999985528280961,False,Correct
+TCGA-F4-6805-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999100089036559,False,Correct
+TCGA-A6-6651-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999889846179514,False,Correct
+TCGA-AA-3968-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999937110603887,False,Correct
+TCGA-G4-6297-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999951927827778,False,Correct
+TCGA-CA-5796-01,colon adenocarcinoma,Primary Tumor,1,1,0.9994919972268349,False,Correct
+TCGA-A6-2685-01,colon adenocarcinoma,Primary Tumor,1,1,0.9964745824282712,False,Correct
+TCGA-AA-A01Q-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999981129351191,False,Correct
+TCGA-AA-A010-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999201926835934,False,Correct
+TCGA-CA-5254-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999845629727667,False,Correct
+TCGA-5M-AAT6-01,colon adenocarcinoma,Primary Tumor,1,1,0.9999985217524238,False,Correct
+TCGA-A6-5667-01,colon adenocarcinoma,Primary Tumor,1,1,0.9997747152237049,False,Correct
+TCGA-AA-3667-01,colon adenocarcinoma,Primary Tumor,1,1,0.999992843107488,False,Correct
+TCGA-DS-A1OA-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9996642053646515,False,Correct
+TCGA-VS-A9UV-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9998691276164148,False,Correct
+TCGA-C5-A7X5-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999969316971489,False,Correct
+TCGA-VS-A9UT-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999857618794243,False,Correct
+TCGA-C5-A8XI-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9997693434583185,False,Correct
+TCGA-EA-A3HT-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9998389175173318,False,Correct
+TCGA-VS-A952-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999980127118238,False,Correct
+TCGA-C5-A1BQ-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999865632676244,False,Correct
+TCGA-IR-A3LF-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999857598035723,False,Correct
+TCGA-VS-A957-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999835296359375,False,Correct
+TCGA-ZJ-AAXA-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9997844691599297,False,Correct
+TCGA-LP-A4AV-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999952702541486,False,Correct
+TCGA-IR-A3LL-01,cervical & endocervical cancer,Primary Tumor,1,1,0.999980975884736,False,Correct
+TCGA-EX-A1H5-01,cervical & endocervical cancer,Primary Tumor,1,1,0.999957724787178,False,Correct
+TCGA-VS-A8EC-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999502773613772,False,Correct
+TCGA-ZJ-AAXT-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9996954522818993,False,Correct
+TCGA-IR-A3LB-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9995116790057709,False,Correct
+TCGA-VS-A9UH-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999987980338428,False,Correct
+TCGA-EA-A410-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999915015893968,False,Correct
+TCGA-HM-A4S6-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999171232170444,False,Correct
+TCGA-EA-A411-01,cervical & endocervical cancer,Primary Tumor,1,1,0.999992334014903,False,Correct
+TCGA-EA-A439-01,cervical & endocervical cancer,Primary Tumor,1,1,0.999808671775204,False,Correct
+TCGA-DS-A1OD-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999535181077928,False,Correct
+TCGA-IR-A3LH-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999796185150992,False,Correct
+TCGA-BI-A0VS-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9994068367815688,False,Correct
+TCGA-MA-AA3Y-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999151291021059,False,Correct
+TCGA-ZJ-AB0H-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999940859857401,False,Correct
+TCGA-C5-A907-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999655431371594,False,Correct
+TCGA-VS-A94Y-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999985668489817,False,Correct
+TCGA-C5-A1BF-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999900328033428,False,Correct
+TCGA-DG-A2KM-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9970101607871169,False,Correct
+TCGA-DS-A3LQ-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999292948451469,False,Correct
+TCGA-Q1-A73Q-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9988680995017599,False,Correct
+TCGA-EA-A50E-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999473094102337,False,Correct
+TCGA-EK-A2R7-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9945212785020401,False,Correct
+TCGA-JW-A69B-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999967328139407,False,Correct
+TCGA-UC-A7PI-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999890728029113,False,Correct
+TCGA-C5-A1M8-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999577555802357,False,Correct
+TCGA-C5-A7CH-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999850915363194,False,Correct
+TCGA-EA-A3HU-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9975768830007851,False,Correct
+TCGA-JW-A5VK-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999909793008317,False,Correct
+TCGA-C5-A7CJ-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9983736042184813,False,Correct
+TCGA-DS-A7WF-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999511307884595,False,Correct
+TCGA-EA-A3Y4-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999957429218793,False,Correct
+TCGA-EA-A5ZD-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999354282528449,False,Correct
+TCGA-IR-A3LC-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9998337544132903,False,Correct
+TCGA-JX-A3Q8-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9550321263798766,False,Correct
+TCGA-C5-A8XH-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999911949701638,False,Correct
+TCGA-EA-A556-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9998719827311104,False,Correct
+TCGA-EA-A97N-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999775584823279,False,Correct
+TCGA-HG-A2PA-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9990994283604331,False,Correct
+TCGA-VS-A94Z-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999916398167872,False,Correct
+TCGA-JX-A5QV-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999357029010997,False,Correct
+TCGA-VS-A8EG-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9994458653344397,False,Correct
+TCGA-C5-A1MQ-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9997295127067086,False,Correct
+TCGA-EK-A2RC-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9998132300014225,False,Correct
+TCGA-C5-A1BL-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999089275145295,False,Correct
+TCGA-FU-A5XV-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9997566905909494,False,Correct
+TCGA-VS-A9UQ-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999615145299122,False,Correct
+TCGA-FU-A23K-01,cervical & endocervical cancer,Primary Tumor,1,1,0.999887086861719,False,Correct
+TCGA-MY-A913-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999995906454918,False,Correct
+TCGA-GH-A9DA-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9998952929730041,False,Correct
+TCGA-C5-A7XC-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9994219380418128,False,Correct
+TCGA-ZJ-AB0I-01,cervical & endocervical cancer,Primary Tumor,1,1,0.9999996310075201,False,Correct
+TCGA-E2-A14W-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999028219534207,False,Correct
+TCGA-BH-A0B4-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999163759819484,False,Correct
+TCGA-EW-A6SA-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998873831381362,False,Correct
+TCGA-A8-A085-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999391256331872,False,Correct
+TCGA-A2-A25D-01,breast invasive carcinoma,Primary Tumor,1,1,0.999980834030335,False,Correct
+TCGA-B6-A0IC-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999149076122344,False,Correct
+TCGA-BH-A1F8-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999893452812684,False,Correct
+TCGA-E2-A9RU-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999911504362496,False,Correct
+TCGA-AN-A0FK-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999731634515139,False,Correct
+TCGA-A8-A07Z-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999857583203487,False,Correct
+TCGA-A8-A09I-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999188075443162,False,Correct
+TCGA-A8-A09Q-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998732858727598,False,Correct
+TCGA-A8-A0AD-01,breast invasive carcinoma,Primary Tumor,1,1,0.9996707684297154,False,Correct
+TCGA-BH-A1EU-01,breast invasive carcinoma,Primary Tumor,1,1,0.9993671829028936,False,Correct
+TCGA-C8-A131-01,breast invasive carcinoma,Primary Tumor,1,1,0.999971880036685,False,Correct
+TCGA-S3-AA12-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999974320126078,False,Correct
+TCGA-AR-A1AP-01,breast invasive carcinoma,Primary Tumor,1,1,0.999674091439844,False,Correct
+TCGA-D8-A1JN-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999999930584158,False,Correct
+TCGA-EW-A1IW-01,breast invasive carcinoma,Primary Tumor,1,1,0.9990966362635859,False,Correct
+TCGA-A7-A0CH-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999970526197639,False,Correct
+TCGA-A7-A13G-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999913243698483,False,Correct
+TCGA-A7-A3RF-01,breast invasive carcinoma,Primary Tumor,1,1,0.999998548347489,False,Correct
+TCGA-AC-A3QP-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999925749196142,False,Correct
+TCGA-AN-A0AJ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9986985831919943,False,Correct
+TCGA-BH-A18S-01,breast invasive carcinoma,Primary Tumor,1,1,0.9994683267337567,False,Correct
+TCGA-E2-A105-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998116801322893,False,Correct
+TCGA-A7-A0CG-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999459579785632,False,Correct
+TCGA-AC-A2BK-01,breast invasive carcinoma,Primary Tumor,1,1,0.99994630264164,False,Correct
+TCGA-BH-A1EN-01,breast invasive carcinoma,Primary Tumor,1,1,0.9991311386062622,False,Correct
+TCGA-E2-A2P5-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999994945854952,False,Correct
+TCGA-E9-A3Q9-01,breast invasive carcinoma,Primary Tumor,1,1,0.9993646267557291,False,Correct
+TCGA-BH-A209-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999439568696583,False,Correct
+TCGA-E2-A2P6-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999762564147288,False,Correct
+TCGA-EW-A1P5-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998692247447659,False,Correct
+TCGA-D8-A142-01,breast invasive carcinoma,Primary Tumor,1,1,0.9993440926323954,False,Correct
+TCGA-E2-A14U-01,breast invasive carcinoma,Primary Tumor,1,1,0.9723331759895337,False,Correct
+TCGA-A8-A07S-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999355050759067,False,Correct
+TCGA-AR-A0U0-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999845441503047,False,Correct
+TCGA-D8-A1JP-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999992178930046,False,Correct
+TCGA-BH-A18U-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999295917415091,False,Correct
+TCGA-E2-A572-01,breast invasive carcinoma,Primary Tumor,1,1,0.9995991492221054,False,Correct
+TCGA-D8-A1Y2-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999784264018692,False,Correct
+TCGA-S3-A6ZG-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998696743156219,False,Correct
+TCGA-A1-A0SB-01,breast invasive carcinoma,Primary Tumor,1,1,0.891310679971544,False,Correct
+TCGA-A8-A09W-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999185694520628,False,Correct
+TCGA-AQ-A0Y5-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997967743884423,False,Correct
+TCGA-AR-A2LL-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999649766111565,False,Correct
+TCGA-D8-A1JT-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999933832466895,False,Correct
+TCGA-A8-A06R-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999879742912205,False,Correct
+TCGA-A8-A07I-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999876392053986,False,Correct
+TCGA-AO-A12H-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999362407852456,False,Correct
+TCGA-AR-A2LE-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999878213753282,False,Correct
+TCGA-BH-A0EB-01,breast invasive carcinoma,Primary Tumor,1,1,0.999988506378766,False,Correct
+TCGA-E2-A576-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999610731105272,False,Correct
+TCGA-A7-A6VX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998438339846477,False,Correct
+TCGA-A8-A09T-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998646696754497,False,Correct
+TCGA-AO-A0JF-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998897953967005,False,Correct
+TCGA-C8-A3M8-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999771674133889,False,Correct
+TCGA-EW-A1P1-01,breast invasive carcinoma,Primary Tumor,1,1,0.7059052508950089,False,Correct
+TCGA-XX-A89A-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999091512309543,False,Correct
+TCGA-B6-A0WV-01,breast invasive carcinoma,Primary Tumor,1,1,0.99361794072997,False,Correct
+TCGA-GM-A4E0-01,breast invasive carcinoma,Primary Tumor,1,1,0.9986682437122747,False,Correct
+TCGA-A2-A0SU-01,breast invasive carcinoma,Primary Tumor,1,1,0.99982715110334,False,Correct
+TCGA-A2-A0T2-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999810332801605,False,Correct
+TCGA-A7-A0CD-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999937295092723,False,Correct
+TCGA-A8-A06N-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999901346146345,False,Correct
+TCGA-A8-A076-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997322063504475,False,Correct
+TCGA-AC-A2FB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9993080971748979,False,Correct
+TCGA-AR-A1AW-01,breast invasive carcinoma,Primary Tumor,1,1,0.9976360217498333,False,Correct
+TCGA-AR-A24H-01,breast invasive carcinoma,Primary Tumor,1,1,0.999990258310328,False,Correct
+TCGA-AR-A2LN-01,breast invasive carcinoma,Primary Tumor,1,1,0.9984364271029209,False,Correct
+TCGA-E2-A15T-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999539314811758,False,Correct
+TCGA-A8-A08T-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999960276771116,False,Correct
+TCGA-AO-A0JC-01,breast invasive carcinoma,Primary Tumor,1,1,0.9644302722050692,False,Correct
+TCGA-AR-A1AX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999876770008155,False,Correct
+TCGA-BH-A0DL-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999952533981412,False,Correct
+TCGA-D8-A1XA-01,breast invasive carcinoma,Primary Tumor,1,1,0.999988501390664,False,Correct
+TCGA-E2-A15F-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999552568403083,False,Correct
+TCGA-E2-A15R-01,breast invasive carcinoma,Primary Tumor,1,1,0.9995169329486482,False,Correct
+TCGA-E9-A1R7-01,breast invasive carcinoma,Primary Tumor,1,1,0.999933284706887,False,Correct
+TCGA-PE-A5DD-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999999497362512,False,Correct
+TCGA-A7-A3J1-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999405364733275,False,Correct
+TCGA-B6-A1KI-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998178097673531,False,Correct
+TCGA-BH-A5J0-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999900071286466,False,Correct
+TCGA-E2-A1BC-01,breast invasive carcinoma,Primary Tumor,1,1,0.9993134007714222,False,Correct
+TCGA-OL-A5RU-01,breast invasive carcinoma,Primary Tumor,1,1,0.9996815038905323,False,Correct
+TCGA-A2-A0YI-01,breast invasive carcinoma,Primary Tumor,1,1,0.999925483006057,False,Correct
+TCGA-AN-A049-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999262900765263,False,Correct
+TCGA-BH-A0DX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999761616928796,False,Correct
+TCGA-D8-A1X8-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997973663277597,False,Correct
+TCGA-D8-A1XB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999957221715675,False,Correct
+TCGA-E9-A1RG-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999868117213858,False,Correct
+TCGA-GM-A2DB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9996276252291201,False,Correct
+TCGA-LL-A441-01,breast invasive carcinoma,Primary Tumor,1,1,0.9994064325756942,False,Correct
+TCGA-A8-A091-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999740575758275,False,Correct
+TCGA-AO-A0J9-01,breast invasive carcinoma,Primary Tumor,1,1,0.9757929467432381,False,Correct
+TCGA-AQ-A04H-01,breast invasive carcinoma,Primary Tumor,1,1,0.999564537480412,False,Correct
+TCGA-B6-A0X5-01,breast invasive carcinoma,Primary Tumor,1,1,0.9995839918187502,False,Correct
+TCGA-D8-A1Y3-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998059758882614,False,Correct
+TCGA-E9-A1NC-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999949185232901,False,Correct
+TCGA-E9-A1QZ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9078505548678717,False,Correct
+TCGA-EW-A3U0-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999783968234939,False,Correct
+TCGA-B6-A0RN-01,breast invasive carcinoma,Primary Tumor,1,1,0.999989871274829,False,Correct
+TCGA-BH-A1FB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9973913671761987,False,Correct
+TCGA-E2-A1IU-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999612641079514,False,Correct
+TCGA-A2-A4S3-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999998066364825,False,Correct
+TCGA-AN-A0FJ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999915365258404,False,Correct
+TCGA-AN-A0XO-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999943294053206,False,Correct
+TCGA-C8-A26Z-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999925171976642,False,Correct
+TCGA-D8-A27M-01,breast invasive carcinoma,Primary Tumor,1,1,0.9973833961381157,False,Correct
+TCGA-EW-A1PA-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999600422093144,False,Correct
+TCGA-EW-A2FR-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999773336183887,False,Correct
+TCGA-OL-A66N-01,breast invasive carcinoma,Primary Tumor,1,1,0.99999834887381,False,Correct
+TCGA-A8-A07L-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999967934386463,False,Correct
+TCGA-AN-A0FV-01,breast invasive carcinoma,Primary Tumor,1,1,0.9959130704954079,False,Correct
+TCGA-B6-A0WW-01,breast invasive carcinoma,Primary Tumor,1,1,0.999964848352153,False,Correct
+TCGA-BH-A0W3-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999882577870666,False,Correct
+TCGA-BH-A8FZ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9995694678149868,False,Correct
+TCGA-C8-A12N-01,breast invasive carcinoma,Primary Tumor,1,1,0.999987756389523,False,Correct
+TCGA-C8-A26W-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999344371477871,False,Correct
+TCGA-E2-A155-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997098389336898,False,Correct
+TCGA-E2-A15K-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999982796986577,False,Correct
+TCGA-E9-A1NA-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999593003578089,False,Correct
+TCGA-AR-A24Z-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999785376429173,False,Correct
+TCGA-D8-A1XM-01,breast invasive carcinoma,Primary Tumor,1,1,0.9990401983954319,False,Correct
+TCGA-E2-A1IJ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999949096165721,False,Correct
+TCGA-GM-A2DC-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999924699672268,False,Correct
+TCGA-AC-A7VC-01,breast invasive carcinoma,Primary Tumor,1,1,0.999997988888573,False,Correct
+TCGA-BH-A0BF-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999956557060682,False,Correct
+TCGA-EW-A1PE-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999620664679013,False,Correct
+TCGA-A7-A26F-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999982902413388,False,Correct
+TCGA-AN-A0FS-01,breast invasive carcinoma,Primary Tumor,1,1,0.9948191514516712,False,Correct
+TCGA-AN-A0FY-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998049081539104,False,Correct
+TCGA-BH-A1ET-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999811721072986,False,Correct
+TCGA-C8-A12V-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999120871107561,False,Correct
+TCGA-EW-A1P0-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997399509319757,False,Correct
+TCGA-WT-AB41-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998740152017749,False,Correct
+TCGA-A7-A4SF-01,breast invasive carcinoma,Primary Tumor,1,1,0.999998702616581,False,Correct
+TCGA-AO-A03P-01,breast invasive carcinoma,Primary Tumor,1,1,0.999996995433406,False,Correct
+TCGA-BH-A0HX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999983457896101,False,Correct
+TCGA-D8-A1JB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998533100448815,False,Correct
+TCGA-PL-A8LV-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999820793856193,False,Correct
+TCGA-A7-A2KD-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999940193673783,False,Correct
+TCGA-AO-A0JE-01,breast invasive carcinoma,Primary Tumor,1,1,0.999906458541856,False,Correct
+TCGA-BH-A18I-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999954342723909,False,Correct
+TCGA-BH-AB28-01,breast invasive carcinoma,Primary Tumor,1,1,0.999977283101094,False,Correct
+TCGA-C8-A8HQ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999618628139929,False,Correct
+TCGA-D8-A73X-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999994044520405,False,Correct
+TCGA-E2-A14V-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999184831809818,False,Correct
+TCGA-E2-A1BD-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999980545026272,False,Correct
+TCGA-A8-A08J-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999080684906854,False,Correct
+TCGA-A8-A08R-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999945436890454,False,Correct
+TCGA-AR-A1AM-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999158690724935,False,Correct
+TCGA-AR-A24V-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999953090092419,False,Correct
+TCGA-BH-A0E1-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999646094298988,False,Correct
+TCGA-C8-A130-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999984293876051,False,Correct
+TCGA-E2-A1L8-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997286671581505,False,Correct
+TCGA-E9-A1N6-01,breast invasive carcinoma,Primary Tumor,1,1,0.9996574888997114,False,Correct
+TCGA-A2-A0T7-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998201624501467,False,Correct
+TCGA-AC-A7VB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9991377593918315,False,Correct
+TCGA-AO-A1KR-01,breast invasive carcinoma,Primary Tumor,1,1,0.9970163513304584,False,Correct
+TCGA-AR-A1AH-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999972107554523,False,Correct
+TCGA-E2-A15J-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999480182406386,False,Correct
+TCGA-OL-A5RX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9966037248462265,False,Correct
+TCGA-S3-AA15-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999227751969291,False,Correct
+TCGA-3C-AALI-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999996664610911,False,Correct
+TCGA-A2-A04W-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999802882600083,False,Correct
+TCGA-AR-A0TW-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999956739793583,False,Correct
+TCGA-LL-A6FR-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999808901755134,False,Correct
+TCGA-A2-A1G0-01,breast invasive carcinoma,Primary Tumor,1,1,0.9980127100241659,False,Correct
+TCGA-A2-A3XX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999700498073807,False,Correct
+TCGA-AR-A1AQ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998667822046883,False,Correct
+TCGA-B6-A0I5-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999767026208399,False,Correct
+TCGA-OL-A6VQ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999021944379981,False,Correct
+TCGA-A7-A5ZX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999684041353504,False,Correct
+TCGA-A8-A092-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997901185011236,False,Correct
+TCGA-AC-A2QJ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999964976418833,False,Correct
+TCGA-AO-A0J5-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999801897219597,False,Correct
+TCGA-B6-A0X1-01,breast invasive carcinoma,Primary Tumor,1,1,0.9991840585048134,False,Correct
+TCGA-BH-A0C7-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997448056642757,False,Correct
+TCGA-E2-A150-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999972970379672,False,Correct
+TCGA-E9-A1N8-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999871504630206,False,Correct
+TCGA-E9-A3X8-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999946910145012,False,Correct
+TCGA-EW-A1IX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999273476602458,False,Correct
+TCGA-A8-A09D-01,breast invasive carcinoma,Primary Tumor,1,1,0.9994501130282831,False,Correct
+TCGA-C8-A26V-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998342919204557,False,Correct
+TCGA-A2-A3XZ-01,breast invasive carcinoma,Primary Tumor,1,1,0.999899246919886,False,Correct
+TCGA-A2-A4RY-01,breast invasive carcinoma,Primary Tumor,1,1,0.9981050993264,False,Correct
+TCGA-AC-A3BB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999791660042884,False,Correct
+TCGA-BH-A0H3-01,breast invasive carcinoma,Primary Tumor,1,1,0.9831788605188311,False,Correct
+TCGA-BH-A28Q-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998343900868183,False,Correct
+TCGA-LL-A5YN-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999843028187498,False,Correct
+TCGA-A8-A095-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999723647597075,False,Correct
+TCGA-AN-A0FZ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9995755892846326,False,Correct
+TCGA-AQ-A04J-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999863302055243,False,Correct
+TCGA-AR-A24R-01,breast invasive carcinoma,Primary Tumor,1,1,0.9955542598225134,False,Correct
+TCGA-E2-A1B1-01,breast invasive carcinoma,Primary Tumor,1,1,0.9907804489160544,False,Correct
+TCGA-HN-A2OB-01,breast invasive carcinoma,Primary Tumor,1,1,0.9987987652483695,False,Correct
+TCGA-B6-A409-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999732911128588,False,Correct
+TCGA-LD-A66U-01,breast invasive carcinoma,Primary Tumor,1,1,0.999911630467214,False,Correct
+TCGA-MS-A51U-01,breast invasive carcinoma,Primary Tumor,1,1,0.9989331919312071,False,Correct
+TCGA-AR-A0TZ-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999570507109564,False,Correct
+TCGA-EW-A1P4-01,breast invasive carcinoma,Primary Tumor,1,1,0.9994885492795501,False,Correct
+TCGA-OL-A5RV-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998640753056309,False,Correct
+TCGA-A2-A0CV-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997357901158433,False,Correct
+TCGA-AO-A0J2-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999679012423257,False,Correct
+TCGA-AO-A0J4-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999896006231859,False,Correct
+TCGA-D8-A27R-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999869315917417,False,Correct
+TCGA-A1-A0SP-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999697884161283,False,Correct
+TCGA-A7-A4SA-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999953437769143,False,Correct
+TCGA-C8-A1HI-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999945491356056,False,Correct
+TCGA-D8-A141-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999870792222956,False,Correct
+TCGA-A1-A0SH-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998598397981382,False,Correct
+TCGA-AR-A1AU-01,breast invasive carcinoma,Primary Tumor,1,1,0.9931115694117183,False,Correct
+TCGA-BH-A18M-01,breast invasive carcinoma,Primary Tumor,1,1,0.998874121151727,False,Correct
+TCGA-E2-A15H-01,breast invasive carcinoma,Primary Tumor,1,1,0.9996981106756024,False,Correct
+TCGA-A2-A04P-01,breast invasive carcinoma,Primary Tumor,1,1,0.9998513851770844,False,Correct
+TCGA-AO-A12F-01,breast invasive carcinoma,Primary Tumor,1,1,0.9966696301689631,False,Correct
+TCGA-D8-A1XD-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999630599068803,False,Correct
+TCGA-BH-A1ES-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999405021191504,False,Correct
+TCGA-PL-A8LX-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999987355662595,False,Correct
+TCGA-A2-A04X-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999203152140946,False,Correct
+TCGA-D8-A1XL-01,breast invasive carcinoma,Primary Tumor,1,1,0.9997432484343552,False,Correct
+TCGA-28-5213-01,glioblastoma multiforme,Primary Tumor,1,1,0.998013359038942,False,Correct
+TCGA-19-2620-01,glioblastoma multiforme,Primary Tumor,1,1,0.9996991175594938,False,Correct
+TCGA-06-0219-01,glioblastoma multiforme,Primary Tumor,1,1,0.999893773575082,False,Correct
+TCGA-06-5413-01,glioblastoma multiforme,Primary Tumor,1,1,0.9995148194856217,False,Correct
+TCGA-28-5220-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999925648645523,False,Correct
+TCGA-41-2572-01,glioblastoma multiforme,Primary Tumor,1,1,0.9997896567702049,False,Correct
+TCGA-27-1831-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999995899966845,False,Correct
+TCGA-32-5222-01,glioblastoma multiforme,Primary Tumor,1,1,0.9998158972678507,False,Correct
+TCGA-06-2567-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999890411565054,False,Correct
+TCGA-06-5859-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999942816330897,False,Correct
+TCGA-06-5414-01,glioblastoma multiforme,Primary Tumor,1,1,0.9950323621802565,False,Correct
+TCGA-06-5415-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999937903910773,False,Correct
+TCGA-12-0619-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999405833685939,False,Correct
+TCGA-32-1970-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999743727254337,False,Correct
+TCGA-76-4927-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999892281113268,False,Correct
+TCGA-06-2564-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999682142937375,False,Correct
+TCGA-12-0618-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999682334074066,False,Correct
+TCGA-14-0781-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999881093815473,False,Correct
+TCGA-06-0238-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999588142710749,False,Correct
+TCGA-28-2514-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999300782780829,False,Correct
+TCGA-27-1837-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999902523211628,False,Correct
+TCGA-27-2521-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999969014975958,False,Correct
+TCGA-06-0129-01,glioblastoma multiforme,Primary Tumor,1,1,0.9995992071011863,False,Correct
+TCGA-06-0882-01,glioblastoma multiforme,Primary Tumor,1,1,0.999966871143673,False,Correct
+TCGA-76-4928-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999672350713642,False,Correct
+TCGA-06-5410-01,glioblastoma multiforme,Primary Tumor,1,1,0.9990884547934815,False,Correct
+TCGA-14-1823-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999903584988872,False,Correct
+TCGA-32-4213-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999271548962048,False,Correct
+TCGA-12-0616-01,glioblastoma multiforme,Primary Tumor,1,1,0.9999821283664501,False,Correct
+TCGA-06-5416-01,glioblastoma multiforme,Primary Tumor,1,1,0.999265677575832,False,Correct
+TCGA-06-2570-01,glioblastoma multiforme,Primary Tumor,1,1,0.999482585508113,False,Correct
+TCGA-28-2510-01,glioblastoma multiforme,Primary Tumor,1,1,0.9997295777349892,False,Correct
+TCGA-DU-6393-01,brain lower grade glioma,Primary Tumor,1,1,0.999739884243773,False,Correct
+TCGA-E1-A7YM-01,brain lower grade glioma,Primary Tumor,1,1,0.9985795531851129,False,Correct
+TCGA-HT-7477-01,brain lower grade glioma,Primary Tumor,1,1,0.9999922462229464,False,Correct
+TCGA-HT-8011-01,brain lower grade glioma,Primary Tumor,1,1,0.9998778295864413,False,Correct
+TCGA-DU-7301-01,brain lower grade glioma,Primary Tumor,1,1,0.9999947736241986,False,Correct
+TCGA-DU-A7TD-01,brain lower grade glioma,Primary Tumor,1,1,0.999790613938779,False,Correct
+TCGA-CS-6188-01,brain lower grade glioma,Primary Tumor,1,1,0.9999867438531976,False,Correct
+TCGA-FG-A4MX-01,brain lower grade glioma,Primary Tumor,1,1,0.9999638822011281,False,Correct
+TCGA-RY-A840-01,brain lower grade glioma,Primary Tumor,1,1,0.9999961032051087,False,Correct
+TCGA-S9-A6U0-01,brain lower grade glioma,Primary Tumor,1,1,0.9992857377034019,False,Correct
+TCGA-RY-A83Y-01,brain lower grade glioma,Primary Tumor,1,1,0.9999989361256033,False,Correct
+TCGA-F6-A8O4-01,brain lower grade glioma,Primary Tumor,1,1,0.999996460174476,False,Correct
+TCGA-HT-7479-01,brain lower grade glioma,Primary Tumor,1,1,0.9990310217591918,False,Correct
+TCGA-DB-5280-01,brain lower grade glioma,Primary Tumor,1,1,0.9995423740060234,False,Correct
+TCGA-DH-A7UU-01,brain lower grade glioma,Primary Tumor,1,1,0.9995072107334548,False,Correct
+TCGA-DU-7304-01,brain lower grade glioma,Primary Tumor,1,1,0.9998901238708517,False,Correct
+TCGA-FG-8188-01,brain lower grade glioma,Primary Tumor,1,1,0.9999829493296535,False,Correct
+TCGA-CS-5394-01,brain lower grade glioma,Primary Tumor,1,1,0.9999230284526878,False,Correct
+TCGA-TQ-A7RH-01,brain lower grade glioma,Primary Tumor,1,1,0.9999750736257049,False,Correct
+TCGA-DB-A4XB-01,brain lower grade glioma,Primary Tumor,1,1,0.9999625423698631,False,Correct
+TCGA-E1-5303-01,brain lower grade glioma,Primary Tumor,1,1,0.999518860745239,False,Correct
+TCGA-HT-7881-01,brain lower grade glioma,Primary Tumor,1,1,0.9953445894770151,False,Correct
+TCGA-HW-7489-01,brain lower grade glioma,Primary Tumor,1,1,0.9989603031514367,False,Correct
+TCGA-HW-7486-01,brain lower grade glioma,Primary Tumor,1,1,0.9994296256451145,False,Correct
+TCGA-HT-8114-01,brain lower grade glioma,Primary Tumor,1,1,0.999880944303531,False,Correct
+TCGA-TM-A84S-01,brain lower grade glioma,Primary Tumor,1,1,0.9999771629305789,False,Correct
+TCGA-DU-A7T8-01,brain lower grade glioma,Primary Tumor,1,1,0.9997198421605537,False,Correct
+TCGA-HT-7856-01,brain lower grade glioma,Primary Tumor,1,1,0.9990074597483559,False,Correct
+TCGA-HW-7491-01,brain lower grade glioma,Primary Tumor,1,1,0.9999276151574925,False,Correct
+TCGA-P5-A5EU-01,brain lower grade glioma,Primary Tumor,1,1,0.9999918289126666,False,Correct
+TCGA-HT-7609-01,brain lower grade glioma,Primary Tumor,1,1,0.9997671217417793,False,Correct
+TCGA-HT-A74O-01,brain lower grade glioma,Primary Tumor,1,1,0.999982091397068,False,Correct
+TCGA-DU-7007-01,brain lower grade glioma,Primary Tumor,1,1,0.9999110554143867,False,Correct
+TCGA-DU-7299-01,brain lower grade glioma,Primary Tumor,1,1,0.9999107065416925,False,Correct
+TCGA-HT-A74J-01,brain lower grade glioma,Primary Tumor,1,1,0.9998734227924612,False,Correct
+TCGA-S9-A6U5-01,brain lower grade glioma,Primary Tumor,1,1,0.9999855244702568,False,Correct
+TCGA-DB-5276-01,brain lower grade glioma,Primary Tumor,1,1,0.9998971477114591,False,Correct
+TCGA-TM-A84C-01,brain lower grade glioma,Primary Tumor,1,1,0.9948496391459435,False,Correct
+TCGA-CS-6290-01,brain lower grade glioma,Primary Tumor,1,1,0.9994700898395172,False,Correct
+TCGA-DB-A4XA-01,brain lower grade glioma,Primary Tumor,1,1,0.999961659670729,False,Correct
+TCGA-FG-6689-01,brain lower grade glioma,Primary Tumor,1,1,0.9991473141598085,False,Correct
+TCGA-TM-A84I-01,brain lower grade glioma,Primary Tumor,1,1,0.9999410651297378,False,Correct
+TCGA-DH-5142-01,brain lower grade glioma,Primary Tumor,1,1,0.9991350538666004,False,Correct
+TCGA-DU-5853-01,brain lower grade glioma,Primary Tumor,1,1,0.9997283356621982,False,Correct
+TCGA-TQ-A7RO-01,brain lower grade glioma,Primary Tumor,1,1,0.9999817343570376,False,Correct
+TCGA-E1-A7YW-01,brain lower grade glioma,Primary Tumor,1,1,0.999547925237868,False,Correct
+TCGA-P5-A5ET-01,brain lower grade glioma,Primary Tumor,1,1,0.9999870598019935,False,Correct
+TCGA-HT-7476-01,brain lower grade glioma,Primary Tumor,1,1,0.997850185514365,False,Correct
+TCGA-HT-7676-01,brain lower grade glioma,Primary Tumor,1,1,0.9994483276097635,False,Correct
+TCGA-DU-6542-01,brain lower grade glioma,Primary Tumor,1,1,0.9997613882404208,False,Correct
+TCGA-FN-7833-01,brain lower grade glioma,Primary Tumor,1,1,0.9999791266982782,False,Correct
+TCGA-S9-A7J2-01,brain lower grade glioma,Primary Tumor,1,1,0.9998764256300912,False,Correct
+TCGA-DU-A7T6-01,brain lower grade glioma,Primary Tumor,1,1,0.9999877199976457,False,Correct
+TCGA-QH-A6X9-01,brain lower grade glioma,Primary Tumor,1,1,0.9993614806183283,False,Correct
+TCGA-DU-8167-01,brain lower grade glioma,Primary Tumor,1,1,0.9999347169768739,False,Correct
+TCGA-DU-8161-01,brain lower grade glioma,Primary Tumor,1,1,0.9999116800960384,False,Correct
+TCGA-DU-A5TU-01,brain lower grade glioma,Primary Tumor,1,1,0.999994234247253,False,Correct
+TCGA-FG-A87Q-01,brain lower grade glioma,Primary Tumor,1,1,0.9976972187457505,False,Correct
+TCGA-HT-7607-01,brain lower grade glioma,Primary Tumor,1,1,0.9990499656678875,False,Correct
+TCGA-DU-6403-01,brain lower grade glioma,Primary Tumor,1,1,0.999920202142828,False,Correct
+TCGA-P5-A731-01,brain lower grade glioma,Primary Tumor,1,1,0.9999693457289988,False,Correct
+TCGA-DU-5854-01,brain lower grade glioma,Primary Tumor,1,1,0.9989667163808881,False,Correct
+TCGA-S9-A6WQ-01,brain lower grade glioma,Primary Tumor,1,1,0.9998090051560778,False,Correct
+TCGA-DB-A75K-01,brain lower grade glioma,Primary Tumor,1,1,0.9999338849201215,False,Correct
+TCGA-S9-A7QW-01,brain lower grade glioma,Primary Tumor,1,1,0.999987853032128,False,Correct
+TCGA-DU-7294-01,brain lower grade glioma,Primary Tumor,1,1,0.9997361752225891,False,Correct
+TCGA-S9-A7J3-01,brain lower grade glioma,Primary Tumor,1,1,0.9999809727189525,False,Correct
+TCGA-S9-A6TS-01,brain lower grade glioma,Primary Tumor,1,1,0.9999587545047132,False,Correct
+TCGA-S9-A7IZ-01,brain lower grade glioma,Primary Tumor,1,1,0.999977621391447,False,Correct
+TCGA-CS-5390-01,brain lower grade glioma,Primary Tumor,1,1,0.9999237447512077,False,Correct
+TCGA-FG-A60J-01,brain lower grade glioma,Primary Tumor,1,1,0.9999956214014094,False,Correct
+TCGA-DU-A5TY-01,brain lower grade glioma,Primary Tumor,1,1,0.9999950257303999,False,Correct
+TCGA-E1-5318-01,brain lower grade glioma,Primary Tumor,1,1,0.9999444176518563,False,Correct
+TCGA-DU-7015-01,brain lower grade glioma,Primary Tumor,1,1,0.9999174449332192,False,Correct
+TCGA-DU-5851-01,brain lower grade glioma,Primary Tumor,1,1,0.9898346854295798,False,Correct
+TCGA-RY-A845-01,brain lower grade glioma,Primary Tumor,1,1,0.9999863505950928,False,Correct
+TCGA-S9-A6TZ-01,brain lower grade glioma,Primary Tumor,1,1,0.9998228647646131,False,Correct
+TCGA-TM-A7C4-01,brain lower grade glioma,Primary Tumor,1,1,0.9946810266905587,False,Correct
+TCGA-DB-5274-01,brain lower grade glioma,Primary Tumor,1,1,0.9997805094415875,False,Correct
+TCGA-DU-A6S2-01,brain lower grade glioma,Primary Tumor,1,1,0.9928657010605295,False,Correct
+TCGA-HT-A618-01,brain lower grade glioma,Primary Tumor,1,1,0.9992917107659621,False,Correct
+TCGA-HT-A616-01,brain lower grade glioma,Primary Tumor,1,1,0.999728475568632,False,Correct
+TCGA-DU-6407-01,brain lower grade glioma,Primary Tumor,1,1,0.9999981654612056,False,Correct
+TCGA-DU-5847-01,brain lower grade glioma,Primary Tumor,1,1,0.9971502270121575,False,Correct
+TCGA-WY-A859-01,brain lower grade glioma,Primary Tumor,1,1,0.9998966408506645,False,Correct
+TCGA-HT-A5R7-01,brain lower grade glioma,Primary Tumor,1,1,0.9999593022665981,False,Correct
+TCGA-DU-7009-01,brain lower grade glioma,Primary Tumor,1,1,0.9999531019516743,False,Correct
+TCGA-HT-7680-01,brain lower grade glioma,Primary Tumor,1,1,0.997629928109329,False,Correct
+TCGA-DB-A64Q-01,brain lower grade glioma,Primary Tumor,1,1,0.9999345442350229,False,Correct
+TCGA-HT-7902-01,brain lower grade glioma,Primary Tumor,1,1,0.9817771202633858,False,Correct
+TCGA-HT-8563-01,brain lower grade glioma,Primary Tumor,1,1,0.9999416721662662,False,Correct
+TCGA-QH-A65X-01,brain lower grade glioma,Primary Tumor,1,1,0.9998381999666154,False,Correct
+TCGA-DU-A6S7-01,brain lower grade glioma,Primary Tumor,1,1,0.999915611500103,False,Correct
+TCGA-FG-A4MT-01,brain lower grade glioma,Primary Tumor,1,1,0.9999720080042661,False,Correct
+TCGA-HT-8108-01,brain lower grade glioma,Primary Tumor,1,1,0.9998247464457671,False,Correct
+TCGA-R8-A6YH-01,brain lower grade glioma,Primary Tumor,1,1,0.9999452307624541,False,Correct
+TCGA-GU-A762-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999865646530206,False,Correct
+TCGA-K4-A3WU-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9983751939085467,False,Correct
+TCGA-FD-A3B5-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999644518776841,False,Correct
+TCGA-CF-A9FL-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999997664793915,False,Correct
+TCGA-DK-A3X2-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998685884394239,False,Correct
+TCGA-2F-A9KT-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999608398968212,False,Correct
+TCGA-K4-A4AC-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999570929017453,False,Correct
+TCGA-ZF-A9R4-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999993823104271,False,Correct
+TCGA-SY-A9G0-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9992921277961427,False,Correct
+TCGA-E7-A677-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999900569397072,False,Correct
+TCGA-UY-A9PD-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999998309600983,False,Correct
+TCGA-XF-A8HF-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999990593046687,False,Correct
+TCGA-C4-A0F7-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9994210642087616,False,Correct
+TCGA-G2-AA3F-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999990723568594,False,Correct
+TCGA-GV-A40G-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999943451413914,False,Correct
+TCGA-BT-A3PJ-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998446190556763,False,Correct
+TCGA-FD-A43N-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999927850157047,False,Correct
+TCGA-XF-A9SM-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999722959921974,False,Correct
+TCGA-XF-AAN3-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999742058837182,False,Correct
+TCGA-GU-AATO-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999826893479673,False,Correct
+TCGA-MV-A51V-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9997453652065297,False,Correct
+TCGA-XF-AAML-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998333396920044,False,Correct
+TCGA-FD-A43P-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9997668084791911,False,Correct
+TCGA-E7-A7DU-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999935779268655,False,Correct
+TCGA-FD-A6TG-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999967931443079,False,Correct
+TCGA-DK-A3IN-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999184923644819,False,Correct
+TCGA-FJ-A3Z9-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999950638330542,False,Correct
+TCGA-ZF-AA54-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999937399952622,False,Correct
+TCGA-CU-A5W6-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999613726829388,False,Correct
+TCGA-ZF-AA4U-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999311174819133,False,Correct
+TCGA-2F-A9KQ-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999995293867253,False,Correct
+TCGA-FD-A3SR-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999992258776464,False,Correct
+TCGA-CU-A3YL-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999985204251778,False,Correct
+TCGA-GU-A42Q-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998841395280281,False,Correct
+TCGA-4Z-AA86-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999914740694749,False,Correct
+TCGA-FD-A3SS-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9997745186769452,False,Correct
+TCGA-4Z-AA7M-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999797989450452,False,Correct
+TCGA-4Z-AA7N-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9606863381155979,False,Correct
+TCGA-DK-A1AG-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999974025757312,False,Correct
+TCGA-FJ-A3ZE-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9923790026709582,False,Correct
+TCGA-XF-A9SK-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999733453577729,False,Correct
+TCGA-BT-A42C-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999983870828306,False,Correct
+TCGA-FD-A6TH-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999650531060403,False,Correct
+TCGA-DK-A3IT-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999526569719622,False,Correct
+TCGA-4Z-AA84-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999807155867172,False,Correct
+TCGA-ZF-A9RL-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9979768771476927,False,Correct
+TCGA-4Z-AA7Y-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999968152936787,False,Correct
+TCGA-FD-A3SP-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9997368594095603,False,Correct
+TCGA-FD-A3SJ-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999747249255876,False,Correct
+TCGA-CU-A3QU-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999611148833982,False,Correct
+TCGA-DK-A3WW-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999928987784876,False,Correct
+TCGA-E7-A3Y1-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9993129180609289,False,Correct
+TCGA-YF-AA3M-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998852802386742,False,Correct
+TCGA-FD-A3B8-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9951004764598297,False,Correct
+TCGA-K4-AAQO-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.845249120262677,False,Correct
+TCGA-ZF-AA4X-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999992253760249,False,Correct
+TCGA-XF-A9T2-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999985857069358,False,Correct
+TCGA-DK-A1A6-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9996581604776467,False,Correct
+TCGA-CF-A47V-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999769504364121,False,Correct
+TCGA-E7-A8O7-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999965552352977,False,Correct
+TCGA-G2-A3IE-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999830895723902,False,Correct
+TCGA-CF-A3MG-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9997893353736221,False,Correct
+TCGA-GV-A3QI-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9997711460606811,False,Correct
+TCGA-GC-A3I6-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999933075797838,False,Correct
+TCGA-E7-A7DV-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9970367908902384,False,Correct
+TCGA-CF-A47W-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9973831631712372,False,Correct
+TCGA-E7-A6MF-01,bladder urothelial carcinoma,Primary Tumor,1,0,0.3969349907024269,True,Tumeur manquée
+TCGA-GC-A3RD-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999513004098496,False,Correct
+TCGA-BT-A20P-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998293155068019,False,Correct
+TCGA-BT-A20R-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9969374848915818,False,Correct
+TCGA-DK-A3IL-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9972423044260286,False,Correct
+TCGA-XF-AAMW-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999991026013095,False,Correct
+TCGA-PQ-A6FN-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998864848350877,False,Correct
+TCGA-UY-A78P-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998430325922191,False,Correct
+TCGA-XF-A9T5-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9998486705755057,False,Correct
+TCGA-K4-A3WV-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999986521390313,False,Correct
+TCGA-5N-A9KI-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999795544222724,False,Correct
+TCGA-CF-A1HS-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9997834473618418,False,Correct
+TCGA-UY-A78O-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999980181263942,False,Correct
+TCGA-XF-A9SU-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999994639340017,False,Correct
+TCGA-DK-A2I1-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999273063556434,False,Correct
+TCGA-DK-AA6P-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999635189444233,False,Correct
+TCGA-C4-A0EZ-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999898010432172,False,Correct
+TCGA-UY-A8OD-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999024429859501,False,Correct
+TCGA-DK-A3WY-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9983256601562183,False,Correct
+TCGA-K4-A5RI-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999561837128698,False,Correct
+TCGA-XF-A9SH-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999721533061985,False,Correct
+TCGA-DK-AA6M-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999993744374968,False,Correct
+TCGA-DK-AA76-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999928753403431,False,Correct
+TCGA-DK-AA6Q-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999888540033688,False,Correct
+TCGA-XF-A8HH-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999965922441324,False,Correct
+TCGA-XF-A9SY-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999518064056978,False,Correct
+TCGA-ZF-AA5H-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999992039330337,False,Correct
+TCGA-2F-A9KR-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999063291111829,False,Correct
+TCGA-XF-A8HI-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999188683703067,False,Correct
+TCGA-GD-A2C5-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999664257717632,False,Correct
+TCGA-FD-A5BV-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.9999809091457218,False,Correct
+TCGA-YF-AA3L-01,bladder urothelial carcinoma,Primary Tumor,1,1,0.999993382657301,False,Correct
+TCGA-W5-AA39-01,cholangiocarcinoma,Primary Tumor,1,1,0.9999727549360584,False,Correct
+TCGA-3X-AAV9-01,cholangiocarcinoma,Primary Tumor,1,1,0.9999965381160403,False,Correct
+TCGA-W5-AA2X-01,cholangiocarcinoma,Primary Tumor,1,1,0.99999629489294,False,Correct
+TCGA-4G-AAZT-01,cholangiocarcinoma,Primary Tumor,1,1,0.9998755955461267,False,Correct
+TCGA-ZU-A8S4-01,cholangiocarcinoma,Primary Tumor,1,1,0.9994624637049013,False,Correct
+TCGA-ZD-A8I3-01,cholangiocarcinoma,Primary Tumor,1,1,0.9999638866086881,False,Correct
+TCGA-W5-AA2W-01,cholangiocarcinoma,Primary Tumor,1,1,0.9993040365496834,False,Correct
+TCGA-PK-A5HA-01,adrenocortical cancer,Primary Tumor,1,1,0.9999999077465628,False,Correct
+TCGA-OR-A5LM-01,adrenocortical cancer,Primary Tumor,1,1,0.9998663401648894,False,Correct
+TCGA-OR-A5LL-01,adrenocortical cancer,Primary Tumor,1,1,0.9998627559679065,False,Correct
+TCGA-OR-A5JF-01,adrenocortical cancer,Primary Tumor,1,1,0.999996974514539,False,Correct
+TCGA-OR-A5JY-01,adrenocortical cancer,Primary Tumor,1,1,0.9999995950613837,False,Correct
+TCGA-OR-A5K9-01,adrenocortical cancer,Primary Tumor,1,1,0.9996407549267075,False,Correct
+TCGA-OR-A5K6-01,adrenocortical cancer,Primary Tumor,1,1,0.999857057761759,False,Correct
+TCGA-OR-A5KW-01,adrenocortical cancer,Primary Tumor,1,1,0.999972672189707,False,Correct
+TCGA-OR-A5LA-01,adrenocortical cancer,Primary Tumor,1,1,0.9999925019109382,False,Correct
+TCGA-OR-A5KO-01,adrenocortical cancer,Primary Tumor,1,1,0.9999943987311363,False,Correct
+TCGA-OR-A5LH-01,adrenocortical cancer,Primary Tumor,1,1,0.9999981360008223,False,Correct
+TCGA-OR-A5K2-01,adrenocortical cancer,Primary Tumor,1,1,0.9990375817187327,False,Correct
+TCGA-OR-A5LN-01,adrenocortical cancer,Primary Tumor,1,1,0.9998603747216671,False,Correct
+TCGA-PK-A5H9-01,adrenocortical cancer,Primary Tumor,1,1,0.9999125410019253,False,Correct
+TCGA-OR-A5JO-01,adrenocortical cancer,Primary Tumor,1,1,0.9999679568098335,False,Correct
+TCGA-OR-A5J3-01,adrenocortical cancer,Primary Tumor,1,1,0.9999893616290947,False,Correct
+TCGA-OR-A5JE-01,adrenocortical cancer,Primary Tumor,1,1,0.9996709211406138,False,Correct
+TCGA-EL-A3MY-11,thyroid carcinoma,Solid Tissue Normal,0,0,0.026326264492265314,False,Correct
+TCGA-ET-A3DW-11,thyroid carcinoma,Solid Tissue Normal,0,0,8.246006489461292e-05,False,Correct
+TCGA-EL-A3T3-11,thyroid carcinoma,Solid Tissue Normal,0,0,2.567969059516956e-06,False,Correct
+TCGA-EL-A3ZM-11,thyroid carcinoma,Solid Tissue Normal,0,0,1.2317255721132386e-05,False,Correct
+TCGA-EL-A3ZT-11,thyroid carcinoma,Solid Tissue Normal,0,0,1.3485813496763652e-05,False,Correct
+TCGA-ET-A2MX-11,thyroid carcinoma,Solid Tissue Normal,0,0,6.514449176584855e-05,False,Correct
+TCGA-EM-A3ST-11,thyroid carcinoma,Solid Tissue Normal,0,0,0.0006136675440914399,False,Correct
+TCGA-EL-A3N3-11,thyroid carcinoma,Solid Tissue Normal,0,0,0.0005672738089001338,False,Correct
+TCGA-EL-A3ZR-11,thyroid carcinoma,Solid Tissue Normal,0,0,5.633408759687088e-05,False,Correct
+TCGA-ET-A2N5-11,thyroid carcinoma,Solid Tissue Normal,0,0,2.439787639533576e-05,False,Correct
+TCGA-EL-A3ZK-11,thyroid carcinoma,Solid Tissue Normal,0,0,0.004454162685070619,False,Correct
+TCGA-EL-A3T1-11,thyroid carcinoma,Solid Tissue Normal,0,0,0.0014494511546389152,False,Correct
+TCGA-EL-A3ZL-11,thyroid carcinoma,Solid Tissue Normal,0,0,1.75870126711906e-06,False,Correct
+TCGA-BJ-A28W-11,thyroid carcinoma,Solid Tissue Normal,0,1,0.99999352152498,True,Fausse alerte
+TCGA-H2-A3RI-11,thyroid carcinoma,Solid Tissue Normal,0,0,0.0005596500425999995,False,Correct
+TCGA-KS-A41J-11,thyroid carcinoma,Solid Tissue Normal,0,0,6.573996162943225e-05,False,Correct
+TCGA-BR-7851-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,3.1318542870829535e-05,False,Correct
+TCGA-HU-A4GC-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,0.00042008368842893216,False,Correct
+TCGA-IN-8663-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,0.00039188930866729634,False,Correct
+TCGA-BR-6802-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,7.065310674841709e-07,False,Correct
+TCGA-BR-7717-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,0.0005267203163432007,False,Correct
+TCGA-HU-A4GN-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,1.7277620238697974e-06,False,Correct
+TCGA-CG-5728-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,0.0001389554480755853,False,Correct
+TCGA-CG-5730-11,stomach adenocarcinoma,Solid Tissue Normal,0,0,4.322094932243508e-05,False,Correct
+TCGA-FX-A2QS-11,sarcoma,Solid Tissue Normal,0,0,3.614032886976138e-06,False,Correct
+TCGA-AF-3400-11,rectum adenocarcinoma,Solid Tissue Normal,0,0,1.086546587327189e-05,False,Correct
+TCGA-AF-5654-11,rectum adenocarcinoma,Solid Tissue Normal,0,0,2.2817949655520337e-05,False,Correct
+TCGA-AF-2691-11,rectum adenocarcinoma,Solid Tissue Normal,0,0,0.00014961923315793708,False,Correct
+TCGA-AF-2689-11,rectum adenocarcinoma,Solid Tissue Normal,0,0,5.532749621275124e-05,False,Correct
+TCGA-EJ-7328-11,prostate adenocarcinoma,Solid Tissue Normal,0,0,0.0013447736821494522,False,Correct
+TCGA-EJ-7115-11,prostate adenocarcinoma,Solid Tissue Normal,0,0,0.04253989385644772,False,Correct
+TCGA-HC-7745-11,prostate adenocarcinoma,Solid Tissue Normal,0,0,4.804833639770397e-06,False,Correct
+TCGA-G9-6363-11,prostate adenocarcinoma,Solid Tissue Normal,0,1,0.9986625942453684,True,Fausse alerte
+TCGA-CH-5761-11,prostate adenocarcinoma,Solid Tissue Normal,0,0,0.42294156068218713,False,Correct
+TCGA-HC-7752-11,prostate adenocarcinoma,Solid Tissue Normal,0,1,0.7955130078511407,True,Fausse alerte
+TCGA-HC-7738-11,prostate adenocarcinoma,Solid Tissue Normal,0,0,2.914941524762784e-07,False,Correct
+TCGA-HC-7819-11,prostate adenocarcinoma,Solid Tissue Normal,0,0,0.01290587576131088,False,Correct
+TCGA-CH-5769-11,prostate adenocarcinoma,Solid Tissue Normal,0,1,0.9999926575480718,True,Fausse alerte
+TCGA-22-5478-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,1.115097448380704e-06,False,Correct
+TCGA-22-5471-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,2.865821301744127e-07,False,Correct
+TCGA-58-8386-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,0.00024947341206164425,False,Correct
+TCGA-34-7107-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,0.07010333573180648,False,Correct
+TCGA-77-8008-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,0.0071801167184072775,False,Correct
+TCGA-22-5472-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,0.00014169884659198263,False,Correct
+TCGA-77-7138-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,3.3554127914465935e-06,False,Correct
+TCGA-77-7337-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,2.512735899194155e-07,False,Correct
+TCGA-56-7222-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,1.3014601499351165e-06,False,Correct
+TCGA-39-5040-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,7.911120272296315e-07,False,Correct
+TCGA-56-8082-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,0.0005954963856725065,False,Correct
+TCGA-56-7731-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,0.0019769778638533374,False,Correct
+TCGA-77-7142-11,lung squamous cell carcinoma,Solid Tissue Normal,0,0,1.1944479528309768e-06,False,Correct
+TCGA-50-5939-11,lung adenocarcinoma,Solid Tissue Normal,0,0,6.915695587655384e-07,False,Correct
+TCGA-55-6978-11,lung adenocarcinoma,Solid Tissue Normal,0,0,2.6048968077137085e-05,False,Correct
+TCGA-50-5932-11,lung adenocarcinoma,Solid Tissue Normal,0,0,5.123167218965444e-08,False,Correct
+TCGA-55-6972-11,lung adenocarcinoma,Solid Tissue Normal,0,0,1.0233376180675806e-06,False,Correct
+TCGA-91-6831-11,lung adenocarcinoma,Solid Tissue Normal,0,0,2.640534213510936e-06,False,Correct
+TCGA-55-6968-11,lung adenocarcinoma,Solid Tissue Normal,0,0,0.00024468915759290197,False,Correct
+TCGA-44-6145-11,lung adenocarcinoma,Solid Tissue Normal,0,0,3.462794964751938e-06,False,Correct
+TCGA-91-6847-11,lung adenocarcinoma,Solid Tissue Normal,0,0,3.7243655917749615e-08,False,Correct
+TCGA-44-6776-11,lung adenocarcinoma,Solid Tissue Normal,0,0,5.653806213567704e-07,False,Correct
+TCGA-91-6836-11,lung adenocarcinoma,Solid Tissue Normal,0,0,3.4182223783740042e-06,False,Correct
+TCGA-EP-A3RK-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,3.707099837571345e-06,False,Correct
+TCGA-BD-A2L6-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,0.00039742262623852927,False,Correct
+TCGA-ES-A2HT-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,0.09921622917037148,False,Correct
+TCGA-BC-A10W-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,0.0009228258022628212,False,Correct
+TCGA-DD-A119-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,0.0001461138010806893,False,Correct
+TCGA-BD-A3EP-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,1.0556984155681586e-05,False,Correct
+TCGA-DD-A1EJ-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,1.2224556608694752e-05,False,Correct
+TCGA-DD-A3A5-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,9.618322218366057e-06,False,Correct
+TCGA-BC-A10X-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,1.3464021871592123e-06,False,Correct
+TCGA-DD-A39Z-11,liver hepatocellular carcinoma,Solid Tissue Normal,0,0,0.0049088178766528425,False,Correct
+TCGA-BQ-7045-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,0.00021487499706843293,False,Correct
+TCGA-BQ-7059-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,5.50927184072255e-07,False,Correct
+TCGA-DZ-6132-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,0.05681096602514707,False,Correct
+TCGA-BQ-5877-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,5.919413238197426e-08,False,Correct
+TCGA-A4-A57E-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,4.153092047838481e-07,False,Correct
+TCGA-P4-A5ED-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,8.001374079910607e-10,False,Correct
+TCGA-BQ-5878-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,1.3018652644528744e-07,False,Correct
+TCGA-BQ-5884-11,kidney papillary cell carcinoma,Solid Tissue Normal,0,0,9.475079366708425e-08,False,Correct
+TCGA-B0-5694-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,0.00037475648432215434,False,Correct
+TCGA-CW-6087-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,7.851786345020755e-08,False,Correct
+TCGA-CJ-5676-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,0.00013810592038953842,False,Correct
+TCGA-CW-5581-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,1.0696750432086671e-08,False,Correct
+TCGA-B0-5712-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,3.1832737180543364e-05,False,Correct
+TCGA-A3-3358-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,4.349933206309216e-08,False,Correct
+TCGA-CJ-6033-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,2.165542421314386e-07,False,Correct
+TCGA-B0-5690-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,2.1917276529899274e-09,False,Correct
+TCGA-CJ-5681-11,kidney clear cell carcinoma,Solid Tissue Normal,0,0,2.962932255750893e-05,False,Correct
+TCGA-KN-8425-11,kidney chromophobe,Solid Tissue Normal,0,0,2.851696575489492e-10,False,Correct
+TCGA-KN-8426-11,kidney chromophobe,Solid Tissue Normal,0,0,2.0964474085355633e-08,False,Correct
+TCGA-KN-8433-11,kidney chromophobe,Solid Tissue Normal,0,0,2.4890938331091624e-08,False,Correct
+TCGA-KN-8424-11,kidney chromophobe,Solid Tissue Normal,0,0,6.398704857714329e-10,False,Correct
+TCGA-CV-7437-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.00011616577374620058,False,Correct
+TCGA-CV-6943-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,2.70790181836663e-06,False,Correct
+TCGA-CV-6956-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.0011098475710993169,False,Correct
+TCGA-CV-7423-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.0069603249024336265,False,Correct
+TCGA-CV-7245-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.00010831364364008163,False,Correct
+TCGA-CV-7091-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.00013589443777472856,False,Correct
+TCGA-CV-7097-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.000614283222052307,False,Correct
+TCGA-CV-6959-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.00029713439230223985,False,Correct
+TCGA-CV-7438-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.1547171523696733,False,Correct
+TCGA-CV-7252-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,7.624244573375387e-07,False,Correct
+TCGA-CV-7416-11,head & neck squamous cell carcinoma,Solid Tissue Normal,0,0,0.0002956429710262546,False,Correct
+TCGA-IC-A6RE-11,esophageal carcinoma,Solid Tissue Normal,0,0,0.006478544585988494,False,Correct
+TCGA-AJ-A3NH-11,uterine corpus endometrioid carcinoma,Solid Tissue Normal,0,0,7.718420869861565e-05,False,Correct
+TCGA-DI-A2QU-11,uterine corpus endometrioid carcinoma,Solid Tissue Normal,0,0,0.0005753738082936978,False,Correct
+TCGA-AJ-A3NC-11,uterine corpus endometrioid carcinoma,Solid Tissue Normal,0,0,0.00011685318848698351,False,Correct
+TCGA-AX-A05Y-11,uterine corpus endometrioid carcinoma,Solid Tissue Normal,0,0,1.3930380489225287e-05,False,Correct
+TCGA-FL-A1YI-11,uterine corpus endometrioid carcinoma,Solid Tissue Normal,0,0,0.010925587986753542,False,Correct
+TCGA-A6-2675-11,colon adenocarcinoma,Solid Tissue Normal,0,0,1.696054197905126e-05,False,Correct
+TCGA-AZ-6605-11,colon adenocarcinoma,Solid Tissue Normal,0,0,7.2879202704655e-05,False,Correct
+TCGA-AA-3511-11,colon adenocarcinoma,Solid Tissue Normal,0,0,0.000584239561074681,False,Correct
+TCGA-F4-6704-11,colon adenocarcinoma,Solid Tissue Normal,0,0,0.0001232368797697736,False,Correct
+TCGA-AA-3496-11,colon adenocarcinoma,Solid Tissue Normal,0,0,3.2947103030465996e-05,False,Correct
+TCGA-A6-2686-11,colon adenocarcinoma,Solid Tissue Normal,0,0,7.028032105551029e-06,False,Correct
+TCGA-AA-3662-11,colon adenocarcinoma,Solid Tissue Normal,0,0,0.00020843232439897823,False,Correct
+TCGA-AZ-6603-11,colon adenocarcinoma,Solid Tissue Normal,0,0,0.003494723120896147,False,Correct
+TCGA-AA-3531-11,colon adenocarcinoma,Solid Tissue Normal,0,0,1.3570309751126185e-07,False,Correct
+TCGA-A6-2680-11,colon adenocarcinoma,Solid Tissue Normal,0,0,3.163004601656237e-07,False,Correct
+TCGA-A6-2685-11,colon adenocarcinoma,Solid Tissue Normal,0,0,3.036358733265749e-05,False,Correct
+TCGA-A6-5667-11,colon adenocarcinoma,Solid Tissue Normal,0,0,7.501080691106354e-06,False,Correct
+TCGA-BH-A1F8-11,breast invasive carcinoma,Solid Tissue Normal,0,0,1.3272623895234946e-06,False,Correct
+TCGA-BH-A1EU-11,breast invasive carcinoma,Solid Tissue Normal,0,0,1.667628277448355e-05,False,Correct
+TCGA-A7-A0CH-11,breast invasive carcinoma,Solid Tissue Normal,0,0,7.690012942801126e-05,False,Correct
+TCGA-A7-A13G-11,breast invasive carcinoma,Solid Tissue Normal,0,0,1.8570825306740142e-08,False,Correct
+TCGA-BH-A18S-11,breast invasive carcinoma,Solid Tissue Normal,0,0,7.20812570020733e-05,False,Correct
+TCGA-BH-A1EN-11,breast invasive carcinoma,Solid Tissue Normal,0,0,2.0434197392003435e-06,False,Correct
+TCGA-BH-A209-11,breast invasive carcinoma,Solid Tissue Normal,0,0,3.4117666455432154e-05,False,Correct
+TCGA-BH-A18U-11,breast invasive carcinoma,Solid Tissue Normal,0,0,2.2569000562874376e-05,False,Correct
+TCGA-AC-A2FB-11,breast invasive carcinoma,Solid Tissue Normal,0,0,6.965510268458338e-07,False,Correct
+TCGA-BH-A0DL-11,breast invasive carcinoma,Solid Tissue Normal,0,0,0.0009687023656447311,False,Correct
+TCGA-E9-A1R7-11,breast invasive carcinoma,Solid Tissue Normal,0,0,8.906355639308708e-08,False,Correct
+TCGA-E2-A1BC-11,breast invasive carcinoma,Solid Tissue Normal,0,0,1.8348196199961443e-08,False,Correct
+TCGA-BH-A1FB-11,breast invasive carcinoma,Solid Tissue Normal,0,0,0.00024603917805917123,False,Correct
+TCGA-E2-A15K-11,breast invasive carcinoma,Solid Tissue Normal,0,0,8.169770301346104e-05,False,Correct
+TCGA-E9-A1NA-11,breast invasive carcinoma,Solid Tissue Normal,0,0,8.953062405382869e-07,False,Correct
+TCGA-BH-A1ET-11,breast invasive carcinoma,Solid Tissue Normal,0,0,1.9153411754215675e-06,False,Correct
+TCGA-BH-A0E1-11,breast invasive carcinoma,Solid Tissue Normal,0,0,3.3084960553715116e-06,False,Correct
+TCGA-E9-A1N6-11,breast invasive carcinoma,Solid Tissue Normal,0,0,1.4984423266045915e-06,False,Correct
+TCGA-BH-A18M-11,breast invasive carcinoma,Solid Tissue Normal,0,0,0.0004373486776234079,False,Correct
+TCGA-06-0678-11,glioblastoma multiforme,Solid Tissue Normal,0,0,0.2787018313075733,False,Correct
+TCGA-BT-A20R-11,bladder urothelial carcinoma,Solid Tissue Normal,0,0,3.7886329488923396e-07,False,Correct
+TCGA-K4-A3WV-11,bladder urothelial carcinoma,Solid Tissue Normal,0,0,0.0032289401626317844,False,Correct
+TCGA-K4-A5RI-11,bladder urothelial carcinoma,Solid Tissue Normal,0,0,0.0018753495545588896,False,Correct
+TCGA-GD-A2C5-11,bladder urothelial carcinoma,Solid Tissue Normal,0,0,0.022422821535356463,False,Correct
+TCGA-W5-AA2X-11,cholangiocarcinoma,Solid Tissue Normal,0,0,0.002916663109522803,False,Correct
+TCGA-ZU-A8S4-11,cholangiocarcinoma,Solid Tissue Normal,0,0,0.0003445647532290021,False,Correct
+TCGA-44-3918-01,lung adenocarcinoma,Primary Tumor,1,1,0.9999345371742517,False,Correct
+TCGA-B2-5635-01,kidney clear cell carcinoma,Primary Tumor,1,1,0.9998914911835383,False,Correct
+TCGA-A7-A26E-01,breast invasive carcinoma,Primary Tumor,1,1,0.9999017189778043,False,Correct

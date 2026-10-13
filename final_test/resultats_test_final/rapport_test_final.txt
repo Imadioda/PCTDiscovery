@@ -1,0 +1,64 @@
+Échantillons : 2089
+Normaux : 148 | Tumeurs : 1941
+
+=== NORMAL / TUMORAL ===
+              precision    recall  f1-score   support
+
+      Normal     0.9351    0.9730    0.9536       148
+     Tumoral     0.9979    0.9948    0.9964      1941
+
+    accuracy                         0.9933      2089
+   macro avg     0.9665    0.9839    0.9750      2089
+weighted avg     0.9935    0.9933    0.9934      2089
+
+Matrice (lignes réelles, colonnes prédites) :
+[[ 144    4]
+ [  10 1931]]
+Balanced accuracy : 0.9839
+ROC-AUC : 0.9994
+
+=== CHAÎNE COMPLÈTE ===
+Tumeurs manquées au premier étage : 10
+Fausses alertes : 4
+Tumeurs détectées et correctement identifiées : 1863/1941 (95.98 %)
+Tumeurs détectées avec vrai cancer dans le top-3 : 1926/1941 (99.23 %)
+
+                                       precision    recall  f1-score   support
+
+                               Normal     0.9351    0.9730    0.9536       148
+                adrenocortical cancer     1.0000    0.9444    0.9714        18
+         bladder urothelial carcinoma     0.9494    0.9868    0.9677        76
+             brain lower grade glioma     0.9908    1.0000    0.9954       108
+            breast invasive carcinoma     1.0000    0.9905    0.9952       210
+       cervical & endocervical cancer     1.0000    0.9322    0.9649        59
+                   cholangiocarcinoma     0.3750    1.0000    0.5455         3
+                 colon adenocarcinoma     0.8174    0.9792    0.8910        96
+        diffuse large B-cell lymphoma     0.9286    1.0000    0.9630        13
+                 esophageal carcinoma     0.9118    0.8378    0.8732        37
+              glioblastoma multiforme     1.0000    0.9714    0.9855        35
+  head & neck squamous cell carcinoma     1.0000    0.9898    0.9949        98
+                   kidney chromophobe     1.0000    0.9524    0.9756        21
+          kidney clear cell carcinoma     0.9596    0.9896    0.9744        96
+      kidney papillary cell carcinoma     0.9615    0.9091    0.9346        55
+       liver hepatocellular carcinoma     1.0000    0.9222    0.9595        90
+                  lung adenocarcinoma     0.9143    0.9320    0.9231       103
+         lung squamous cell carcinoma     0.9733    0.8795    0.9241        83
+                         mesothelioma     1.0000    1.0000    1.0000        19
+    ovarian serous cystadenocarcinoma     1.0000    0.9844    0.9921        64
+            pancreatic adenocarcinoma     0.9737    0.9737    0.9737        38
+     pheochromocytoma & paraganglioma     0.9318    1.0000    0.9647        41
+              prostate adenocarcinoma     1.0000    0.9890    0.9945        91
+                rectum adenocarcinoma     0.6667    0.2857    0.4000        28
+                              sarcoma     0.9825    1.0000    0.9912        56
+              skin cutaneous melanoma     1.0000    1.0000    1.0000        16
+               stomach adenocarcinoma     0.9375    0.9574    0.9474        94
+           testicular germ cell tumor     1.0000    1.0000    1.0000        25
+                              thymoma     1.0000    1.0000    1.0000        34
+                    thyroid carcinoma     1.0000    1.0000    1.0000       103
+               uterine carcinosarcoma     0.8462    0.9167    0.8800        12
+uterine corpus endometrioid carcinoma     0.9725    0.9907    0.9815       107
+                       uveal melanoma     1.0000    1.0000    1.0000        12
+
+                             accuracy                         0.9607      2089
+                            macro avg     0.9402    0.9481    0.9369      2089
+                         weighted avg     0.9618    0.9607    0.9593      2089
