@@ -193,32 +193,40 @@ The test script generates `predictions_test.csv`, `confusion_chaine_complete.csv
 **Proposed GitHub layout — migration is still pending.** Current Python scripts remain at the project root. Moving them into these folders requires updating package imports and data/model paths first.
 
 ```text
-SanofiLikeCancerDetector/
+PTCDiscovery/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── preprocessing/
-│   ├── __init__.py
+├── processing/
 │   ├── SampleDataClean.py
 │   ├── DataMerge.py
 │   └── ExpressionDataClean.py
 ├── models/
-│   ├── __init__.py
-│   ├── ModeleBinaire.py       # proposed binary-training filename
+│   ├── LogModelTrain.py
 │   ├── NeuralNtwr.py
 │   ├── NrnModelTrain.py
-│   └── PipelineModel.py
-├── LancerPrediction.py       # final evaluation entry point
-├── data/                     # proposed location; excluded from Git
-│   ├── raw/
-│   └── processed/
-├── resultats_binaire/        # local generated artifacts
-│   ├── partitions.csv
-│   └── modele_binaire.joblib
-├── resultats_cancer/
-│   └── modele_cancer.pth
-└── resultats_test_final/
+│   ├── PipelineModel.py
+│   ├── resultats_binaire/
+│   │   ├── partitions.csv
+│   │   └── modele_binaire.joblib
+│   └── resultats_MLP/
+│       └── modele_cancer.pth
+└── final_test/
+    ├── PipelineTest.py
+    └── resultats_test_final/
+        ├── predictions_test.csv
+        ├── confusion_chaine_complete.csv
+        └── rapport_test_final.txt
 ```
+The folders above organize the source code by processing stage.
+Generated model files and result folders are shown for reference and
+are excluded from Git by default.
+
+**Running version 0:** Copy all Python scripts into one working
+directory and place the downloaded input datasets alongside them.
+Keep the model output folders as subdirectories of that working
+directory. Imports and file paths must match this flat execution
+layout.
 
 Existing filenames are kept here to match the implementation. Earlier local copies of the final evaluation script may be named `PipelineTest.py`. Run the evaluation as a regular Python script, not through pytest.
 
@@ -248,7 +256,6 @@ python NrnModelTrain.py
 # With both trained model files available:
 python LancerPrediction.py
 ```
-
 These commands apply to the current flat layout, not the proposed package structure. `NeuralNtwr.py` should only define the network and import its dependencies; it should not load expression data or launch training.
 
 Large matrices and model checkpoints are excluded from Git by default. Unless checkpoints are distributed separately, users must train the models locally before running inference. Reloading checkpoints also requires the matching network architecture and compatible library versions.
