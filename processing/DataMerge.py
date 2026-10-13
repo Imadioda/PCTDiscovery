@@ -1,5 +1,5 @@
 import pandas as pd
-from processing.SampleDataClean import dtf_clean
+from SampleDataClean import dtf_clean
 
 dtf_exp=pd.read_csv("EB++AdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.xena.gz",sep="\t",compression="gzip")
 
