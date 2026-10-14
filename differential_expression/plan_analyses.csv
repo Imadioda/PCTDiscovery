@@ -1,0 +1,18 @@
+comparison_id,project,disease,tumor_sites,normal_sites,min_normals,min_tumors,n_normal,n_tumor,n_paired_patients,n_genes_input,n_genes_exported,status,expression_file,samples_file
+THCA_thyroid,TCGA-THCA,thyroid carcinoma,thyroid,thyroid,10,10,58,494,58,16335,16335,exported_for_expression_qc,THCA_thyroid/expression.tsv.gz,THCA_thyroid/samples.csv
+BRCA_breast,TCGA-BRCA,breast invasive carcinoma,breast,breast,10,10,101,1062,96,16335,16335,exported_for_expression_qc,BRCA_breast/expression.tsv.gz,BRCA_breast/samples.csv
+PRAD_prostate,TCGA-PRAD,prostate adenocarcinoma,prostate,prostate,10,10,43,484,43,16335,16335,exported_for_expression_qc,PRAD_prostate/expression.tsv.gz,PRAD_prostate/samples.csv
+KIRC_kidney,TCGA-KIRC,kidney clear cell carcinoma,kidney,kidney,10,10,32,511,32,16335,16335,exported_for_expression_qc,KIRC_kidney/expression.tsv.gz,KIRC_kidney/samples.csv
+KIRP_kidney,TCGA-KIRP,kidney papillary cell carcinoma,kidney,kidney,10,10,30,289,30,16335,16335,exported_for_expression_qc,KIRP_kidney/expression.tsv.gz,KIRP_kidney/samples.csv
+KICH_kidney,TCGA-KICH,kidney chromophobe,kidney,kidney,10,10,8,66,8,16335,0,skipped_insufficient_patients,,
+LUAD_lung,TCGA-LUAD,lung adenocarcinoma,lung,lung,10,10,58,495,51,16335,16335,exported_for_expression_qc,LUAD_lung/expression.tsv.gz,LUAD_lung/samples.csv
+LUSC_lung,TCGA-LUSC,lung squamous cell carcinoma,lung,lung,10,10,46,455,44,16335,16335,exported_for_expression_qc,LUSC_lung/expression.tsv.gz,LUSC_lung/samples.csv
+LIHC_liver,TCGA-LIHC,liver hepatocellular carcinoma,liver,liver,10,10,43,370,43,16335,16335,exported_for_expression_qc,LIHC_liver/expression.tsv.gz,LIHC_liver/samples.csv
+COAD_colon,TCGA-COAD,colon adenocarcinoma,colon,colon,10,10,41,432,37,16335,16335,exported_for_expression_qc,COAD_colon/expression.tsv.gz,COAD_colon/samples.csv
+READ_rectum,TCGA-READ,rectum adenocarcinoma,rectum,rectum,10,10,2,158,2,16335,0,skipped_insufficient_patients,,
+ESCA_esophagus,TCGA-ESCA,esophageal carcinoma,esophagus,esophagus,10,10,3,171,3,16335,0,skipped_insufficient_patients,,
+STAD_stomach,TCGA-STAD,stomach adenocarcinoma,stomach,stomach,10,10,28,415,25,16335,16335,exported_for_expression_qc,STAD_stomach/expression.tsv.gz,STAD_stomach/samples.csv
+PAAD_pancreas,TCGA-PAAD,pancreatic adenocarcinoma,pancreas,pancreas,10,10,2,168,2,16335,0,skipped_insufficient_patients,,
+UCEC_endometrium,TCGA-UCEC,uterine corpus endometrioid carcinoma,endometrium,endometrium,10,10,17,482,5,16335,16335,exported_for_expression_qc,UCEC_endometrium/expression.tsv.gz,UCEC_endometrium/samples.csv
+CESC_cervix,TCGA-CESC,cervical & endocervical cancer,cervix,cervix,10,10,0,302,0,16335,0,skipped_insufficient_patients,,
+BLCA_bladder,TCGA-BLCA,bladder urothelial carcinoma,bladder_unspecified|bladder_urothelium,bladder_urothelium,10,10,7,405,6,16335,0,skipped_insufficient_patients,,
