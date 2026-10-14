@@ -4,28 +4,33 @@ This module compares primary tumor tissue with anatomically compatible normal ti
 
 **Current status:** all 11 exported comparisons completed successfully, with 16,335 expression features tested in each comparison. Results remain exploratory. Completion of the calculations is not equivalent to biological or clinical validation.
 
-## Folder layout
+## Repository files and Release archives
 
-This README belongs in the repository's `resultats_DE_preparation/` folder.
+This README belongs in `differential_expression/`.
 
-| Relative path | Contents |
+| Repository path (relative to this folder) | Contents |
 |---|---|
-| `preparation/GDCClassification.py` | GDC specimen metadata retrieval and anatomical annotation |
-| `preparation/PrepareDEComparisons.py` | Eligibility filtering and per-comparison exports |
-| `resultats_DE/` | The complete Python export folder, renamed for this repository layout |
-| `AnalyseLimma.R` | Local R analysis entry point |
+| `preparation/GDCClassification.py` | GDC metadata retrieval and anatomical annotation |
+| `preparation/PrepareDEComparisons.py` | Filtering and per-comparison exports |
+| `AnalyseLimma.R` | Local R analysis |
 | `Limma_Colab.ipynb` | Colab workflow with an embedded R script |
-| `runlimma/` | Files and comparison subfolders from the completed reference run |
+| [plan_analyses.csv](plan_analyses.csv) | Preparation eligibility decisions and comparison counts |
+| [synthese_analyses.csv](synthese_analyses.csv) | Completed-run summary |
 
-`resultats_DE/` must contain `plan_analyses.csv` directly, alongside the comparison folders such as `LUAD_lung/`. Preserve all relative paths in the plan. Each comparison contains `expression.tsv.gz`, `samples.csv`, `comparison.json`, and `genes_excluded.csv`.
+The two large archives are distributed as assets in this repository's **Releases** section, not as ordinary Git files. Open the release containing the differential-expression data and results and download the attached assets, not just GitHub's automatically generated source-code archive.
 
-For `runlimma/`, copy the **contents** of the completed `run_...` directory here, so that `runlimma/synthese_analyses.csv` exists directly. Preserve `sessionInfo.txt`, `execution.txt`, `plan_entree.csv`, all comparison folders and any warnings. The parent session's `console.log` and executed R script may also be included for provenance. Do not mix files from different runs.
+- **Prepared-data archive:** the original Python export directory, including `plan_analyses.csv` and each comparison's `expression.tsv.gz`, `samples.csv`, `comparison.json`, and `genes_excluded.csv`.
+- **Results archive:** the original completed run/session directory, including per-cancer result tables and plots, `synthese_analyses.csv`, run parameters and software information.
+
+**Archive contents retain their original names and nesting. Do not flatten or rename their internal folders.** Extract each archive to its own local directory. The input directory for R is whichever extracted directory directly contains `plan_analyses.csv`. The reference result directory is whichever directly contains `synthese_analyses.csv`; it may be nested inside `session_.../run_...`.
+
+The two small CSV copies in this repository are for quick consultation. The standalone `plan_analyses.csv` is not enough to run R: its referenced expression and metadata files must also be present in their original relative locations.
 
 ## Three ways to use this module
 
 ### 1. Inspect the published results
 
-Start with [the run summary](runlimma/synthese_analyses.csv), then open the corresponding cancer folder under `runlimma/`. No Python or R installation is needed to inspect CSV tables and PDF plots.
+Start with [the run summary](synthese_analyses.csv), then download and extract the results archive from Releases and open the corresponding cancer folder inside the completed run. No Python or R installation is needed to inspect CSV tables and PDF plots.
 
 | Output per comparison | Meaning |
 |---|---|
@@ -62,12 +67,12 @@ The original R script needs `limma` and `statmod`; the optimized Colab variant a
 From the **repository root**, run in a terminal:
 
 ```bash
-Rscript resultats_DE_preparation/AnalyseLimma.R \
-  resultats_DE_preparation/resultats_DE \
-  resultats_DE_preparation/reruns
+Rscript differential_expression/AnalyseLimma.R \
+  "/absolute/path/to/extracted_preparation_folder" \
+  differential_expression/reruns
 ```
 
-The first argument is the directory containing `plan_analyses.csv`. The second is the output base directory. The script creates a timestamped run inside that output directory. Explicit arguments override the original local path defaults and keep reruns separate from the published `runlimma/` reference.
+Replace the example first argument with the actual **directory** containing `plan_analyses.csv`, not the CSV file itself. The second is the output base directory. The script creates a timestamped run inside that output directory. Explicit arguments override the original local path defaults and keep reruns separate from the extracted reference results.
 
 **Do not unzip `expression.tsv.gz`.** R reads these compressed matrices directly. Neither `dataset_enrichi.pkl` nor `dataset_DE_filtre.pkl` is used by R. No classifier checkpoint is required.
 
@@ -84,16 +89,16 @@ Start from the project's cleaned `dtf_modele` DataFrame, saved as `dtf_modele.pk
 Run from the repository root:
 
 ```bash
-python resultats_DE_preparation/preparation/GDCClassification.py \
+python differential_expression/preparation/GDCClassification.py \
   --input dtf_modele.pkl \
-  --output resultats_DE_preparation/resultats_GDC
+  --output differential_expression/resultats_GDC
 
-python resultats_DE_preparation/preparation/PrepareDEComparisons.py \
-  --input resultats_DE_preparation/resultats_GDC/dataset_enrichi.pkl \
-  --output resultats_DE_preparation/resultats_DE_rebuilt
+python differential_expression/preparation/PrepareDEComparisons.py \
+  --input differential_expression/resultats_GDC/dataset_enrichi.pkl \
+  --output differential_expression/resultats_DE_rebuilt
 ```
 
-Use a new output directory for the second command: preparation rejects nonempty output folders. To analyze these rebuilt data, use `resultats_DE_rebuilt` as the R input path instead of `resultats_DE`.
+Use a new output directory for the second command: preparation rejects nonempty output folders. To analyze these rebuilt data, use `resultats_DE_rebuilt` as the R input path instead of the downloaded input directory.
 
 The first script saves the **enriched** DataFrame, `dataset_enrichi.pkl`, and its accompanying `genes.json`. Keep these together. The second saves the **filtered** union, `dataset_DE_filtre.pkl`, and the per-comparison exports. The pickle files are Python intermediates, not portable R inputs. Only load trusted pickle files.
 
@@ -103,14 +108,9 @@ The second script does **not** automatically create a ZIP archive.
 
 Open `Limma_Colab.ipynb` in Google Colab, using a standard Python/CPU runtime. It installs R and runs the embedded R script. A GPU is not used by this workflow.
 
-To create the input ZIP, run from the repository root:
+Use the **prepared-data ZIP from the Release** as the notebook input. Run cells in order, enable Drive saving if desired, and upload that archive when prompted. Do not upload the results archive. The notebook recursively locates `plan_analyses.csv`, so original wrapping directories can remain intact. The uploaded ZIP must contain exactly one preparation plan.
 
-```bash
-cd resultats_DE_preparation
-zip -r donnees_limma.zip resultats_DE -x '*.pkl' '*/.DS_Store'
-```
-
-Run notebook cells in order, enable Google Drive saving if desired, and upload this archive when prompted. The notebook discovers the directory containing `plan_analyses.csv`, so the export folder can be called `resultats_DE`. It reads inputs from the runtime's local disk and can save outputs to Drive.
+It reads input matrices from the runtime's local disk and can save outputs to Drive. If the Release's input asset is already a ZIP, no manual recompression is needed.
 
 The notebook uses its **embedded script**, not the adjacent `AnalyseLimma.R`. Changes to the local R file do not automatically update the notebook.
 
@@ -132,7 +132,7 @@ Comparisons are predefined, not all possible cancer–organ combinations. Each r
 
 A normal and tumor sample from the same patient can both remain. Patient IDs are exported to account for this dependence in R. Normal controls come from the same diagnostic cohort, not necessarily from healthy donors. Different cancer subtypes in one organ remain separate comparisons.
 
-Of 17 predefined comparisons, 11 were exported and completed in the reference run. Inspect `resultats_DE/plan_analyses.csv` and `decisions_echantillons.csv` for exclusions and skipped comparisons.
+Of 17 predefined comparisons, 11 were exported and completed in the reference run. Inspect [plan_analyses.csv](plan_analyses.csv) and the extracted `decisions_echantillons.csv` for exclusions and skipped comparisons.
 
 ## Statistical method
 
@@ -188,4 +188,4 @@ Differential expression establishes association, not causality, predictive usefu
 - [TREAT methodology](https://pmc.ncbi.nlm.nih.gov/articles/PMC2654802/)
 - [Google Colab FAQ](https://research.google.com/colaboratory/faq.html)
 
-Keep source URLs, GDC annotation manifests, eligibility decisions and `sessionInfo.txt` with the corresponding data/run. If matrices are distributed outside Git, document their download location before publishing this README.
+Keep source URLs, GDC annotation manifests, eligibility decisions and `sessionInfo.txt` with the corresponding data/run. The large data and result archives are available in the repository’s Releases section; the scripts and summary CSVs remain in this folder.
