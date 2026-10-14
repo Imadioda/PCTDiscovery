@@ -140,7 +140,7 @@ A tumor rejected at the first stage counts as an error in both complete-chain tu
 
 ## Differential expression: completed analysis module
 
-See **[the differential-expression README](resultats_DE_preparation/README.md)** for commands, dependencies, input/output formats, per-cancer counts and limitations.
+See **[the differential-expression README](differential_expression/README.md)** for commands, dependencies, input/output formats, per-cancer counts and limitations.
 
 The workflow annotates specimen anatomy through GDC, then prepares predefined cancer–tissue comparisons. It retains compatible primary tumors and solid-tissue normal controls from the same diagnostic cohort, requiring at least ten patients per group. Paired normal/tumor samples are preserved and modeled through patient blocks.
 
@@ -156,16 +156,20 @@ This analysis branch is separate from predictive evaluation. If its gene lists a
 
 ## Repository organization and execution
 
-The differential-expression module is self-contained under `resultats_DE_preparation/`:
+The differential-expression code and small summary tables are under `differential_expression/`; the large prepared-data and completed-run archives are attached to the repository's **Release**.
 
-| Path | Purpose |
+| Repository path | Purpose |
 |---|---|
-| `resultats_DE_preparation/README.md` | Detailed instructions |
-| `resultats_DE_preparation/preparation/` | GDC annotation and comparison-preparation Python scripts |
-| `resultats_DE_preparation/resultats_DE/` | Complete per-comparison input exports, with `plan_analyses.csv` |
-| `resultats_DE_preparation/AnalyseLimma.R` | Local R execution |
-| `resultats_DE_preparation/Limma_Colab.ipynb` | Optional cloud execution |
-| `resultats_DE_preparation/runlimma/` | Completed reference run, tables and plots |
+| `differential_expression/README.md` | Detailed instructions |
+| `differential_expression/preparation/` | Two Python preparation scripts |
+| `differential_expression/AnalyseLimma.R` | Local R execution |
+| `differential_expression/Limma_Colab.ipynb` | Optional cloud execution |
+| [differential_expression/plan_analyses.csv](differential_expression/plan_analyses.csv) | Eligibility and export summary |
+| [differential_expression/synthese_analyses.csv](differential_expression/synthese_analyses.csv) | Completed-run summary |
+
+Open this repository's **Releases** section to download the two attached archives. One contains the prepared expression matrices and metadata; the other contains the completed limma results. Their original internal folders and filenames are unchanged. GitHub's automatically generated source-code ZIP is not a substitute for these separately attached data assets.
+
+After extracting the prepared-data archive, pass R the directory directly containing `plan_analyses.csv`. After extracting the results archive, find `synthese_analyses.csv` inside the reference run, possibly under `session_.../run_...`. Do not flatten the archive structure. See the module README for commands.
 
 For the original classification scripts, the documented local workflow uses a flat working directory containing:
 
@@ -192,7 +196,7 @@ Loading a classifier requires the matching architecture, feature order, scaler, 
 
 ### Differential-expression setup
 
-To inspect results, open `resultats_DE_preparation/runlimma/`; no calculation is needed. To rerun limma, use the prepared exports and the module's R instructions. To reproduce cohort preparation, run its Python scripts first.
+To inspect results, consult `differential_expression/synthese_analyses.csv` or download the results archive from Releases; no calculation is needed. To rerun limma, use the prepared exports and the module's R instructions. To reproduce cohort preparation, run its Python scripts first.
 
 The scripts do not require a model checkpoint for differential expression. Python pickle intermediates are not R inputs; the R script reads `plan_analyses.csv`, `expression.tsv.gz` and `samples.csv`.
 
@@ -204,7 +208,7 @@ The reference differential-expression run took approximately ten hours on the us
 
 The supplied Colab notebook saves each run in a new session directory and optionally writes to Google Drive. It has **no automatic resume**. Restarting the analysis cell begins all comparisons again; its download cell packages only the currently selected session. See the module README before rerunning a completed or interrupted analysis.
 
-Keep raw Xena files, caches, large pickle files, temporary reruns and model checkpoints out of routine Git history. Publish reviewed tables and plots for direct consultation; if prepared matrices are distributed separately, provide a documented download link and preserve the export folder structure. Ensure `.gitignore` does not unintentionally exclude the reference results intended for publication.
+Keep raw Xena files, caches, large pickle files, temporary reruns and model checkpoints out of routine Git history. The prepared-data and completed-results archives are distributed through Releases with their original structure preserved. The preparation plan and run summary are directly available under `differential_expression/`. Ensure `.gitignore` does not exclude these two small published tables.
 
 ## Progress and next steps
 
