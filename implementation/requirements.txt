@@ -1,0 +1,13 @@
+# PTCDiscovery v1 — RAG preparation and local Streamlit application.
+# Python 3.12 recommended. Install in a fresh virtual environment.
+# Direct dependencies; this is not a fully pinned environment lockfile.
+numpy
+pandas
+scikit-learn
+requests
+streamlit
+
+# pathlib, json, hashlib, html.parser, getpass and datetime are standard library.
+# Current LLMProviders.py calls REST APIs using requests:
+# openai, groq, anthropic and google-genai SDKs are not required.
+# Training the upstream classifiers and running limma need separate environments.
