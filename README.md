@@ -1,6 +1,8 @@
 # PTCDiscovery
 
-**Version 1.0 — From cancer transcriptomics to literature-grounded exploration**
+**Version 2 — Transcriptomics, evidence-aware knowledge graphs and biological link prediction**
+
+*Documentation updated 28 October 2026. GraphRAG integration is the next stage and is not yet implemented.*
 
 PTCDiscovery is a bioinformatics research prototype combining gene-expression classification, differential-expression analysis and a retrieval-augmented language-model interface. It connects statistical observations from public cancer data to scientific literature so users can explore genes and potential research directions with inspectable sources.
 
@@ -8,7 +10,7 @@ The project is independently developed and inspired by AI-assisted biomarker and
 
 > **Start here:** to use the interactive application, download the prepared **RAG Data** asset from this repository's **Releases** section and follow the [implementation guide](implementation/Implementation_README.md). The application requires the extracted `rag_data` folder. You do not need to retrain the classifiers or rerun limma.
 
-## What version 1 includes
+## Foundations retained from version 1
 
 - Cleaning and inspection of a public TCGA gene-expression dataset, including structured missing-value analysis.
 - A logistic-regression classifier for normal versus primary-tumor tissue.
@@ -22,7 +24,59 @@ The project is independently developed and inspired by AI-assisted biomarker and
 
 The classifier pipeline and RAG application are separate components. In version 1, the RAG interface explores a cancer selected by the user; it does not diagnose a new sample or automatically run the classifiers.
 
-## Run the application
+## New in version 2
+
+The new [knowledge_graph module](knowledge_graph/README.md) adds:
+
+- PubTator 3.0 collection and normalization of literature entities and relations.
+- A heterogeneous graph with separate literature evidence and limma observations.
+- Expanded coverage from a 63-paper pilot to 236 retrieved publications spanning the existing 11 cancer comparisons.
+- Automatic identity-quality flags and HGNC attributes for graph-learning nodes.
+- DistMult, R-GCN and HGNC-enriched R-GCN training with reproducible pair-disjoint splits.
+- Saved model weights, measured results and 50 ranked candidate links.
+- Structured exports that keep observed relations and model predictions separate for future GraphRAG use.
+
+**The existing RAG interface still uses its original retrieval pipeline.** The GNN does not diagnose patients, and the new graph is not yet queried automatically by the interface. No LLM is fine-tuned in this update.
+
+### V2 graph-learning results
+
+The enriched graph contains **8,092 nodes**, **2,047 literature relations** and **20,505 differential-expression observations**. The learning view uses 2,028 literature relations and 953 nodes; 730 genes have unique HGNC annotation matches.
+
+| Model | Mean test ROC-AUC ± SD | Mean test average precision |
+|---|---:|---:|
+| Degree-product baseline | 0.6434, deterministic | 0.6793 |
+| DistMult | 0.6806 ± 0.0225 | 0.7264 |
+| R-GCN | 0.7513 ± 0.0261 | 0.7469 |
+| R-GCN + HGNC attributes | **0.8125 ± 0.0213** | **0.7888** |
+
+All learned models use the same enriched split and three initializations. These are link-ranking metrics, not diagnostic accuracy. They measure reconstruction of extracted relations against type-constrained unobserved pairs; unobserved does not mean biologically false. Publications may overlap between partitions. The smaller pilot used different test examples, so its score is not a controlled before/after comparator.
+
+See [the V2 module README](knowledge_graph/README.md) for the method, [the experiment results](knowledge_graph/validation/enriched/RESULTS.md) for counts and metrics, and [the enrichment guide](knowledge_graph/ENRICHMENT.md) for rebuilding the data.
+
+### Quick start: V2 graph models
+
+Add `knowledge_graph/` from the V2 update archive at this repository's root. Unlike the older interface scripts, this module must remain a package; do not flatten it.
+
+```bash
+cd knowledge_graph
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-gnn.txt
+python -m unittest discover -s tests -v
+python -m ptc_kg train-links --dataset validation/enriched/features/dataset.json --output outputs/retrained_seed42 --epochs 100 --seed 42
+```
+
+Python 3.11+ and CPU execution are supported. The archive contains the numeric dataset and model results; this replay needs neither an LLM key nor a new article download. If prepared artifacts are hosted separately in Releases, extract them so `knowledge_graph/validation/enriched/features/dataset.json` exists. A GPU is not required.
+
+To rebuild the corpus and train all three initializations, first download the existing RAG Data release and keep its hierarchy intact:
+
+```bash
+python run_enriched.py --rag-data /absolute/path/to/rag_data --output outputs/enriched_run --per-comparison 20 --epochs 100
+```
+
+The reference experiment retained a prior pilot collection. Fresh collection can yield different coverage; exact replay of source annotations requires the original cache. Inspect failures and manifests rather than assuming that a created directory means every API request succeeded.
+
+## Run the existing literature RAG application
 
 ### 1. Get the code and install the implementation environment
 
@@ -44,8 +98,8 @@ Version 1 organizes the source by responsibility, but the current imports expect
 
 ```bash
 mkdir -p runtime
-cp Data_Prep/*.py runtime/
-cp Answers_Build/*.py runtime/
+cp data_prep/*.py runtime/
+cp answers_build/*.py runtime/
 cp AppRAG.py runtime/
 ```
 
@@ -86,6 +140,7 @@ For complete installation, folder descriptions, troubleshooting and reconstructi
 | Final evaluation | Two-stage predictions and held-out test metrics | Final-test scripts and existing module documentation |
 | [Differential expression](differential_expression/) | Metadata enrichment, cohort selection, limma analysis and result exports | README and analysis summaries in that directory |
 | [Implementation](implementation/Implementation_README.md) | Gene annotation, literature collection, retrieval, LLM adapters and interface | Detailed implementation guide |
+| [Knowledge graph and GNN](knowledge_graph/README.md) | PubTator collection, HGNC features, graph construction and experimental link prediction | Module README, enrichment guide and saved results |
 | Repository Releases | Large prepared datasets and analysis-result archives | Instructions attached to each Release |
 
 Follow the individual module READMEs for upstream input paths, artifacts and execution details. The implementation requirements file covers the RAG module only; upstream model training additionally uses packages such as PyTorch and joblib, while differential-expression analysis uses R and limma.
@@ -168,7 +223,24 @@ The binary stage missed 10 tumors and produced four false alerts. The end-to-end
 
 These are internal held-out results from the processed TCGA dataset, not evidence of clinical validity or external generalization. LLM provider adapters have been checked with simulated responses; successful use with one provider does not validate every model or every generated claim.
 
-## Limitations and next steps
+## Development roadmap
+
+| Stage | Status |
+|---|---|
+| Expression processing and two-stage classification | Implemented in V1 |
+| limma analyses for 11 comparisons | Implemented in V1 |
+| Literature RAG and multi-provider interface | Implemented in V1 |
+| Evidence-aware graph and expanded PubTator collection | Implemented in V2 |
+| DistMult/R-GCN comparison and HGNC node features | Implemented in V2 |
+| Structured graph and prediction exports | Implemented in V2 |
+| Entity-aware graph retrieval and evidence paths | Next |
+| GraphRAG integration with the existing interface | Planned |
+| Heterogeneous GAT/GraphSAGE, independent-source evaluation | Future experiments |
+| Graph Structure Learning | Optional, to be evaluated if justified |
+
+The next stage will retrieve relevant entities, relations and source passages, assemble a bounded LLM context and display predicted links separately. The graph and models will evolve through new data snapshots and retraining; automatic continuous updating is not implemented.
+
+## Limitations
 
 - Normal controls are generally tissue samples from cancer cohorts, not a population of healthy volunteers.
 - Bulk expression reflects cell composition as well as cell-intrinsic regulation. Relevant clinical, technical and biological confounders may remain.
@@ -178,7 +250,7 @@ These are internal held-out results from the processed TCGA dataset, not evidenc
 - LLMs can misinterpret evidence even when citation identifiers are valid. Sources and claims must be checked.
 - External validation, calibration, systematic RAG evaluation and broader evidence collection remain future work.
 
-Version 1 is a functional research prototype. Updates will focus on scientific validation, retrieval quality, reproducibility and usability. It is **not intended for diagnosis, treatment selection or clinical decision-making**.
+Version 2 adds graph construction and experimentally evaluated link prediction to the existing prototype. Upcoming work will connect the graph to retrieval and the interface, broaden evaluation and improve usability. It is **not intended for diagnosis, treatment selection or clinical decision-making**.
 
 ## Data resources
 
@@ -186,6 +258,8 @@ Version 1 is a functional research prototype. Updates will focus on scientific v
 - [NCI Genomic Data Commons](https://gdc.cancer.gov/) — clinical and biospecimen metadata.
 - [HGNC](https://www.genenames.org/) — gene nomenclature and identifier mapping.
 - [Europe PMC](https://europepmc.org/) — publication records and abstracts.
+- [PubTator 3.0](https://www.ncbi.nlm.nih.gov/research/pubtator3/) — biomedical entities and extracted relations.
+- [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/) — graph-learning implementation.
 - [limma](https://bioconductor.org/packages/limma/) — differential-expression modeling.
 
 Retain source identifiers and provenance when reusing the outputs. Scientific publications and source datasets remain subject to their respective access and reuse terms.
