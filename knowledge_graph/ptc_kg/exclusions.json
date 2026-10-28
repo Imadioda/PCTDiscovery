@@ -1,0 +1,7 @@
+{
+  "schema_version": "0.1.0",
+  "excluded_links": [
+    {"comparison_id": "LUAD_lung", "approved_symbol": "CLDN18", "article_id": "MED:42562391", "reason": "Existing v1 review: gastric CLDN18 findings are not LUAD-specific evidence"}
+  ],
+  "policy": "Also exclude publications with retraction/expression-of-concern labels in the existing corpus metadata. A missing flag is not proof of current validity."
+}

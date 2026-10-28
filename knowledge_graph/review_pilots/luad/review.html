@@ -1,0 +1,1720 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>PTCDiscovery evidence review</title>
+<style>body{font:16px system-ui;max-width:1100px;margin:40px auto;padding:20px;background:#f5f7fa}article{background:white;padding:24px;margin:20px 0;border:1px solid #ccd4df}pre{white-space:pre-wrap;overflow-wrap:anywhere}h2{font-size:20px}</style>
+<h1>Review extracted relations</h1><p>Edit decisions.csv alongside this read-only report. Decisions: supported, unsupported, uncertain; blank means unreviewed. For every decision supply a reviewer and notes. Supported decisions also require a short source quote, source locator and biological context. Agreement with an extraction is not proof of causality or therapeutic efficacy. An unsupported extraction is not a biological negative for GNN training.</p><article><h2>NKX2-1 / pubtator:positive_correlation / VEGFC</h2><p>edge:18b59454b520ff891938a35c<br>evidence:eab5776d69a9bfd9431e15c2</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:18b59454b520ff891938a35c&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9963,
+  &quot;id&quot;: &quot;evidence:eab5776d69a9bfd9431e15c2&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R12&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_VEGFC&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7424&quot;,
+        &quot;name&quot;: &quot;VEGFC&quot;,
+        &quot;normalized&quot;: [
+          7424
+        ],
+        &quot;normalized_id&quot;: 7424,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9963&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;11&quot;,
+        &quot;role&quot;: &quot;23,27&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:7080&quot;,
+    &quot;NCBIGene:7424&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R12&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>CCR7 / pubtator:positive_correlation / NKX2-1</h2><p>edge:1b7c1054435ed281ff4f5620<br>evidence:ee3226d14224250fad7f6bf4</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:1b7c1054435ed281ff4f5620&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9958,
+  &quot;id&quot;: &quot;evidence:ee3226d14224250fad7f6bf4&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R1&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_CCR7&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1236&quot;,
+        &quot;name&quot;: &quot;CCR7&quot;,
+        &quot;normalized&quot;: [
+          1236
+        ],
+        &quot;normalized_id&quot;: 1236,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9958&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;0&quot;,
+        &quot;role&quot;: &quot;31,23&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:1236&quot;,
+    &quot;NCBIGene:7080&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R1&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / NKX2-1</h2><p>edge:3327545e56965b6d9ebb2b2c<br>evidence:3f7400bdded845f2e1d46d81</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:3327545e56965b6d9ebb2b2c&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9996,
+  &quot;id&quot;: &quot;evidence:3f7400bdded845f2e1d46d81&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R7&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9996&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;6&quot;,
+        &quot;role&quot;: &quot;1,0&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:7080&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R7&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;6&quot;
+  ]
+}</pre></details></article><article><h2>NKX2-1 / pubtator:positive_correlation / VEGFA</h2><p>edge:40ae554a3016711245a1a172<br>evidence:cd97f582e4ca8dc623ae5562</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:40ae554a3016711245a1a172&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.997,
+  &quot;id&quot;: &quot;evidence:cd97f582e4ca8dc623ae5562&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R5&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_VEGFA&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7422&quot;,
+        &quot;name&quot;: &quot;VEGFA&quot;,
+        &quot;normalized&quot;: [
+          7422
+        ],
+        &quot;normalized_id&quot;: 7422,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.997&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;4&quot;,
+        &quot;role&quot;: &quot;23,29&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:7080&quot;,
+    &quot;NCBIGene:7422&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R5&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;4&quot;
+  ]
+}</pre></details></article><article><h2>LYVE1 / pubtator:positive_correlation / NKX2-1</h2><p>edge:6695968b4b2162c5fbec49e1<br>evidence:8d41d1f011fbf86782cf83a9</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:6695968b4b2162c5fbec49e1&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9958,
+  &quot;id&quot;: &quot;evidence:8d41d1f011fbf86782cf83a9&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R6&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_LYVE1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;10894&quot;,
+        &quot;name&quot;: &quot;LYVE1&quot;,
+        &quot;normalized&quot;: [
+          10894
+        ],
+        &quot;normalized_id&quot;: 10894,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9958&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;5&quot;,
+        &quot;role&quot;: &quot;26,23&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:10894&quot;,
+    &quot;NCBIGene:7080&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R6&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;5&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / PTPRQ</h2><p>edge:66add2f780a49e7f13952d92<br>evidence:b426052d63d6a3c4d519e6a0</p><a href="https://pubmed.ncbi.nlm.nih.gov/37350390/" target="_blank" rel="noopener noreferrer">PubMed 37350390</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 101,
+    &quot;passage_index&quot;: 1,
+    &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 101,
+      &quot;passage_index&quot;: 1,
+      &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;SLC6A4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:11050&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;SLC6A4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:66add2f780a49e7f13952d92&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9885,
+  &quot;id&quot;: &quot;evidence:b426052d63d6a3c4d519e6a0&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R4&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_PTPRQ&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;374462&quot;,
+        &quot;name&quot;: &quot;PTPRQ&quot;,
+        &quot;normalized&quot;: [
+          374462
+        ],
+        &quot;normalized_id&quot;: 374462,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9885&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;3&quot;,
+        &quot;role&quot;: &quot;30,34&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/2f0b8263b4c0f6b14cc150ad30d53bb927773a557ce735147616b3ec628e9add.json&quot;,
+    &quot;payload_sha256&quot;: &quot;70da96bbc22d4a63af13a36babc449e45db600f5b5c85a7dae4b493e6bffe0f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:47.930780+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=37350390&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:37350390&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:374462&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R4&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;30&quot;,
+    &quot;34&quot;
+  ]
+}</pre></details></article><article><h2>ERG / pubtator:association / FABP4</h2><p>edge:67777274cbada170beb4de6e<br>evidence:9c127a6f0cfa093ba8fc8611</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;NKX2-1-AS1 promotes the lymphangiogenesis of lung adenocarcinoma through regulation of ERG-mediated FABP4.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:67777274cbada170beb4de6e&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.8779,
+  &quot;id&quot;: &quot;evidence:9c127a6f0cfa093ba8fc8611&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R8&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_ERG&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2078&quot;,
+        &quot;name&quot;: &quot;ERG&quot;,
+        &quot;normalized&quot;: [
+          2078
+        ],
+        &quot;normalized_id&quot;: 2078,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_FABP4&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2167&quot;,
+        &quot;name&quot;: &quot;FABP4&quot;,
+        &quot;normalized&quot;: [
+          2167
+        ],
+        &quot;normalized_id&quot;: 2167,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.8779&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;7&quot;,
+        &quot;role&quot;: &quot;2,3&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:2078&quot;,
+    &quot;NCBIGene:2167&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R8&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;7&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / TEDC2</h2><p>edge:84cbb9318ea61f1a656a3d93<br>evidence:ff1de46111c843c9b4c25481</p><a href="https://pubmed.ncbi.nlm.nih.gov/37350390/" target="_blank" rel="noopener noreferrer">PubMed 37350390</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 101,
+    &quot;passage_index&quot;: 1,
+    &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 101,
+      &quot;passage_index&quot;: 1,
+      &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;SLC6A4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:11050&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;SLC6A4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:84cbb9318ea61f1a656a3d93&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9989,
+  &quot;id&quot;: &quot;evidence:ff1de46111c843c9b4c25481&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R1&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_TEDC2&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;80178&quot;,
+        &quot;name&quot;: &quot;TEDC2&quot;,
+        &quot;normalized&quot;: [
+          80178
+        ],
+        &quot;normalized_id&quot;: 80178,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9989&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;0&quot;,
+        &quot;role&quot;: &quot;30,36&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/2f0b8263b4c0f6b14cc150ad30d53bb927773a557ce735147616b3ec628e9add.json&quot;,
+    &quot;payload_sha256&quot;: &quot;70da96bbc22d4a63af13a36babc449e45db600f5b5c85a7dae4b493e6bffe0f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:47.930780+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=37350390&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:37350390&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:80178&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R1&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;30&quot;,
+    &quot;36&quot;
+  ]
+}</pre></details></article><article><h2>Neoplasms / pubtator:association / GPM6A</h2><p>edge:9afcedf33b4b42ef7a6cad9c<br>evidence:187749b543f8e3c79763c171</p><a href="https://pubmed.ncbi.nlm.nih.gov/36405247/" target="_blank" rel="noopener noreferrer">PubMed 36405247</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Glycoprotein M6A Suppresses Lung Adenocarcinoma Progression via Inhibition of the PI3K/AKT Pathway.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Glycoprotein M6A Suppresses Lung Adenocarcinoma Progression via Inhibition of the PI3K/AKT Pathway.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;GPM6A&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:4460&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;GPM6A&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:9afcedf33b4b42ef7a6cad9c&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9995,
+  &quot;id&quot;: &quot;evidence:187749b543f8e3c79763c171&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R4&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Neoplasms&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D009369&quot;,
+        &quot;name&quot;: &quot;Neoplasms&quot;,
+        &quot;normalized&quot;: [
+          &quot;D009369&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D009369&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_GPM6A&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2823&quot;,
+        &quot;name&quot;: &quot;GPM6A&quot;,
+        &quot;normalized&quot;: [
+          2823
+        ],
+        &quot;normalized_id&quot;: 2823,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9995&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;3&quot;,
+        &quot;role&quot;: &quot;8,6&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/566aae85e3f07db1e489d0f8ae510184b3270c2cd6c94ceea76189013e180c78.json&quot;,
+    &quot;payload_sha256&quot;: &quot;7d042a1290559fe52af8a031cf35f24543fa02c3ed92c5f5463e82d3a63b9464&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:40.758747+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=36405247&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:36405247&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D009369&quot;,
+    &quot;NCBIGene:2823&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R4&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;3&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / AKT1</h2><p>edge:9e9485c0919196eaf96f92a7<br>evidence:f27cd1270cfbdcc59d721b3e</p><a href="https://pubmed.ncbi.nlm.nih.gov/36405247/" target="_blank" rel="noopener noreferrer">PubMed 36405247</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Glycoprotein M6A Suppresses Lung Adenocarcinoma Progression via Inhibition of the PI3K/AKT Pathway.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Glycoprotein M6A Suppresses Lung Adenocarcinoma Progression via Inhibition of the PI3K/AKT Pathway.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;GPM6A&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:4460&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;GPM6A&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:9e9485c0919196eaf96f92a7&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9992,
+  &quot;id&quot;: &quot;evidence:f27cd1270cfbdcc59d721b3e&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R1&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_AKT1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;207&quot;,
+        &quot;name&quot;: &quot;AKT1&quot;,
+        &quot;normalized&quot;: [
+          207
+        ],
+        &quot;normalized_id&quot;: 207,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9992&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;0&quot;,
+        &quot;role&quot;: &quot;1,3&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/566aae85e3f07db1e489d0f8ae510184b3270c2cd6c94ceea76189013e180c78.json&quot;,
+    &quot;payload_sha256&quot;: &quot;7d042a1290559fe52af8a031cf35f24543fa02c3ed92c5f5463e82d3a63b9464&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:40.758747+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=36405247&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:36405247&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:207&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R1&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;3&quot;
+  ]
+}</pre></details></article><article><h2>ERG / pubtator:association / NKX2-1</h2><p>edge:a5399a6b086c8d278884384a<br>evidence:69d9d55e87e68a6b13a32a04</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:a5399a6b086c8d278884384a&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9975,
+  &quot;id&quot;: &quot;evidence:69d9d55e87e68a6b13a32a04&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R2&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_ERG&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2078&quot;,
+        &quot;name&quot;: &quot;ERG&quot;,
+        &quot;normalized&quot;: [
+          2078
+        ],
+        &quot;normalized_id&quot;: 2078,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9975&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;1&quot;,
+        &quot;role&quot;: &quot;2,0&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:2078&quot;,
+    &quot;NCBIGene:7080&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R2&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>FLT4 / pubtator:positive_correlation / NKX2-1</h2><p>edge:addcb451bf45c8b383349cd5<br>evidence:ba05bd6ad01aee9dd9390bce</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:addcb451bf45c8b383349cd5&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9948,
+  &quot;id&quot;: &quot;evidence:ba05bd6ad01aee9dd9390bce&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R4&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_FLT4&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2324&quot;,
+        &quot;name&quot;: &quot;FLT4&quot;,
+        &quot;normalized&quot;: [
+          2324
+        ],
+        &quot;normalized_id&quot;: 2324,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9948&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;3&quot;,
+        &quot;role&quot;: &quot;28,23&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:2324&quot;,
+    &quot;NCBIGene:7080&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R4&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>FABP4 / pubtator:positive_correlation / NKX2-1</h2><p>edge:b244f93d98e4a5f3443c4bea<br>evidence:73cc8426bc1b63b05a455f40</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:b244f93d98e4a5f3443c4bea&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.7387,
+  &quot;id&quot;: &quot;evidence:73cc8426bc1b63b05a455f40&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R9&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_FABP4&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2167&quot;,
+        &quot;name&quot;: &quot;FABP4&quot;,
+        &quot;normalized&quot;: [
+          2167
+        ],
+        &quot;normalized_id&quot;: 2167,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.7387&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;8&quot;,
+        &quot;role&quot;: &quot;3,0&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:2167&quot;,
+    &quot;NCBIGene:7080&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R9&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / FABP4</h2><p>edge:b293e66e38cdb69d93c4629a<br>evidence:c17c6b7dd6c9cc138a609f01</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:b293e66e38cdb69d93c4629a&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9997,
+  &quot;id&quot;: &quot;evidence:c17c6b7dd6c9cc138a609f01&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R3&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_FABP4&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2167&quot;,
+        &quot;name&quot;: &quot;FABP4&quot;,
+        &quot;normalized&quot;: [
+          2167
+        ],
+        &quot;normalized_id&quot;: 2167,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9997&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;2&quot;,
+        &quot;role&quot;: &quot;1,3&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:2167&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R3&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>KDR / pubtator:positive_correlation / NKX2-1</h2><p>edge:c11881cf6c0084136562f80d<br>evidence:6181bed074d6d06409329a45</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:c11881cf6c0084136562f80d&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9956,
+  &quot;id&quot;: &quot;evidence:6181bed074d6d06409329a45&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R11&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_KDR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;3791&quot;,
+        &quot;name&quot;: &quot;KDR&quot;,
+        &quot;normalized&quot;: [
+          3791
+        ],
+        &quot;normalized_id&quot;: 3791,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_NKX2_1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;7080&quot;,
+        &quot;name&quot;: &quot;NKX2-1&quot;,
+        &quot;normalized&quot;: [
+          7080
+        ],
+        &quot;normalized_id&quot;: 7080,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9956&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;10&quot;,
+        &quot;role&quot;: &quot;30,23&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:3791&quot;,
+    &quot;NCBIGene:7080&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R11&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>AKT1 / pubtator:negative_correlation / GPM6A</h2><p>edge:c6b040476e5ba710ef239e3d<br>evidence:0e719d93400939bd0024348c</p><a href="https://pubmed.ncbi.nlm.nih.gov/36405247/" target="_blank" rel="noopener noreferrer">PubMed 36405247</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Glycoprotein M6A Suppresses Lung Adenocarcinoma Progression via Inhibition of the PI3K/AKT Pathway.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Glycoprotein M6A Suppresses Lung Adenocarcinoma Progression via Inhibition of the PI3K/AKT Pathway.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;GPM6A&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:4460&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;GPM6A&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:c6b040476e5ba710ef239e3d&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9992,
+  &quot;id&quot;: &quot;evidence:0e719d93400939bd0024348c&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R2&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@GENE_AKT1&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;207&quot;,
+        &quot;name&quot;: &quot;AKT1&quot;,
+        &quot;normalized&quot;: [
+          207
+        ],
+        &quot;normalized_id&quot;: 207,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_GPM6A&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2823&quot;,
+        &quot;name&quot;: &quot;GPM6A&quot;,
+        &quot;normalized&quot;: [
+          2823
+        ],
+        &quot;normalized_id&quot;: 2823,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9992&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;1&quot;,
+        &quot;role&quot;: &quot;3,0&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/566aae85e3f07db1e489d0f8ae510184b3270c2cd6c94ceea76189013e180c78.json&quot;,
+    &quot;payload_sha256&quot;: &quot;7d042a1290559fe52af8a031cf35f24543fa02c3ed92c5f5463e82d3a63b9464&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:40.758747+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=36405247&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:36405247&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;NCBIGene:207&quot;,
+    &quot;NCBIGene:2823&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R2&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;3&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:negative_correlation / SLC6A4</h2><p>edge:d52a4134b680cdac1048d4b9<br>evidence:fa73b735cbe117911997f1c7</p><a href="https://pubmed.ncbi.nlm.nih.gov/37350390/" target="_blank" rel="noopener noreferrer">PubMed 37350390</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 101,
+    &quot;passage_index&quot;: 1,
+    &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 101,
+      &quot;passage_index&quot;: 1,
+      &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;SLC6A4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:11050&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;SLC6A4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:d52a4134b680cdac1048d4b9&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.5387,
+  &quot;id&quot;: &quot;evidence:fa73b735cbe117911997f1c7&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R3&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_SLC6A4&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;6532&quot;,
+        &quot;name&quot;: &quot;SLC6A4&quot;,
+        &quot;normalized&quot;: [
+          6532
+        ],
+        &quot;normalized_id&quot;: 6532,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.5387&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;2&quot;,
+        &quot;role&quot;: &quot;40,39&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/2f0b8263b4c0f6b14cc150ad30d53bb927773a557ce735147616b3ec628e9add.json&quot;,
+    &quot;payload_sha256&quot;: &quot;70da96bbc22d4a63af13a36babc449e45db600f5b5c85a7dae4b493e6bffe0f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:47.930780+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=37350390&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:37350390&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:6532&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R3&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;39&quot;,
+    &quot;40&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / ERG</h2><p>edge:d8347582a373b26f2c138814<br>evidence:7e5e17faa44027bd7cdaead8</p><a href="https://pubmed.ncbi.nlm.nih.gov/38309204/" target="_blank" rel="noopener noreferrer">PubMed 38309204</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;FABP4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:3559&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;FABP4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:d8347582a373b26f2c138814&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9964,
+  &quot;id&quot;: &quot;evidence:7e5e17faa44027bd7cdaead8&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R10&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_ERG&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2078&quot;,
+        &quot;name&quot;: &quot;ERG&quot;,
+        &quot;normalized&quot;: [
+          2078
+        ],
+        &quot;normalized_id&quot;: 2078,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9964&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;9&quot;,
+        &quot;role&quot;: &quot;1,2&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/dba1e5b34fb8b9dd170021004d377015af712b873996bd22648519f6bad6891f.json&quot;,
+    &quot;payload_sha256&quot;: &quot;e0c64b7ba1cfb2b95ed23622980e9f3cf71d5bb5cd8c5570c70ed5bdbae9e3f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:56.014937+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=38309204&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:38309204&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:2078&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R10&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / KCNA4</h2><p>edge:d9385278683a7d718b0012a5<br>evidence:51a6345bc2d18706e8ee90e5</p><a href="https://pubmed.ncbi.nlm.nih.gov/37350390/" target="_blank" rel="noopener noreferrer">PubMed 37350390</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 101,
+    &quot;passage_index&quot;: 1,
+    &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 101,
+      &quot;passage_index&quot;: 1,
+      &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;SLC6A4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:11050&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;SLC6A4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:d9385278683a7d718b0012a5&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9962,
+  &quot;id&quot;: &quot;evidence:51a6345bc2d18706e8ee90e5&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R5&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_KCNA4&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;3739&quot;,
+        &quot;name&quot;: &quot;KCNA4&quot;,
+        &quot;normalized&quot;: [
+          3739
+        ],
+        &quot;normalized_id&quot;: 3739,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9962&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;4&quot;,
+        &quot;role&quot;: &quot;30,35&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/2f0b8263b4c0f6b14cc150ad30d53bb927773a557ce735147616b3ec628e9add.json&quot;,
+    &quot;payload_sha256&quot;: &quot;70da96bbc22d4a63af13a36babc449e45db600f5b5c85a7dae4b493e6bffe0f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:47.930780+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=37350390&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:37350390&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:3739&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R5&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;30&quot;,
+    &quot;35&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:negative_correlation / GPM6A</h2><p>edge:e5c2a08ed675bc602e868749<br>evidence:f57c31c30f91e93bb712194b</p><a href="https://pubmed.ncbi.nlm.nih.gov/36405247/" target="_blank" rel="noopener noreferrer">PubMed 36405247</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;GPM6A&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:4460&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;GPM6A&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:e5c2a08ed675bc602e868749&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9986,
+  &quot;id&quot;: &quot;evidence:f57c31c30f91e93bb712194b&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R3&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_GPM6A&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;2823&quot;,
+        &quot;name&quot;: &quot;GPM6A&quot;,
+        &quot;normalized&quot;: [
+          2823
+        ],
+        &quot;normalized_id&quot;: 2823,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9986&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;2&quot;,
+        &quot;role&quot;: &quot;1,0&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/566aae85e3f07db1e489d0f8ae510184b3270c2cd6c94ceea76189013e180c78.json&quot;,
+    &quot;payload_sha256&quot;: &quot;7d042a1290559fe52af8a031cf35f24543fa02c3ed92c5f5463e82d3a63b9464&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:40.758747+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=36405247&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:36405247&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:2823&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R3&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / ANGPTL7</h2><p>edge:f400456b5d94e2880d470c02<br>evidence:b1851dae227683cbd849db41</p><a href="https://pubmed.ncbi.nlm.nih.gov/37350390/" target="_blank" rel="noopener noreferrer">PubMed 37350390</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Identification of potential prognostic markers for lung adenocarcinoma using comprehensive analysis.&quot;
+  },
+  {
+    &quot;offset&quot;: 101,
+    &quot;passage_index&quot;: 1,
+    &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Identification of potential prognostic markers for lung adenocarcinoma using comprehensive analysis.&quot;
+    },
+    {
+      &quot;offset&quot;: 101,
+      &quot;passage_index&quot;: 1,
+      &quot;text&quot;: &quot;Lung adenocarcinoma (LUAD) is a common malignancy throughout the world with high levels of mortality and morbidity. In the present study, potential biomarkers and treatment targets for LUAD were investigated using data from The Cancer Genome Atlas. Overall, 4,485 differentially expressed genes (DEGs) were identified (1,857 upregulated and 2,628 downregulated) between tumor and adjacent control tissues. Functional analysis with Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, Gene Set Variation Analysis and Gene Set Enrichment Analysis revealed significant enrichment of the DEGs in pathways related to system development, cell cycle and cell adhesion. Weighted gene co-expression network analysis distinguished ten co-expression modules on inclusion of the clinical profiles of patients with LUAD. Of these, the blue/turquoise modules showed peak association with tumor onset. Analysis of hub modules identified five hub genes, namely ANGPTL7, SLC6A4, PTPRQ, KCNA4 and TEDC2 (also known as C16orf59). Survival analysis revealed associations between hub-gene expression profiles and patient prognosis. Downregulation of SLC6A4 in LUAD tumor tissues was confirmed using immunohistochemistry. Additional assays (Cell Counting Kit-8, colony formation, scratch assay, cell cycle, Transwell invasion assay and cell adhesion assay) revealed that SLC6A4 overexpression inhibited A549 cell growth, invasion and migration. The findings demonstrated that the hub genes could act as treatment targets or new biomarkers for LUAD.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [
+    {
+      &quot;approved_symbol&quot;: &quot;SLC6A4&quot;,
+      &quot;association_review_status&quot;: &quot;pending&quot;,
+      &quot;comparison_id&quot;: &quot;LUAD_lung&quot;,
+      &quot;hgnc_id&quot;: &quot;HGNC:11050&quot;,
+      &quot;interpretation&quot;: &quot;corpus_selection_context_only_not_extraction_context&quot;,
+      &quot;original_gene_label&quot;: &quot;SLC6A4&quot;
+    }
+  ],
+  &quot;edge_id&quot;: &quot;edge:f400456b5d94e2880d470c02&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9979,
+  &quot;id&quot;: &quot;evidence:b1851dae227683cbd849db41&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R2&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_ANGPTL7&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;10218&quot;,
+        &quot;name&quot;: &quot;ANGPTL7&quot;,
+        &quot;normalized&quot;: [
+          10218
+        ],
+        &quot;normalized_id&quot;: 10218,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9979&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;1&quot;,
+        &quot;role&quot;: &quot;30,32&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/2f0b8263b4c0f6b14cc150ad30d53bb927773a557ce735147616b3ec628e9add.json&quot;,
+    &quot;payload_sha256&quot;: &quot;70da96bbc22d4a63af13a36babc449e45db600f5b5c85a7dae4b493e6bffe0f1&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:25:47.930780+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=37350390&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:37350390&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:10218&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R2&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;1&quot;,
+    &quot;30&quot;,
+    &quot;32&quot;
+  ]
+}</pre></details></article></html>

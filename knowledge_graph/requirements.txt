@@ -1,0 +1,3 @@
+# Phase 1 runtime and tests use the Python standard library only.
+# Python >= 3.11. No pip packages are required.
+# PyTorch Geometric will be introduced with the later GNN stage.

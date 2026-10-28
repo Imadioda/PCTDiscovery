@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "edges": 2187,
+    "evidence": 2187,
+    "issues": 46,
+    "mentions": 117,
+    "nodes": 2192
+  },
+  "edge_statuses": {
+    "automatically_extracted": 21,
+    "dataset_observation": 2166
+  },
+  "errors": [],
+  "issue_reasons": {
+    "expression_mapping_requires_review": 45,
+    "hgnc_entrez_crosswalk_unavailable": 1
+  },
+  "node_types": {
+    "CellLine": 6,
+    "Disease": 5,
+    "Gene": 2175,
+    "Publication": 3,
+    "Species": 2,
+    "StudyComparison": 1
+  },
+  "predicates": {
+    "ptc:differentially_expressed_in": 2166,
+    "pubtator:association": 11,
+    "pubtator:negative_correlation": 3,
+    "pubtator:positive_correlation": 7
+  },
+  "valid": true
+}

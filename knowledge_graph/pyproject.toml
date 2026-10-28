@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ptc-knowledge-graph"
+version = "0.1.0"
+description = "Evidence-aware PubTator knowledge graph preparation for PTCDiscovery"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["ptc_kg"]
+
+[tool.setuptools.package-data]
+ptc_kg = ["*.json"]

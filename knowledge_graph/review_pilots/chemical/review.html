@@ -1,0 +1,1185 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>PTCDiscovery evidence review</title>
+<style>body{font:16px system-ui;max-width:1100px;margin:40px auto;padding:20px;background:#f5f7fa}article{background:white;padding:24px;margin:20px 0;border:1px solid #ccd4df}pre{white-space:pre-wrap;overflow-wrap:anywhere}h2{font-size:20px}</style>
+<h1>Review extracted relations</h1><p>Edit decisions.csv alongside this read-only report. Decisions: supported, unsupported, uncertain; blank means unreviewed. For every decision supply a reviewer and notes. Supported decisions also require a short source quote, source locator and biological context. Agreement with an extraction is not proof of causality or therapeutic efficacy. An unsupported extraction is not a biological negative for GNN training.</p><article><h2>Carcinoma Non-Small-Cell Lung / pubtator:association / EGFR</h2><p>edge:072d09b381eccaa0bb3e9441<br>evidence:0535508355a336725521f495</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:072d09b381eccaa0bb3e9441&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9978,
+  &quot;id&quot;: &quot;evidence:0535508355a336725521f495&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R15&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Carcinoma_Non_Small_Cell_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D002289&quot;,
+        &quot;name&quot;: &quot;Carcinoma Non-Small-Cell Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D002289&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D002289&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9978&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: []
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D002289&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R15&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>osimertinib / pubtator:cotreatment / Bevacizumab</h2><p>edge:0ca6894c65ea72b6eedfe8c5<br>evidence:8ad41c9093fffd30de9b4eb9</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:0ca6894c65ea72b6eedfe8c5&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.8958,
+  &quot;id&quot;: &quot;evidence:8ad41c9093fffd30de9b4eb9&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R8&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_osimertinib&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:C000596361&quot;,
+        &quot;name&quot;: &quot;osimertinib&quot;,
+        &quot;normalized&quot;: [
+          &quot;C000596361&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;C000596361&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_Bevacizumab&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000068258&quot;,
+        &quot;name&quot;: &quot;Bevacizumab&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000068258&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000068258&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.8958&quot;,
+      &quot;type&quot;: &quot;Cotreatment&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;7&quot;,
+        &quot;role&quot;: &quot;0,1&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:C000596361&quot;,
+    &quot;MESH:D000068258&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R8&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>osimertinib / pubtator:positive_correlation / Hypertension</h2><p>edge:24143ca5a9d483c1e5265f88<br>evidence:49d51eb1081c4481ddc3b471</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:24143ca5a9d483c1e5265f88&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9769,
+  &quot;id&quot;: &quot;evidence:49d51eb1081c4481ddc3b471&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R4&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_osimertinib&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:C000596361&quot;,
+        &quot;name&quot;: &quot;osimertinib&quot;,
+        &quot;normalized&quot;: [
+          &quot;C000596361&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;C000596361&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Hypertension&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D006973&quot;,
+        &quot;name&quot;: &quot;Hypertension&quot;,
+        &quot;normalized&quot;: [
+          &quot;D006973&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D006973&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9769&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;3&quot;,
+        &quot;role&quot;: &quot;48,50&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:C000596361&quot;,
+    &quot;MESH:D006973&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R4&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>osimertinib / pubtator:negative_correlation / Adenocarcinoma of Lung</h2><p>edge:3facc3c3e8a0a6e4b769eca7<br>evidence:5b448b7c80edfd504dc40a42</p><a href="https://pubmed.ncbi.nlm.nih.gov/33919291/" target="_blank" rel="noopener noreferrer">PubMed 33919291</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Somatic Copy-Number Alterations in Plasma Circulating Tumor DNA from Advanced EGFR-Mutated Lung Adenocarcinoma Patients.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Somatic Copy-Number Alterations in Plasma Circulating Tumor DNA from Advanced EGFR-Mutated Lung Adenocarcinoma Patients.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:3facc3c3e8a0a6e4b769eca7&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9977,
+  &quot;id&quot;: &quot;evidence:5b448b7c80edfd504dc40a42&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R5&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_osimertinib&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:C000596361&quot;,
+        &quot;name&quot;: &quot;osimertinib&quot;,
+        &quot;normalized&quot;: [
+          &quot;C000596361&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;C000596361&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9977&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;4&quot;,
+        &quot;role&quot;: &quot;13,12&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:30.014900+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33919291&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:C000596361&quot;,
+    &quot;MESH:D000077192&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R5&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;4&quot;
+  ]
+}</pre></details></article><article><h2>osimertinib / pubtator:negative_correlation / Adenocarcinoma of Lung</h2><p>edge:3facc3c3e8a0a6e4b769eca7<br>evidence:b43bf14d063def5d9def7bd0</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:3facc3c3e8a0a6e4b769eca7&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9574,
+  &quot;id&quot;: &quot;evidence:b43bf14d063def5d9def7bd0&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R12&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_osimertinib&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:C000596361&quot;,
+        &quot;name&quot;: &quot;osimertinib&quot;,
+        &quot;normalized&quot;: [
+          &quot;C000596361&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;C000596361&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9574&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;11&quot;,
+        &quot;role&quot;: &quot;15,14&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:C000596361&quot;,
+    &quot;MESH:D000077192&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R12&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;11&quot;,
+    &quot;14&quot;
+  ]
+}</pre></details></article><article><h2>Bevacizumab / pubtator:negative_correlation / Carcinoma Non-Small-Cell Lung</h2><p>edge:4b95c5cc6377024033b0f94b<br>evidence:fb0d76c28d16ffff88cd732b</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:4b95c5cc6377024033b0f94b&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9975,
+  &quot;id&quot;: &quot;evidence:fb0d76c28d16ffff88cd732b&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R14&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_Bevacizumab&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000068258&quot;,
+        &quot;name&quot;: &quot;Bevacizumab&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000068258&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000068258&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Carcinoma_Non_Small_Cell_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D002289&quot;,
+        &quot;name&quot;: &quot;Carcinoma Non-Small-Cell Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D002289&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D002289&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9975&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;13&quot;,
+        &quot;role&quot;: &quot;1,6&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000068258&quot;,
+    &quot;MESH:D002289&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R14&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;13&quot;
+  ]
+}</pre></details></article><article><h2>osimertinib / pubtator:negative_correlation / Carcinoma Non-Small-Cell Lung</h2><p>edge:5bc86aa01ff99ba8ec6fb25f<br>evidence:df07747f68ae9cb2a4e1b977</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:5bc86aa01ff99ba8ec6fb25f&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.6902,
+  &quot;id&quot;: &quot;evidence:df07747f68ae9cb2a4e1b977&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R6&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_osimertinib&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:C000596361&quot;,
+        &quot;name&quot;: &quot;osimertinib&quot;,
+        &quot;normalized&quot;: [
+          &quot;C000596361&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;C000596361&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Carcinoma_Non_Small_Cell_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D002289&quot;,
+        &quot;name&quot;: &quot;Carcinoma Non-Small-Cell Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D002289&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D002289&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.6902&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;5&quot;,
+        &quot;role&quot;: &quot;0,6&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:C000596361&quot;,
+    &quot;MESH:D002289&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R6&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Bevacizumab / pubtator:negative_correlation / Adenocarcinoma of Lung</h2><p>edge:af89793252ac5bfaf043989a<br>evidence:84e14ac98c3705b92c6c833f</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:af89793252ac5bfaf043989a&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9975,
+  &quot;id&quot;: &quot;evidence:84e14ac98c3705b92c6c833f&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R3&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_Bevacizumab&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000068258&quot;,
+        &quot;name&quot;: &quot;Bevacizumab&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000068258&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000068258&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9975&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;2&quot;,
+        &quot;role&quot;: &quot;17,20&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000068258&quot;,
+    &quot;MESH:D000077192&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R3&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;17&quot;
+  ]
+}</pre></details></article><article><h2>osimertinib / pubtator:positive_correlation / Proteinuria</h2><p>edge:b1f56f42925d3f3c9f36db09<br>evidence:66522d9f9a569c7d7ae49ede</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:b1f56f42925d3f3c9f36db09&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.8401,
+  &quot;id&quot;: &quot;evidence:66522d9f9a569c7d7ae49ede&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R11&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_osimertinib&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:C000596361&quot;,
+        &quot;name&quot;: &quot;osimertinib&quot;,
+        &quot;normalized&quot;: [
+          &quot;C000596361&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;C000596361&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Proteinuria&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D011507&quot;,
+        &quot;name&quot;: &quot;Proteinuria&quot;,
+        &quot;normalized&quot;: [
+          &quot;D011507&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D011507&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.8401&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;10&quot;,
+        &quot;role&quot;: &quot;48,49&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:C000596361&quot;,
+    &quot;MESH:D011507&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R11&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;10&quot;
+  ]
+}</pre></details></article><article><h2>Hypertension / pubtator:association / EGFR</h2><p>edge:d42eff16228cf975b24fd12d<br>evidence:b5ef152821b23c08ebcfe91a</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:d42eff16228cf975b24fd12d&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9823,
+  &quot;id&quot;: &quot;evidence:b5ef152821b23c08ebcfe91a&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R16&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Hypertension&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D006973&quot;,
+        &quot;name&quot;: &quot;Hypertension&quot;,
+        &quot;normalized&quot;: [
+          &quot;D006973&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D006973&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9823&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: []
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D006973&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R16&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Neoplasms / pubtator:association / EGFR</h2><p>edge:eaa3383350fe509199572193<br>evidence:d38fffa77a25ef36762e9544</p><a href="https://pubmed.ncbi.nlm.nih.gov/33919291/" target="_blank" rel="noopener noreferrer">PubMed 33919291</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Somatic Copy-Number Alterations in Plasma Circulating Tumor DNA from Advanced EGFR-Mutated Lung Adenocarcinoma Patients.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Somatic Copy-Number Alterations in Plasma Circulating Tumor DNA from Advanced EGFR-Mutated Lung Adenocarcinoma Patients.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:eaa3383350fe509199572193&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9981,
+  &quot;id&quot;: &quot;evidence:d38fffa77a25ef36762e9544&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R6&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Neoplasms&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D009369&quot;,
+        &quot;name&quot;: &quot;Neoplasms&quot;,
+        &quot;normalized&quot;: [
+          &quot;D009369&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D009369&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9981&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;5&quot;,
+        &quot;role&quot;: &quot;0,1&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:30.014900+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33919291&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D009369&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R6&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;5&quot;
+  ]
+}</pre></details></article><article><h2>osimertinib / pubtator:negative_correlation / EGFR</h2><p>edge:f144ff7f7ecd2939f1a256e5<br>evidence:f6af9eae4d5e81c8456587d3</p><a href="https://pubmed.ncbi.nlm.nih.gov/33919291/" target="_blank" rel="noopener noreferrer">PubMed 33919291</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:f144ff7f7ecd2939f1a256e5&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9987,
+  &quot;id&quot;: &quot;evidence:f6af9eae4d5e81c8456587d3&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R4&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_osimertinib&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:C000596361&quot;,
+        &quot;name&quot;: &quot;osimertinib&quot;,
+        &quot;normalized&quot;: [
+          &quot;C000596361&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;C000596361&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9987&quot;,
+      &quot;type&quot;: &quot;Negative_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;3&quot;,
+        &quot;role&quot;: &quot;13,10&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:30.014900+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33919291&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:C000596361&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R4&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Bevacizumab / pubtator:positive_correlation / Hypertension</h2><p>edge:f95a509dc56ecbab553c5e11<br>evidence:a5850fe719dc11bbba2aec4d</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:f95a509dc56ecbab553c5e11&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.6577,
+  &quot;id&quot;: &quot;evidence:a5850fe719dc11bbba2aec4d&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R13&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@CHEMICAL_Bevacizumab&quot;,
+        &quot;biotype&quot;: &quot;chemical&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000068258&quot;,
+        &quot;name&quot;: &quot;Bevacizumab&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000068258&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000068258&quot;,
+        &quot;type&quot;: &quot;Chemical&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Hypertension&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D006973&quot;,
+        &quot;name&quot;: &quot;Hypertension&quot;,
+        &quot;normalized&quot;: [
+          &quot;D006973&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D006973&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.6577&quot;,
+      &quot;type&quot;: &quot;Positive_Correlation&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;12&quot;,
+        &quot;role&quot;: &quot;52,50&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000068258&quot;,
+    &quot;MESH:D006973&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R13&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;12&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / EGFR</h2><p>edge:ff078e72e55a5752ad5c717c<br>evidence:73766768edd496446158af52</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:ff078e72e55a5752ad5c717c&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9785,
+  &quot;id&quot;: &quot;evidence:73766768edd496446158af52&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R17&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9785&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: []
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R17&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / EGFR</h2><p>edge:ff078e72e55a5752ad5c717c<br>evidence:b7a5eec69f03f9678921b265</p><a href="https://pubmed.ncbi.nlm.nih.gov/33919291/" target="_blank" rel="noopener noreferrer">PubMed 33919291</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:ff078e72e55a5752ad5c717c&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9874,
+  &quot;id&quot;: &quot;evidence:b7a5eec69f03f9678921b265&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R7&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9874&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: []
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:30.014900+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33919291&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R7&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / EGFR</h2><p>edge:ff078e72e55a5752ad5c717c<br>evidence:ebd32ef67edbae5b7b0c0056</p><a href="https://pubmed.ncbi.nlm.nih.gov/33410885/" target="_blank" rel="noopener noreferrer">PubMed 33410885</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[
+  {
+    &quot;offset&quot;: 0,
+    &quot;passage_index&quot;: 0,
+    &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+  }
+]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [
+    {
+      &quot;offset&quot;: 0,
+      &quot;passage_index&quot;: 0,
+      &quot;text&quot;: &quot;Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial.&quot;
+    }
+  ],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:ff078e72e55a5752ad5c717c&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9996,
+  &quot;id&quot;: &quot;evidence:ebd32ef67edbae5b7b0c0056&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R9&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9996&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;8&quot;,
+        &quot;role&quot;: &quot;14,10&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:22.394931+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33410885&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R9&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: [
+    &quot;10&quot;,
+    &quot;14&quot;
+  ]
+}</pre></details></article><article><h2>Adenocarcinoma of Lung / pubtator:association / EGFR</h2><p>edge:ff078e72e55a5752ad5c717c<br>evidence:fd8bda4167bdadd797c360a4</p><a href="https://pubmed.ncbi.nlm.nih.gov/33919291/" target="_blank" rel="noopener noreferrer">PubMed 33919291</a><p>Document-level extraction; passages below are context, not verified supporting sentences.</p><details open><summary>Available context passages</summary><pre>[]</pre></details><details><summary>Raw relation and provenance</summary><pre>{
+  &quot;biological_context_status&quot;: &quot;not_resolved&quot;,
+  &quot;context_passages&quot;: [],
+  &quot;corpus_context&quot;: [],
+  &quot;edge_id&quot;: &quot;edge:ff078e72e55a5752ad5c717c&quot;,
+  &quot;extraction_scope&quot;: &quot;document&quot;,
+  &quot;extraction_score&quot;: 0.9997,
+  &quot;id&quot;: &quot;evidence:fd8bda4167bdadd797c360a4&quot;,
+  &quot;original_relation&quot;: {
+    &quot;id&quot;: &quot;R1&quot;,
+    &quot;infons&quot;: {
+      &quot;role1&quot;: {
+        &quot;accession&quot;: &quot;@DISEASE_Adenocarcinoma_of_Lung&quot;,
+        &quot;biotype&quot;: &quot;disease&quot;,
+        &quot;database&quot;: &quot;ncbi_mesh&quot;,
+        &quot;identifier&quot;: &quot;MESH:D000077192&quot;,
+        &quot;name&quot;: &quot;Adenocarcinoma of Lung&quot;,
+        &quot;normalized&quot;: [
+          &quot;D000077192&quot;
+        ],
+        &quot;normalized_id&quot;: &quot;D000077192&quot;,
+        &quot;type&quot;: &quot;Disease&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;role2&quot;: {
+        &quot;accession&quot;: &quot;@GENE_EGFR&quot;,
+        &quot;biotype&quot;: &quot;gene&quot;,
+        &quot;database&quot;: &quot;ncbi_gene&quot;,
+        &quot;identifier&quot;: &quot;1956&quot;,
+        &quot;name&quot;: &quot;EGFR&quot;,
+        &quot;normalized&quot;: [
+          1956
+        ],
+        &quot;normalized_id&quot;: 1956,
+        &quot;type&quot;: &quot;Gene&quot;,
+        &quot;valid&quot;: true
+      },
+      &quot;score&quot;: &quot;0.9997&quot;,
+      &quot;type&quot;: &quot;Association&quot;
+    },
+    &quot;nodes&quot;: [
+      {
+        &quot;refid&quot;: &quot;0&quot;,
+        &quot;role&quot;: &quot;2,1&quot;
+      }
+    ]
+  },
+  &quot;provenance&quot;: {
+    &quot;cache_file&quot;: &quot;cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json&quot;,
+    &quot;payload_sha256&quot;: &quot;1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c&quot;,
+    &quot;retrieved_at_utc&quot;: &quot;2026-10-21T13:27:30.014900+00:00&quot;,
+    &quot;url&quot;: &quot;https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291&quot;
+  },
+  &quot;publication_id&quot;: &quot;PMID:33919291&quot;,
+  &quot;review_status&quot;: &quot;unreviewed&quot;,
+  &quot;role_order&quot;: [
+    &quot;MESH:D000077192&quot;,
+    &quot;NCBIGene:1956&quot;
+  ],
+  &quot;score_interpretation&quot;: &quot;Uncalibrated extraction-model score; not biological confidence&quot;,
+  &quot;source&quot;: &quot;PubTator3/BioREx&quot;,
+  &quot;source_relation_id&quot;: &quot;R1&quot;,
+  &quot;support_level&quot;: &quot;document&quot;,
+  &quot;supporting_annotation_ids&quot;: []
+}</pre></details></article></html>

@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "edges": 13,
+    "evidence": 17,
+    "issues": 12,
+    "mentions": 78,
+    "nodes": 15
+  },
+  "edge_statuses": {
+    "automatically_extracted": 13
+  },
+  "errors": [],
+  "issue_reasons": {
+    "ambiguous_identifier": 5,
+    "unresolved_relation_endpoint": 7
+  },
+  "node_types": {
+    "Chemical": 2,
+    "Disease": 8,
+    "Gene": 2,
+    "Publication": 2,
+    "Species": 1
+  },
+  "predicates": {
+    "pubtator:association": 4,
+    "pubtator:cotreatment": 1,
+    "pubtator:negative_correlation": 5,
+    "pubtator:positive_correlation": 3
+  },
+  "valid": true
+}

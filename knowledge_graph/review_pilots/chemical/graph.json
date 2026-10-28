@@ -1,0 +1,3800 @@
+{
+  "edges": [
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:0535508355a336725521f495"
+      ],
+      "id": "edge:072d09b381eccaa0bb3e9441",
+      "object": "NCBIGene:1956",
+      "predicate": "pubtator:association",
+      "status": "automatically_extracted",
+      "subject": "MESH:D002289"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:8ad41c9093fffd30de9b4eb9"
+      ],
+      "id": "edge:0ca6894c65ea72b6eedfe8c5",
+      "object": "MESH:D000068258",
+      "predicate": "pubtator:cotreatment",
+      "status": "automatically_extracted",
+      "subject": "MESH:C000596361"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:49d51eb1081c4481ddc3b471"
+      ],
+      "id": "edge:24143ca5a9d483c1e5265f88",
+      "object": "MESH:D006973",
+      "predicate": "pubtator:positive_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:C000596361"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:5b448b7c80edfd504dc40a42",
+        "evidence:b43bf14d063def5d9def7bd0"
+      ],
+      "id": "edge:3facc3c3e8a0a6e4b769eca7",
+      "object": "MESH:D000077192",
+      "predicate": "pubtator:negative_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:C000596361"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:fb0d76c28d16ffff88cd732b"
+      ],
+      "id": "edge:4b95c5cc6377024033b0f94b",
+      "object": "MESH:D002289",
+      "predicate": "pubtator:negative_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:D000068258"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:df07747f68ae9cb2a4e1b977"
+      ],
+      "id": "edge:5bc86aa01ff99ba8ec6fb25f",
+      "object": "MESH:D002289",
+      "predicate": "pubtator:negative_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:C000596361"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:84e14ac98c3705b92c6c833f"
+      ],
+      "id": "edge:af89793252ac5bfaf043989a",
+      "object": "MESH:D000077192",
+      "predicate": "pubtator:negative_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:D000068258"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:66522d9f9a569c7d7ae49ede"
+      ],
+      "id": "edge:b1f56f42925d3f3c9f36db09",
+      "object": "MESH:D011507",
+      "predicate": "pubtator:positive_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:C000596361"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:b5ef152821b23c08ebcfe91a"
+      ],
+      "id": "edge:d42eff16228cf975b24fd12d",
+      "object": "NCBIGene:1956",
+      "predicate": "pubtator:association",
+      "status": "automatically_extracted",
+      "subject": "MESH:D006973"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:d38fffa77a25ef36762e9544"
+      ],
+      "id": "edge:eaa3383350fe509199572193",
+      "object": "NCBIGene:1956",
+      "predicate": "pubtator:association",
+      "status": "automatically_extracted",
+      "subject": "MESH:D009369"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:f6af9eae4d5e81c8456587d3"
+      ],
+      "id": "edge:f144ff7f7ecd2939f1a256e5",
+      "object": "NCBIGene:1956",
+      "predicate": "pubtator:negative_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:C000596361"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:a5850fe719dc11bbba2aec4d"
+      ],
+      "id": "edge:f95a509dc56ecbab553c5e11",
+      "object": "MESH:D006973",
+      "predicate": "pubtator:positive_correlation",
+      "status": "automatically_extracted",
+      "subject": "MESH:D000068258"
+    },
+    {
+      "directed": false,
+      "evidence_ids": [
+        "evidence:73766768edd496446158af52",
+        "evidence:b7a5eec69f03f9678921b265",
+        "evidence:ebd32ef67edbae5b7b0c0056",
+        "evidence:fd8bda4167bdadd797c360a4"
+      ],
+      "id": "edge:ff078e72e55a5752ad5c717c",
+      "object": "NCBIGene:1956",
+      "predicate": "pubtator:association",
+      "status": "automatically_extracted",
+      "subject": "MESH:D000077192"
+    }
+  ],
+  "evidence": [
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:072d09b381eccaa0bb3e9441",
+      "extraction_scope": "document",
+      "extraction_score": 0.9978,
+      "id": "evidence:0535508355a336725521f495",
+      "original_relation": {
+        "id": "R15",
+        "infons": {
+          "role1": {
+            "accession": "@DISEASE_Carcinoma_Non_Small_Cell_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D002289",
+            "name": "Carcinoma Non-Small-Cell Lung",
+            "normalized": [
+              "D002289"
+            ],
+            "normalized_id": "D002289",
+            "type": "Disease",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9978",
+          "type": "Association"
+        },
+        "nodes": []
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D002289",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R15",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:24143ca5a9d483c1e5265f88",
+      "extraction_scope": "document",
+      "extraction_score": 0.9769,
+      "id": "evidence:49d51eb1081c4481ddc3b471",
+      "original_relation": {
+        "id": "R4",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_osimertinib",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:C000596361",
+            "name": "osimertinib",
+            "normalized": [
+              "C000596361"
+            ],
+            "normalized_id": "C000596361",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Hypertension",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D006973",
+            "name": "Hypertension",
+            "normalized": [
+              "D006973"
+            ],
+            "normalized_id": "D006973",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.9769",
+          "type": "Positive_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "3",
+            "role": "48,50"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:C000596361",
+        "MESH:D006973"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R4",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Somatic Copy-Number Alterations in Plasma Circulating Tumor DNA from Advanced EGFR-Mutated Lung Adenocarcinoma Patients."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:3facc3c3e8a0a6e4b769eca7",
+      "extraction_scope": "document",
+      "extraction_score": 0.9977,
+      "id": "evidence:5b448b7c80edfd504dc40a42",
+      "original_relation": {
+        "id": "R5",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_osimertinib",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:C000596361",
+            "name": "osimertinib",
+            "normalized": [
+              "C000596361"
+            ],
+            "normalized_id": "C000596361",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000077192",
+            "name": "Adenocarcinoma of Lung",
+            "normalized": [
+              "D000077192"
+            ],
+            "normalized_id": "D000077192",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.9977",
+          "type": "Negative_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "4",
+            "role": "13,12"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json",
+        "payload_sha256": "1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c",
+        "retrieved_at_utc": "2026-10-21T13:27:30.014900+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291"
+      },
+      "publication_id": "PMID:33919291",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:C000596361",
+        "MESH:D000077192"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R5",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "4"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:b1f56f42925d3f3c9f36db09",
+      "extraction_scope": "document",
+      "extraction_score": 0.8401,
+      "id": "evidence:66522d9f9a569c7d7ae49ede",
+      "original_relation": {
+        "id": "R11",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_osimertinib",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:C000596361",
+            "name": "osimertinib",
+            "normalized": [
+              "C000596361"
+            ],
+            "normalized_id": "C000596361",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Proteinuria",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D011507",
+            "name": "Proteinuria",
+            "normalized": [
+              "D011507"
+            ],
+            "normalized_id": "D011507",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.8401",
+          "type": "Positive_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "10",
+            "role": "48,49"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:C000596361",
+        "MESH:D011507"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R11",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "10"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:ff078e72e55a5752ad5c717c",
+      "extraction_scope": "document",
+      "extraction_score": 0.9785,
+      "id": "evidence:73766768edd496446158af52",
+      "original_relation": {
+        "id": "R17",
+        "infons": {
+          "role1": {
+            "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000077192",
+            "name": "Adenocarcinoma of Lung",
+            "normalized": [
+              "D000077192"
+            ],
+            "normalized_id": "D000077192",
+            "type": "Disease",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9785",
+          "type": "Association"
+        },
+        "nodes": []
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D000077192",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R17",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:af89793252ac5bfaf043989a",
+      "extraction_scope": "document",
+      "extraction_score": 0.9975,
+      "id": "evidence:84e14ac98c3705b92c6c833f",
+      "original_relation": {
+        "id": "R3",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_Bevacizumab",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000068258",
+            "name": "Bevacizumab",
+            "normalized": [
+              "D000068258"
+            ],
+            "normalized_id": "D000068258",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000077192",
+            "name": "Adenocarcinoma of Lung",
+            "normalized": [
+              "D000077192"
+            ],
+            "normalized_id": "D000077192",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.9975",
+          "type": "Negative_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "2",
+            "role": "17,20"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D000068258",
+        "MESH:D000077192"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R3",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "17"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:0ca6894c65ea72b6eedfe8c5",
+      "extraction_scope": "document",
+      "extraction_score": 0.8958,
+      "id": "evidence:8ad41c9093fffd30de9b4eb9",
+      "original_relation": {
+        "id": "R8",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_osimertinib",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:C000596361",
+            "name": "osimertinib",
+            "normalized": [
+              "C000596361"
+            ],
+            "normalized_id": "C000596361",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@CHEMICAL_Bevacizumab",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000068258",
+            "name": "Bevacizumab",
+            "normalized": [
+              "D000068258"
+            ],
+            "normalized_id": "D000068258",
+            "type": "Chemical",
+            "valid": true
+          },
+          "score": "0.8958",
+          "type": "Cotreatment"
+        },
+        "nodes": [
+          {
+            "refid": "7",
+            "role": "0,1"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:C000596361",
+        "MESH:D000068258"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R8",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:f95a509dc56ecbab553c5e11",
+      "extraction_scope": "document",
+      "extraction_score": 0.6577,
+      "id": "evidence:a5850fe719dc11bbba2aec4d",
+      "original_relation": {
+        "id": "R13",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_Bevacizumab",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000068258",
+            "name": "Bevacizumab",
+            "normalized": [
+              "D000068258"
+            ],
+            "normalized_id": "D000068258",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Hypertension",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D006973",
+            "name": "Hypertension",
+            "normalized": [
+              "D006973"
+            ],
+            "normalized_id": "D006973",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.6577",
+          "type": "Positive_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "12",
+            "role": "52,50"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D000068258",
+        "MESH:D006973"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R13",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "12"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:3facc3c3e8a0a6e4b769eca7",
+      "extraction_scope": "document",
+      "extraction_score": 0.9574,
+      "id": "evidence:b43bf14d063def5d9def7bd0",
+      "original_relation": {
+        "id": "R12",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_osimertinib",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:C000596361",
+            "name": "osimertinib",
+            "normalized": [
+              "C000596361"
+            ],
+            "normalized_id": "C000596361",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000077192",
+            "name": "Adenocarcinoma of Lung",
+            "normalized": [
+              "D000077192"
+            ],
+            "normalized_id": "D000077192",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.9574",
+          "type": "Negative_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "11",
+            "role": "15,14"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:C000596361",
+        "MESH:D000077192"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R12",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "11",
+        "14"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:d42eff16228cf975b24fd12d",
+      "extraction_scope": "document",
+      "extraction_score": 0.9823,
+      "id": "evidence:b5ef152821b23c08ebcfe91a",
+      "original_relation": {
+        "id": "R16",
+        "infons": {
+          "role1": {
+            "accession": "@DISEASE_Hypertension",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D006973",
+            "name": "Hypertension",
+            "normalized": [
+              "D006973"
+            ],
+            "normalized_id": "D006973",
+            "type": "Disease",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9823",
+          "type": "Association"
+        },
+        "nodes": []
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D006973",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R16",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:ff078e72e55a5752ad5c717c",
+      "extraction_scope": "document",
+      "extraction_score": 0.9874,
+      "id": "evidence:b7a5eec69f03f9678921b265",
+      "original_relation": {
+        "id": "R7",
+        "infons": {
+          "role1": {
+            "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000077192",
+            "name": "Adenocarcinoma of Lung",
+            "normalized": [
+              "D000077192"
+            ],
+            "normalized_id": "D000077192",
+            "type": "Disease",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9874",
+          "type": "Association"
+        },
+        "nodes": []
+      },
+      "provenance": {
+        "cache_file": "cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json",
+        "payload_sha256": "1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c",
+        "retrieved_at_utc": "2026-10-21T13:27:30.014900+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291"
+      },
+      "publication_id": "PMID:33919291",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D000077192",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R7",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Somatic Copy-Number Alterations in Plasma Circulating Tumor DNA from Advanced EGFR-Mutated Lung Adenocarcinoma Patients."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:eaa3383350fe509199572193",
+      "extraction_scope": "document",
+      "extraction_score": 0.9981,
+      "id": "evidence:d38fffa77a25ef36762e9544",
+      "original_relation": {
+        "id": "R6",
+        "infons": {
+          "role1": {
+            "accession": "@DISEASE_Neoplasms",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D009369",
+            "name": "Neoplasms",
+            "normalized": [
+              "D009369"
+            ],
+            "normalized_id": "D009369",
+            "type": "Disease",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9981",
+          "type": "Association"
+        },
+        "nodes": [
+          {
+            "refid": "5",
+            "role": "0,1"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json",
+        "payload_sha256": "1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c",
+        "retrieved_at_utc": "2026-10-21T13:27:30.014900+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291"
+      },
+      "publication_id": "PMID:33919291",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D009369",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R6",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "5"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:5bc86aa01ff99ba8ec6fb25f",
+      "extraction_scope": "document",
+      "extraction_score": 0.6902,
+      "id": "evidence:df07747f68ae9cb2a4e1b977",
+      "original_relation": {
+        "id": "R6",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_osimertinib",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:C000596361",
+            "name": "osimertinib",
+            "normalized": [
+              "C000596361"
+            ],
+            "normalized_id": "C000596361",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Carcinoma_Non_Small_Cell_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D002289",
+            "name": "Carcinoma Non-Small-Cell Lung",
+            "normalized": [
+              "D002289"
+            ],
+            "normalized_id": "D002289",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.6902",
+          "type": "Negative_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "5",
+            "role": "0,6"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:C000596361",
+        "MESH:D002289"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R6",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:ff078e72e55a5752ad5c717c",
+      "extraction_scope": "document",
+      "extraction_score": 0.9996,
+      "id": "evidence:ebd32ef67edbae5b7b0c0056",
+      "original_relation": {
+        "id": "R9",
+        "infons": {
+          "role1": {
+            "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000077192",
+            "name": "Adenocarcinoma of Lung",
+            "normalized": [
+              "D000077192"
+            ],
+            "normalized_id": "D000077192",
+            "type": "Disease",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9996",
+          "type": "Association"
+        },
+        "nodes": [
+          {
+            "refid": "8",
+            "role": "14,10"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D000077192",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R9",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "10",
+        "14"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:f144ff7f7ecd2939f1a256e5",
+      "extraction_scope": "document",
+      "extraction_score": 0.9987,
+      "id": "evidence:f6af9eae4d5e81c8456587d3",
+      "original_relation": {
+        "id": "R4",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_osimertinib",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:C000596361",
+            "name": "osimertinib",
+            "normalized": [
+              "C000596361"
+            ],
+            "normalized_id": "C000596361",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9987",
+          "type": "Negative_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "3",
+            "role": "13,10"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json",
+        "payload_sha256": "1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c",
+        "retrieved_at_utc": "2026-10-21T13:27:30.014900+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291"
+      },
+      "publication_id": "PMID:33919291",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:C000596361",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R4",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [
+        {
+          "offset": 0,
+          "passage_index": 0,
+          "text": "Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial."
+        }
+      ],
+      "corpus_context": [],
+      "edge_id": "edge:4b95c5cc6377024033b0f94b",
+      "extraction_scope": "document",
+      "extraction_score": 0.9975,
+      "id": "evidence:fb0d76c28d16ffff88cd732b",
+      "original_relation": {
+        "id": "R14",
+        "infons": {
+          "role1": {
+            "accession": "@CHEMICAL_Bevacizumab",
+            "biotype": "chemical",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000068258",
+            "name": "Bevacizumab",
+            "normalized": [
+              "D000068258"
+            ],
+            "normalized_id": "D000068258",
+            "type": "Chemical",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@DISEASE_Carcinoma_Non_Small_Cell_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D002289",
+            "name": "Carcinoma Non-Small-Cell Lung",
+            "normalized": [
+              "D002289"
+            ],
+            "normalized_id": "D002289",
+            "type": "Disease",
+            "valid": true
+          },
+          "score": "0.9975",
+          "type": "Negative_Correlation"
+        },
+        "nodes": [
+          {
+            "refid": "13",
+            "role": "1,6"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/1989ece0bb390c804a84e071607b308196df4f45825eb6660d4b53343a37c35d.json",
+        "payload_sha256": "1c89cacfee6a24899d1e9efad52eacfa19a90d086c69a300bf4803500de7f5b8",
+        "retrieved_at_utc": "2026-10-21T13:27:22.394931+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33410885"
+      },
+      "publication_id": "PMID:33410885",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D000068258",
+        "MESH:D002289"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R14",
+      "support_level": "document",
+      "supporting_annotation_ids": [
+        "13"
+      ]
+    },
+    {
+      "biological_context_status": "not_resolved",
+      "context_passages": [],
+      "corpus_context": [],
+      "edge_id": "edge:ff078e72e55a5752ad5c717c",
+      "extraction_scope": "document",
+      "extraction_score": 0.9997,
+      "id": "evidence:fd8bda4167bdadd797c360a4",
+      "original_relation": {
+        "id": "R1",
+        "infons": {
+          "role1": {
+            "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+            "biotype": "disease",
+            "database": "ncbi_mesh",
+            "identifier": "MESH:D000077192",
+            "name": "Adenocarcinoma of Lung",
+            "normalized": [
+              "D000077192"
+            ],
+            "normalized_id": "D000077192",
+            "type": "Disease",
+            "valid": true
+          },
+          "role2": {
+            "accession": "@GENE_EGFR",
+            "biotype": "gene",
+            "database": "ncbi_gene",
+            "identifier": "1956",
+            "name": "EGFR",
+            "normalized": [
+              1956
+            ],
+            "normalized_id": 1956,
+            "type": "Gene",
+            "valid": true
+          },
+          "score": "0.9997",
+          "type": "Association"
+        },
+        "nodes": [
+          {
+            "refid": "0",
+            "role": "2,1"
+          }
+        ]
+      },
+      "provenance": {
+        "cache_file": "cache/b2d9636d9921ea6da953978066c8f11f090af8f5802526c916aa99a36127dd09.json",
+        "payload_sha256": "1a8efc2a7b2e83e3907edfdfc9c6bf16f2b7da88e35a3ff9ddc8057026d32c7c",
+        "retrieved_at_utc": "2026-10-21T13:27:30.014900+00:00",
+        "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=33919291"
+      },
+      "publication_id": "PMID:33919291",
+      "review_status": "unreviewed",
+      "role_order": [
+        "MESH:D000077192",
+        "NCBIGene:1956"
+      ],
+      "score_interpretation": "Uncalibrated extraction-model score; not biological confidence",
+      "source": "PubTator3/BioREx",
+      "source_relation_id": "R1",
+      "support_level": "document",
+      "supporting_annotation_ids": []
+    }
+  ],
+  "issues": [
+    {
+      "detail": "ambiguous_identifier",
+      "pmid": "33919291",
+      "reason": "unresolved_relation_endpoint",
+      "relation_id": "R2"
+    },
+    {
+      "detail": "ambiguous_identifier",
+      "pmid": "33410885",
+      "reason": "unresolved_relation_endpoint",
+      "relation_id": "R2"
+    },
+    {
+      "annotation_id": "83",
+      "infons": {
+        "accession": "@VARIANT_p.T790M_EGFR_human",
+        "biotype": "variant",
+        "clingen_id": "CA90928",
+        "database": "litvar",
+        "gene_id": 1956,
+        "gene_ids": [
+          1956
+        ],
+        "hgvs": "p.T790M",
+        "identifier": "tmVar:p|SUB|T|790|M;HGVS:p.T790M;VariantGroup:0;CorrespondingGene:1956;RS#:121434569;CorrespondingSpecies:9606;CA#:90928",
+        "name": "p.T790M",
+        "normalized": [
+          "rs121434569##",
+          "#1956#",
+          "CA90928#rs121434569##"
+        ],
+        "normalized_id": "rs121434569##",
+        "rsid": "rs121434569",
+        "rsids": [
+          "rs121434569"
+        ],
+        "species_id": 9606,
+        "species_ids": [
+          9606
+        ],
+        "subtype": "ProteinMutation",
+        "type": "Variant",
+        "valid": true
+      },
+      "pmid": "33410885",
+      "reason": "ambiguous_identifier"
+    },
+    {
+      "detail": "ambiguous_identifier",
+      "pmid": "33410885",
+      "reason": "unresolved_relation_endpoint",
+      "relation_id": "R7"
+    },
+    {
+      "detail": "ambiguous_identifier",
+      "pmid": "33410885",
+      "reason": "unresolved_relation_endpoint",
+      "relation_id": "R5"
+    },
+    {
+      "annotation_id": "38",
+      "infons": {
+        "accession": "@VARIANT_p.T790M_EGFR_human",
+        "biotype": "variant",
+        "clingen_id": "CA90928",
+        "database": "litvar",
+        "gene_id": 1956,
+        "gene_ids": [
+          1956
+        ],
+        "hgvs": "p.T790M",
+        "identifier": "tmVar:p|SUB|T|790|M;HGVS:p.T790M;VariantGroup:0;CorrespondingGene:1956;RS#:121434569;CorrespondingSpecies:9606;CA#:90928",
+        "name": "p.T790M",
+        "normalized": [
+          "rs121434569##",
+          "#1956#",
+          "CA90928#rs121434569##"
+        ],
+        "normalized_id": "rs121434569##",
+        "rsid": "rs121434569",
+        "rsids": [
+          "rs121434569"
+        ],
+        "species_id": 9606,
+        "species_ids": [
+          9606
+        ],
+        "subtype": "ProteinMutation",
+        "type": "Variant",
+        "valid": true
+      },
+      "pmid": "33919291",
+      "reason": "ambiguous_identifier"
+    },
+    {
+      "annotation_id": "111",
+      "infons": {
+        "accession": "@VARIANT_p.T790M_EGFR_human",
+        "biotype": "variant",
+        "clingen_id": "CA90928",
+        "database": "litvar",
+        "gene_id": 1956,
+        "gene_ids": [
+          1956
+        ],
+        "hgvs": "p.T790M",
+        "identifier": "tmVar:p|SUB|T|790|M;HGVS:p.T790M;VariantGroup:0;CorrespondingGene:1956;RS#:121434569;CorrespondingSpecies:9606;CA#:90928",
+        "name": "p.T790M",
+        "normalized": [
+          "rs121434569##",
+          "#1956#",
+          "CA90928#rs121434569##"
+        ],
+        "normalized_id": "rs121434569##",
+        "rsid": "rs121434569",
+        "rsids": [
+          "rs121434569"
+        ],
+        "species_id": 9606,
+        "species_ids": [
+          9606
+        ],
+        "subtype": "ProteinMutation",
+        "type": "Variant",
+        "valid": true
+      },
+      "pmid": "33410885",
+      "reason": "ambiguous_identifier"
+    },
+    {
+      "detail": "ambiguous_identifier",
+      "pmid": "33410885",
+      "reason": "unresolved_relation_endpoint",
+      "relation_id": "R1"
+    },
+    {
+      "detail": "ambiguous_identifier",
+      "pmid": "33919291",
+      "reason": "unresolved_relation_endpoint",
+      "relation_id": "R3"
+    },
+    {
+      "annotation_id": "15",
+      "infons": {
+        "accession": "@VARIANT_p.T790M_EGFR_human",
+        "biotype": "variant",
+        "clingen_id": "CA90928",
+        "database": "litvar",
+        "gene_id": 1956,
+        "gene_ids": [
+          1956
+        ],
+        "hgvs": "p.T790M",
+        "identifier": "tmVar:p|SUB|T|790|M;HGVS:p.T790M;VariantGroup:0;CorrespondingGene:1956;RS#:121434569;CorrespondingSpecies:9606;CA#:90928",
+        "name": "p.T790M",
+        "normalized": [
+          "rs121434569##",
+          "#1956#",
+          "CA90928#rs121434569##"
+        ],
+        "normalized_id": "rs121434569##",
+        "rsid": "rs121434569",
+        "rsids": [
+          "rs121434569"
+        ],
+        "species_id": 9606,
+        "species_ids": [
+          9606
+        ],
+        "subtype": "ProteinMutation",
+        "type": "Variant",
+        "valid": true
+      },
+      "pmid": "33410885",
+      "reason": "ambiguous_identifier"
+    },
+    {
+      "detail": "ambiguous_identifier",
+      "pmid": "33410885",
+      "reason": "unresolved_relation_endpoint",
+      "relation_id": "R10"
+    },
+    {
+      "annotation_id": "78",
+      "infons": {
+        "accession": "@VARIANT_p.T790M_EGFR_human",
+        "biotype": "variant",
+        "clingen_id": "CA90928",
+        "database": "litvar",
+        "gene_id": 1956,
+        "gene_ids": [
+          1956
+        ],
+        "hgvs": "p.T790M",
+        "identifier": "tmVar:p|SUB|T|790|M;HGVS:p.T790M;VariantGroup:0;CorrespondingGene:1956;RS#:121434569;CorrespondingSpecies:9606;CA#:90928",
+        "name": "p.T790M",
+        "normalized": [
+          "rs121434569##",
+          "#1956#",
+          "CA90928#rs121434569##"
+        ],
+        "normalized_id": "rs121434569##",
+        "rsid": "rs121434569",
+        "rsids": [
+          "rs121434569"
+        ],
+        "species_id": 9606,
+        "species_ids": [
+          9606
+        ],
+        "subtype": "ProteinMutation",
+        "type": "Variant",
+        "valid": true
+      },
+      "pmid": "33410885",
+      "reason": "ambiguous_identifier"
+    }
+  ],
+  "mentions": [
+    {
+      "annotation_id": "10",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 12
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Osimertinib"
+    },
+    {
+      "annotation_id": "100",
+      "entity_id": "MESH:D000068258",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2194
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_Bevacizumab",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000068258",
+        "name": "Bevacizumab",
+        "normalized": [
+          "D000068258"
+        ],
+        "normalized_id": "D000068258",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "bevacizumab"
+    },
+    {
+      "annotation_id": "101",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2375
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "102",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2497
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "103",
+      "entity_id": "MESH:D011507",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2624
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Proteinuria",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D011507",
+        "name": "Proteinuria",
+        "normalized": [
+          "D011507"
+        ],
+        "normalized_id": "D011507",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "proteinuria"
+    },
+    {
+      "annotation_id": "104",
+      "entity_id": "MESH:D006973",
+      "locations": [
+        {
+          "length": 12,
+          "offset": 2650
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Hypertension",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D006973",
+        "name": "Hypertension",
+        "normalized": [
+          "D006973"
+        ],
+        "normalized_id": "D006973",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "hypertension"
+    },
+    {
+      "annotation_id": "105",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2748
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "106",
+      "entity_id": "MESH:D000068258",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2765
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_Bevacizumab",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000068258",
+        "name": "Bevacizumab",
+        "normalized": [
+          "D000068258"
+        ],
+        "normalized_id": "D000068258",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "bevacizumab"
+    },
+    {
+      "annotation_id": "107",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2780
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "108",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 2857
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "109",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 2880
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "lung adenocarcinoma"
+    },
+    {
+      "annotation_id": "11",
+      "entity_id": "MESH:D000068258",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 29
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_Bevacizumab",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000068258",
+        "name": "Bevacizumab",
+        "normalized": [
+          "D000068258"
+        ],
+        "normalized_id": "D000068258",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Bevacizumab"
+    },
+    {
+      "annotation_id": "110",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 2905
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "12",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 44
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Osimertinib"
+    },
+    {
+      "annotation_id": "13",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 59
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Patients"
+    },
+    {
+      "annotation_id": "14",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 73
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "16",
+      "entity_id": "MESH:D002289",
+      "locations": [
+        {
+          "length": 26,
+          "offset": 92
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Carcinoma_Non_Small_Cell_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D002289",
+        "name": "Carcinoma Non-Small-Cell Lung",
+        "normalized": [
+          "D002289"
+        ],
+        "normalized_id": "D002289",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Non-Small Cell Lung Cancer"
+    },
+    {
+      "annotation_id": "17",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 32,
+          "offset": 143
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Epidermal Growth Factor Receptor"
+    },
+    {
+      "annotation_id": "18",
+      "entity_id": "NCBIGene:7294",
+      "locations": [
+        {
+          "length": 15,
+          "offset": 176
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_TXK",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "7294",
+        "name": "TXK",
+        "ncbi_homologene": "2497",
+        "normalized": [
+          7294
+        ],
+        "normalized_id": 7294,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Tyrosine Kinase"
+    },
+    {
+      "annotation_id": "19",
+      "entity_id": "MESH:D000072716",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 214
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Cancer_Pain",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000072716",
+        "name": "Cancer Pain",
+        "normalized": [
+          "D000072716"
+        ],
+        "normalized_id": "D000072716",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Oncology"
+    },
+    {
+      "annotation_id": "66",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 39,
+          "offset": 323
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "epidermal growth factor receptor (EGFR)"
+    },
+    {
+      "annotation_id": "67",
+      "entity_id": "NCBIGene:7294",
+      "locations": [
+        {
+          "length": 15,
+          "offset": 363
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_TXK",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "7294",
+        "name": "TXK",
+        "ncbi_homologene": "2497",
+        "normalized": [
+          7294
+        ],
+        "normalized_id": 7294,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "tyrosine kinase"
+    },
+    {
+      "annotation_id": "68",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 459
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "69",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 473
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "70",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 486
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "lung adenocarcinoma"
+    },
+    {
+      "annotation_id": "71",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 553
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "72",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 676
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "73",
+      "entity_id": "MESH:D000068258",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 693
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_Bevacizumab",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000068258",
+        "name": "Bevacizumab",
+        "normalized": [
+          "D000068258"
+        ],
+        "normalized_id": "D000068258",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "bevacizumab"
+    },
+    {
+      "annotation_id": "74",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 719
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "75",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 740
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "76",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 754
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "lung adenocarcinoma"
+    },
+    {
+      "annotation_id": "77",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 779
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "79",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 835
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Patients"
+    },
+    {
+      "annotation_id": "80",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 858
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "lung adenocarcinoma"
+    },
+    {
+      "annotation_id": "81",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 905
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "82",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 971
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "84",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 1049
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "85",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 1101
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "86",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1129
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "87",
+      "entity_id": "MESH:D000068258",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1146
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_Bevacizumab",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000068258",
+        "name": "Bevacizumab",
+        "normalized": [
+          "D000068258"
+        ],
+        "normalized_id": "D000068258",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "bevacizumab"
+    },
+    {
+      "annotation_id": "88",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1161
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "89",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1244
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "90",
+      "entity_id": "MESH:D000068258",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1292
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_Bevacizumab",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000068258",
+        "name": "Bevacizumab",
+        "normalized": [
+          "D000068258"
+        ],
+        "normalized_id": "D000068258",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "bevacizumab"
+    },
+    {
+      "annotation_id": "91",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1404
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "92",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 1720
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "93",
+      "entity_id": "MESH:D020242",
+      "locations": [
+        {
+          "length": 7,
+          "offset": 1934
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Encephalomyelitis_Eastern_Equine",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D020242",
+        "name": "Encephalomyelitis Eastern Equine",
+        "normalized": [
+          "D020242"
+        ],
+        "normalized_id": "D020242",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Eastern"
+    },
+    {
+      "annotation_id": "94",
+      "entity_id": "MESH:D000072716",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 1954
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Cancer_Pain",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000072716",
+        "name": "Cancer Pain",
+        "normalized": [
+          "D000072716"
+        ],
+        "normalized_id": "D000072716",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Oncology"
+    },
+    {
+      "annotation_id": "95",
+      "entity_id": "MESH:D009362",
+      "locations": [
+        {
+          "length": 10,
+          "offset": 2017
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@DISEASE_Neoplasm_Metastasis",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D009362",
+        "name": "Neoplasm Metastasis",
+        "normalized": [
+          "D009362"
+        ],
+        "normalized_id": "D009362",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "metastasis"
+    },
+    {
+      "annotation_id": "96",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2080
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "97",
+      "entity_id": "MESH:D000068258",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2097
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_Bevacizumab",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000068258",
+        "name": "Bevacizumab",
+        "normalized": [
+          "D000068258"
+        ],
+        "normalized_id": "D000068258",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "bevacizumab"
+    },
+    {
+      "annotation_id": "98",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2114
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "99",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 2177
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33410885",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "31",
+      "entity_id": "MESH:D009369",
+      "locations": [
+        {
+          "length": 5,
+          "offset": 243
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@DISEASE_Neoplasms",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D009369",
+        "name": "Neoplasms",
+        "normalized": [
+          "D009369"
+        ],
+        "normalized_id": "D009369",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "tumor"
+    },
+    {
+      "annotation_id": "32",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 32,
+          "offset": 275
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "epidermal growth factor receptor"
+    },
+    {
+      "annotation_id": "33",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 309
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "34",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 323
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "lung adenocarcinoma"
+    },
+    {
+      "annotation_id": "35",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 343
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "36",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 377
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "37",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 400
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "39",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 420
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "lung adenocarcinoma"
+    },
+    {
+      "annotation_id": "4",
+      "entity_id": "MESH:D009369",
+      "locations": [
+        {
+          "length": 5,
+          "offset": 54
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@DISEASE_Neoplasms",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D009369",
+        "name": "Neoplasms",
+        "normalized": [
+          "D009369"
+        ],
+        "normalized_id": "D009369",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Tumor"
+    },
+    {
+      "annotation_id": "40",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 462
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "41",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 507
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "42",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 7,
+          "offset": 593
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patient"
+    },
+    {
+      "annotation_id": "43",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 614
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "44",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 636
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "45",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 669
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "46",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 748
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "47",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 900
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "48",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 925
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "49",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 997
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "5",
+      "entity_id": "NCBIGene:1956",
+      "locations": [
+        {
+          "length": 4,
+          "offset": 78
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@GENE_EGFR",
+        "biotype": "gene",
+        "database": "ncbi_gene",
+        "identifier": "1956",
+        "name": "EGFR",
+        "ncbi_homologene": "74545",
+        "normalized": [
+          1956
+        ],
+        "normalized_id": 1956,
+        "type": "Gene",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "EGFR"
+    },
+    {
+      "annotation_id": "50",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1062
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "51",
+      "entity_id": "MESH:C000596361",
+      "locations": [
+        {
+          "length": 11,
+          "offset": 1408
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@CHEMICAL_osimertinib",
+        "biotype": "chemical",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:C000596361",
+        "name": "osimertinib",
+        "normalized": [
+          "C000596361"
+        ],
+        "normalized_id": "C000596361",
+        "type": "Chemical",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "osimertinib"
+    },
+    {
+      "annotation_id": "52",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 1501
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "lung adenocarcinoma"
+    },
+    {
+      "annotation_id": "53",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 1521
+        }
+      ],
+      "passage_index": 1,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "patients"
+    },
+    {
+      "annotation_id": "6",
+      "entity_id": "MESH:D000077192",
+      "locations": [
+        {
+          "length": 19,
+          "offset": 91
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": "@DISEASE_Adenocarcinoma_of_Lung",
+        "biotype": "disease",
+        "database": "ncbi_mesh",
+        "identifier": "MESH:D000077192",
+        "name": "Adenocarcinoma of Lung",
+        "normalized": [
+          "D000077192"
+        ],
+        "normalized_id": "D000077192",
+        "type": "Disease",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Lung Adenocarcinoma"
+    },
+    {
+      "annotation_id": "7",
+      "entity_id": "NCBITaxon:9606",
+      "locations": [
+        {
+          "length": 8,
+          "offset": 111
+        }
+      ],
+      "passage_index": 0,
+      "pmid": "33919291",
+      "raw_infons": {
+        "accession": null,
+        "biotype": "species",
+        "database": "ncbi_taxonomy",
+        "identifier": "9606",
+        "name": "9606",
+        "normalized": [
+          9606
+        ],
+        "normalized_id": 9606,
+        "type": "Species",
+        "valid": true
+      },
+      "span_verified": true,
+      "text": "Patients"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {},
+      "id": "MESH:C000596361",
+      "labels": [
+        "osimertinib"
+      ],
+      "namespace": "MESH",
+      "type": "Chemical",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D000068258",
+      "labels": [
+        "Bevacizumab"
+      ],
+      "namespace": "MESH",
+      "type": "Chemical",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D000072716",
+      "labels": [
+        "Cancer Pain"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D000077192",
+      "labels": [
+        "Adenocarcinoma of Lung"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D002289",
+      "labels": [
+        "Carcinoma Non-Small-Cell Lung"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D006973",
+      "labels": [
+        "Hypertension"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D009362",
+      "labels": [
+        "Neoplasm Metastasis"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D009369",
+      "labels": [
+        "Neoplasms"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D011507",
+      "labels": [
+        "Proteinuria"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "MESH:D020242",
+      "labels": [
+        "Encephalomyelitis Eastern Equine"
+      ],
+      "namespace": "MESH",
+      "type": "Disease",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "NCBIGene:1956",
+      "labels": [
+        "EGFR"
+      ],
+      "namespace": "NCBIGene",
+      "type": "Gene",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "NCBIGene:7294",
+      "labels": [
+        "TXK"
+      ],
+      "namespace": "NCBIGene",
+      "type": "Gene",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "NCBITaxon:9606",
+      "labels": [
+        "9606"
+      ],
+      "namespace": "NCBITaxon",
+      "type": "Species",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "PMID:33410885",
+      "labels": [
+        "Efficacy of Osimertinib Plus Bevacizumab vs Osimertinib in Patients With EGFR T790M-Mutated Non-Small Cell Lung Cancer Previously Treated With Epidermal Growth Factor Receptor-Tyrosine Kinase Inhibitor: West Japan Oncology Group 8715L Phase 2 Randomized Clinical Trial."
+      ],
+      "namespace": "PMID",
+      "type": "Publication",
+      "xrefs": []
+    },
+    {
+      "attributes": {},
+      "id": "PMID:33919291",
+      "labels": [
+        "Somatic Copy-Number Alterations in Plasma Circulating Tumor DNA from Advanced EGFR-Mutated Lung Adenocarcinoma Patients."
+      ],
+      "namespace": "PMID",
+      "type": "Publication",
+      "xrefs": []
+    }
+  ],
+  "schema_version": "0.1.0"
+}
